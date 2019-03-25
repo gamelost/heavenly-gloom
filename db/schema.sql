@@ -25,6 +25,33 @@ CREATE TABLE scenario(
   y INTEGER
 );
 
+DROP TABLE IF EXISTS scenario_route;
+CREATE TABLE scenario_route(
+  id INTEGER PRIMARY KEY,
+  scenario_source INTEGER NOT NULL,
+  scenario_target INTEGER NOT NULL,
+  type TEXT CHECK(type IN ('unlocks','links to','blocks','required by')) NOT NULL,
+  FOREIGN KEY(scenario_source) REFERENCES scenario(id),
+  FOREIGN KEY(scenario_target) REFERENCES scenario(id)
+);
+
+DROP TABLE IF EXISTS scenario_treasure;
+CREATE TABLE scenario_treasure(
+  id INTEGER PRIMARY KEY,
+  scenario_id INTEGER NOT NULL,
+  treasure_id INTEGER NOT NULL,
+  treasure_description TEXT NOT NULL,
+  FOREIGN KEY(scenario_id) REFERENCES scenario(id)
+);
+
+DROP TABLE IF EXISTS scenario_reference;
+CREATE TABLE scenario_reference(
+  id INTEGER PRIMARY KEY,
+  scenario_id INTEGER NOT NULL,
+  reference_page INTEGER NOT NULL,
+  FOREIGN KEY(scenario_id) REFERENCES scenario(id)
+);
+
 DROP TABLE IF EXISTS monster;
 CREATE TABLE monster(
   id INTEGER PRIMARY KEY,
