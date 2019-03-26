@@ -5,4 +5,4 @@ jobs:
       - image: nouchka/sqlite3
     steps:
       - checkout
-      - run: cd db && make
+      - run: make -C db # 👀  will
