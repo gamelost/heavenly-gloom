@@ -10,16 +10,15 @@ CREATE TABLE macro(
   macro TEXT NOT NULL UNIQUE,
   description TEXT,
   image_path TEXT NOT NULL,
-  is_element BOOLEAN DEFAULT false,
-  is_area_of_effect BOOLEAN DEFAULT false,
-  is_boss BOOLEAN DEFAULT false
+  is_element BOOLEAN DEFAULT 0,
+  is_area_of_effect BOOLEAN DEFAULT 0,
+  is_boss BOOLEAN DEFAULT 0
 );
 
 DROP TABLE IF EXISTS scenario;
 CREATE TABLE scenario(
-  id INTEGER PRIMARY KEY,
+  number INTEGER PRIMARY KEY,
   name TEXT NOT NULL UNIQUE,
-  number INTEGER NOT NULL UNIQUE,
   image_path TEXT NOT NULL,
   x INTEGER,
   y INTEGER
@@ -74,7 +73,7 @@ DROP TABLE IF EXISTS monster_ability;
 CREATE TABLE monster_ability(
   card_number INTEGER PRIMARY KEY,
   monster_id INTEGER NOT NULL,
-  shuffle BOOLEAN NOT NULL DEFAULT false,
+  shuffle BOOLEAN NOT NULL DEFAULT 0,
   initiative INTEGER NOT NULL,
   attacks JSON NOT NULL,
   FOREIGN KEY(monster_id) REFERENCES monster(id)
@@ -86,7 +85,7 @@ CREATE TABLE monster_ability_card(
   monster_id INTEGER NOT NULL,
   monster_ability_id INTEGER,
   image_path TEXT NOT NULL,
-  image_back BOOLEAN NOT NULL DEFAULT false,
+  image_back BOOLEAN NOT NULL DEFAULT 0,
   FOREIGN KEY(monster_id) REFERENCES monster(id),
   FOREIGN KEY(monster_ability_id) REFERENCES monster_ability(card_number)
 );
@@ -115,7 +114,7 @@ CREATE TABLE monster_stat_card(
   monster_stat_id INTEGER,
   image_path TEXT NOT NULL,
   image_rotation INTEGER,
-  image_back BOOLEAN NOT NULL DEFAULT false,
+  image_back BOOLEAN NOT NULL DEFAULT 0,
   FOREIGN KEY(monster_id) REFERENCES monster(id),
   FOREIGN KEY(monster_stat_id) REFERENCES monster_stat(id)
 );
