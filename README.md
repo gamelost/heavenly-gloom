@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/gamelost/heavenly-gloom/tree/master.svg?style=svg)](https://circleci.com/gh/gamelost/heavenly-gloom/tree/master)
+
 # Heavenly Gloom
 
 This is a set of programs to facilitate the playing of [Gloomhaven](https://en.wikipedia.org/wiki/Gloomhaven), a legacy game.
