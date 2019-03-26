@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: nouchka/sqlite3
+      - image: kratsg/sqlite3
     steps:
       - checkout
-      - run: make -C db # 👀  will
+      - run: make -C db
