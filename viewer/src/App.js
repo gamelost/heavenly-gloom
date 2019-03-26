@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import sqlite from 'sqlite';
 
 class App extends Component {
+  async componentDidMount() {
+    const response = await fetch('gh.db');
+    const buffer = await response.arrayBuffer();
+    const array = new Uint8Array(buffer);
+    const db = new window.SQL.Database(array);
+    console.log(db.exec('SELECT * FROM monster'));
+  }
+
   render() {
     return (
       <div className="App">
