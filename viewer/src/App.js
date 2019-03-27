@@ -1,27 +1,23 @@
 import React, { Component } from 'react';
-import GloomhavenDatabase from './gloomhavenDatabase';
-import './App.css';
+import Container from 'react-bulma-components/lib/components/container';
+import { Switch, Route } from "react-router-dom";
+
+import Home from './Home';
+import Header from './Header';
+import MonsterList from './monsters/MonsterList';
+import ScenarioList from './scenarios/ScenarioList';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { monsters: [] };
-  }
-
-  async componentDidMount() {
-    let db = await new GloomhavenDatabase().getInstance();
-    let monsters = await db.getMonsterDeck();
-    this.setState({ monsters });
-  }
-
   render() {
-    const monsters = this.state.monsters.map(([id, name]) => <li key={id}>{name}</li>);
     return (
-      <div className="App">
-        <header className="App-header">
-          <ul>{monsters}</ul>
-        </header>
-      </div>
+      <Container fluid>
+        <Header/>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/monsters" component={MonsterList} />
+          <Route path="/scenarios" component={ScenarioList} />
+        </Switch>
+      </Container>
     );
   }
 }
