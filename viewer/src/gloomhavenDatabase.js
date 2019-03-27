@@ -12,9 +12,17 @@ class GloomhavenDatabase {
   }
 
   async getScenarios() {
-    const [results] = await db.exec('SELECT number, name, x, y, image_path ' +
+    const [results] = await db.exec('SELECT s.number, s.name, s.x, s.y, s.image_path, ' +
+                                    'GROUP_CONCAT(DISTINCT(m.name)), ' +
+                                    'GROUP_CONCAT(DISTINCT(st.treasure_description)), ' +
+                                    'GROUP_CONCAT(DISTINCT(sr.reference_page)) ' +
                                     'FROM scenario s ' +
-                                    'ORDER BY number');
+                                    'LEFT JOIN scenario_monster sm ON s.number = sm.scenario_id ' +
+                                    'LEFT JOIN scenario_treasure st ON s.number = st.scenario_id ' +
+                                    'LEFT JOIN scenario_reference sr ON s.number = sr.scenario_id ' +
+                                    'LEFT JOIN monster m ON m.id = sm.monster_id ' +
+                                    'GROUP BY s.number ' +
+                                    'ORDER BY s.number');
     return results.values;
   }
 

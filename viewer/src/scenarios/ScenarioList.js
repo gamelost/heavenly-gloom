@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import GloomhavenDatabase from '../gloomhavenDatabase';
 import Table from 'react-bulma-components/lib/components/table';
+import Image from 'react-bulma-components/lib/components/image';
+import Notification from 'react-bulma-components/lib/components/notification';
+import './ScenarioList.css';
 
 class Monsterlist extends Component {
   constructor(props) {
@@ -15,30 +18,41 @@ class Monsterlist extends Component {
   }
 
   render() {
-    const scenarios = this.state.scenarios.map(([number, name, x, y, image]) => {
+    const size = 64;
+    const scenarios = this.state.scenarios.map(data => {
+      const [number, name, x, y, image, monsters, treasure, pages] = data;
       return <tr key={number}>
                <td>{number}</td>
-               <td>{name}</td>
+               <td className={number !== 0 ? 'spoiler' : ''}>{name}</td>
                <td>{x}</td>
                <td>{y}</td>
-               <td>{image}</td>
+               <td><Image src={image} size={size}></Image></td>
+               <td className="spoiler">{monsters}</td>
+               <td className="spoiler">{treasure}</td>
+               <td>{pages}</td>
              </tr>;
     });
     return (
-      <Table>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>X</th>
-            <th>Y</th>
-            <th>Image</th>
-          </tr>
-        </thead>
-        <tbody>
-          {scenarios}
-        </tbody>
-      </Table>
+      <div>
+        <Notification color="danger">Spoilers ahead. Scroll down at your own risk. Hover over the cell to see details.</Notification>
+        <Table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>X</th>
+              <th>Y</th>
+              <th>Image</th>
+              <th>Monsters</th>
+              <th>Treasure</th>
+              <th>Reference Pages</th>
+            </tr>
+          </thead>
+          <tbody>
+            {scenarios}
+          </tbody>
+        </Table>
+      </div>
     );
   }
 }
