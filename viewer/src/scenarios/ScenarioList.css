@@ -1,7 +1,11 @@
-.spoiler, .spoiler > * {
-    transition: filter 1s;
-    transition-delay: 1s;
-}
 .spoiler:not(:hover) {
     filter: blur(8px);
+}
+
+.spoiler {
+    transition: filter 0.4s ease-out 0s;
+}
+
+.spoiler:hover {
+    transition: filter 0.4s ease-out 1s;
 }
