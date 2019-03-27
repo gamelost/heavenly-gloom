@@ -9,6 +9,11 @@ import ScenarioList from './scenarios/ScenarioList';
 import ScenarioMap from './scenarios/ScenarioMap';
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    document.title = 'Gloomhaven Data Viewer';
+  }
+
   render() {
     return (
       <div>
