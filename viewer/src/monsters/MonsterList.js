@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import GloomhavenDatabase from '../gloomhavenDatabase';
 import Table from 'react-bulma-components/lib/components/table';
+import { Field, Control, Label, Input } from 'react-bulma-components/lib/components/form';
 
 class Monsterlist extends Component {
   constructor(props) {
@@ -24,7 +25,12 @@ class Monsterlist extends Component {
     });
     return (
       <div>
-        <input type="text" value={ filterStr } onChange={ e => this.setState({ filterStr: e.target.value }) } />
+        <Field>
+          <Label>Filter</Label>
+          <Control>
+            <Input placeholder="Text input" value={ filterStr } onChange={ e => this.setState({ filterStr: e.target.value }) } />
+          </Control>
+        </Field>
         <Table>
           <thead>
             <tr><th>ID</th><th>Name</th></tr>
