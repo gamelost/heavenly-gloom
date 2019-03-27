@@ -10,14 +10,16 @@ import ScenarioList from './scenarios/ScenarioList';
 class App extends Component {
   render() {
     return (
-      <Container fluid>
+      <div>
         <Header/>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/monsters" component={MonsterList} />
-          <Route path="/scenarios" component={ScenarioList} />
-        </Switch>
-      </Container>
+        <Container fluid>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/monsters" component={MonsterList} />
+            <Route path="/scenarios" component={ScenarioList} />
+          </Switch>
+        </Container>
+      </div>
     );
   }
 }

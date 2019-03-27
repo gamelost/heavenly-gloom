@@ -28,7 +28,7 @@ class Monsterlist extends Component {
         <Field>
           <Label>Filter</Label>
           <Control>
-            <Input placeholder="Text input" value={ filterStr } onChange={ e => this.setState({ filterStr: e.target.value }) } />
+            <Input placeholder="Filter text" value={ filterStr } onChange={ e => this.setState({ filterStr: e.target.value }) } />
           </Control>
         </Field>
         <Table>
