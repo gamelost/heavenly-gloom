@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import GloomhavenDatabase from '../gloomhavenDatabase';
+import GloomhavenDatabase from '../GloomhavenDatabase';
 import Table from 'react-bulma-components/lib/components/table';
 import Image from 'react-bulma-components/lib/components/image';
 import Notification from 'react-bulma-components/lib/components/notification';
 import './ScenarioList.css';
 
-class Monsterlist extends Component {
+class ScenarioList extends Component {
   constructor(props) {
     super(props);
     this.state = { scenarios: [] };
@@ -26,7 +26,7 @@ class Monsterlist extends Component {
                <td className={number !== 0 ? 'spoiler' : ''}>{name}</td>
                <td>{x}</td>
                <td>{y}</td>
-               <td><Image src={image} size={size}></Image></td>
+               <td><Image src={'/' + image} size={size}></Image></td>
                <td className="spoiler">{monsters}</td>
                <td className="spoiler">{treasure}</td>
                <td>{pages}</td>
@@ -57,4 +57,4 @@ class Monsterlist extends Component {
   }
 }
 
-export default Monsterlist;
+export default ScenarioList;

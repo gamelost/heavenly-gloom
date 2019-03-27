@@ -3,7 +3,7 @@ let db = null;
 class GloomhavenDatabase {
   async getInstance() {
     if (!db) {
-      const response = await fetch('gh.db');
+      const response = await fetch('/gh.db');
       const buffer = await response.arrayBuffer();
       const array = new Uint8Array(buffer);
       db = new window.SQL.Database(array);
@@ -22,6 +22,13 @@ class GloomhavenDatabase {
                                     'LEFT JOIN scenario_reference sr ON s.number = sr.scenario_id ' +
                                     'LEFT JOIN monster m ON m.id = sm.monster_id ' +
                                     'GROUP BY s.number ' +
+                                    'ORDER BY s.number');
+    return results.values;
+  }
+
+  async getScenarioMaps() {
+    const [results] = await db.exec('SELECT s.number, s.x, s.y, s.image_path ' +
+                                    'FROM scenario s ' +
                                     'ORDER BY s.number');
     return results.values;
   }

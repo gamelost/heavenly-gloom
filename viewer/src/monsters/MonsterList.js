@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import GloomhavenDatabase from '../gloomhavenDatabase';
+import GloomhavenDatabase from '../GloomhavenDatabase';
 import Table from 'react-bulma-components/lib/components/table';
 import { Field, Control, Label, Input } from 'react-bulma-components/lib/components/form';
 
-class Monsterlist extends Component {
+class MonsterList extends Component {
   constructor(props) {
     super(props);
     this.state = { monsters: [], filterStr: "" };
@@ -44,4 +44,4 @@ class Monsterlist extends Component {
   }
 }
 
-export default Monsterlist;
+export default MonsterList;
