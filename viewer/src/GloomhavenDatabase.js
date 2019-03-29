@@ -33,8 +33,17 @@ class GloomhavenDatabase {
     return results.values;
   }
 
-  async getMonsterDeck() {
+  async getMonsters() {
     const [results] = await db.exec('SELECT * FROM monster m');
+    return results.values;
+  }
+
+  async getMonsterDeck() {
+    const [results] = await db.exec('SELECT md.id, md.class, GROUP_CONCAT(m.name, ", ") ' +
+                                    'FROM monster_deck md ' +
+                                    'JOIN monster m ON md.id = m.deck_id ' +
+                                    'GROUP BY md.id ' +
+                                    'ORDER BY md.id');
     return results.values;
   }
 

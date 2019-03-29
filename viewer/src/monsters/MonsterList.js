@@ -11,7 +11,7 @@ class MonsterList extends Component {
 
   async componentDidMount() {
     let db = await new GloomhavenDatabase().getInstance();
-    let monsters = await db.getMonsterDeck();
+    let monsters = await db.getMonsters();
     this.setState({ monsters });
   }
 

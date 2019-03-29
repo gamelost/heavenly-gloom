@@ -3,7 +3,7 @@ import GloomhavenDatabase from '../GloomhavenDatabase';
 import Table from 'react-bulma-components/lib/components/table';
 import Image from 'react-bulma-components/lib/components/image';
 import Notification from 'react-bulma-components/lib/components/notification';
-import './ScenarioList.css';
+import '../spoiler.css';
 
 class ScenarioList extends Component {
   constructor(props) {

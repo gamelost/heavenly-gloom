@@ -16,7 +16,13 @@ export default function header() {
       </Navbar.Brand>
       <Navbar.Menu>
         <Navbar.Container>
-          <Navbar.Item href="/monsters">Monsters</Navbar.Item>
+          <Navbar.Item renderAs="div" className="has-dropdown is-hoverable">
+            <Navbar.Item>Monsters</Navbar.Item>
+            <Navbar.Dropdown>
+              <Navbar.Item href="/monsters">List</Navbar.Item>
+              <Navbar.Item href="/monsters/deck">Deck</Navbar.Item>
+            </Navbar.Dropdown>
+          </Navbar.Item>
           <Navbar.Item renderAs="div" className="has-dropdown is-hoverable">
             <Navbar.Item>Scenarios</Navbar.Item>
             <Navbar.Dropdown>

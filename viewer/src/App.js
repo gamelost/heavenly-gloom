@@ -5,6 +5,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from './Home';
 import Header from './Header';
 import MonsterList from './monsters/MonsterList';
+import MonsterDeck from './monsters/MonsterDeck';
 import ScenarioList from './scenarios/ScenarioList';
 import ScenarioMap from './scenarios/ScenarioMap';
 
@@ -22,6 +23,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/monsters" component={MonsterList} />
+            <Route exact path="/monsters/deck" component={MonsterDeck} />
             <Route exact path="/scenarios" component={ScenarioList} />
             <Route exact path="/scenarios/worldmap" component={ScenarioMap} />
           </Switch>
