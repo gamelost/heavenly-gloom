@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Image from 'react-bulma-components/lib/components/image';
+import MonsterAbilityMacroImage from './MonsterAbilityMacroImage';
 
 class MonsterAbilityCard extends Component {
   constructor(props) {
@@ -10,17 +10,6 @@ class MonsterAbilityCard extends Component {
     const attacks = JSON.parse(attacksRaw);
     const macros = props.macros;
     this.state = { deckId, deckName, card_number, shuffle, initiative, attacks, image, macros };
-  }
-
-  getMacroImage(key) {
-    const macro = this.state.macros[key];
-    return <div key={key} style={{ display: 'flex' }}>
-             {macro.description}
-             <Image
-               style={{ margin: '0 0.5em', width: macro.aoe ? 48 : 16 }}
-               src={'/' + macro.path}>
-             </Image>
-           </div>;
   }
 
   render() {
@@ -34,7 +23,7 @@ class MonsterAbilityCard extends Component {
             if (!i) {
               return [current];
             }
-            return prev.concat(this.getMacroImage(macro), current);
+            return prev.concat(<MonsterAbilityMacroImage key={macro} macro={this.state.macros[macro]} />, current);
           }, []);
 
           if (typeof(output) === 'string') {
