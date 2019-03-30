@@ -4,6 +4,7 @@ import Table from 'react-bulma-components/lib/components/table';
 import Image from 'react-bulma-components/lib/components/image';
 import Heading from 'react-bulma-components/lib/components/heading';
 import Box from 'react-bulma-components/lib/components/box';
+import MonsterAbilityImage from './MonsterAbilityImage';
 
 class MonsterAbilityList extends Component {
   constructor(props) {
@@ -36,7 +37,7 @@ class MonsterAbilityList extends Component {
           .state
           .abilities
           .map((params) => {
-            const [card_number, shuffle, initiative, attacks, image] = params;
+            const [card_number, shuffle, initiative, attacks] = params;
             const body = JSON.parse(attacks).map((attack, index) => {
               let output = attack;
 
@@ -73,9 +74,7 @@ class MonsterAbilityList extends Component {
             });
             return <tr key={card_number}>
                      <td>
-                       <Image style={{ margin: 0, width: 256 }}
-                              src={'/' + image}>
-                       </Image>
+                       <MonsterAbilityImage deckName={this.state.deckName} deckId={this.state.deckId} ability={params} />
                      </td>
                      <td><Heading>{initiative}</Heading></td>
                      <td>{card_number}</td>
