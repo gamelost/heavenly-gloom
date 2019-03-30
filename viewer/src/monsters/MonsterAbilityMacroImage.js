@@ -9,13 +9,15 @@ class MonsterAbilityMacroImage extends Component {
   }
 
   render() {
-    return <div style={{ display: 'flex' }}>
-             {this.state.macro.description}
+    return <span className={"macro macro-"+this.state.macro.description} style={{display: 'flex'}}>
+             <span className="macro-description" style={{ display: 'flex' }}>
+               {this.state.macro.description}
+             </span>
              <Image
                style={{ margin: '0 0.5em', width: this.state.macro.aoe ? 48 : 16 }}
                src={'/' + this.state.macro.path}>
              </Image>
-           </div>;
+           </span>;
   }
 }
 export default MonsterAbilityMacroImage;

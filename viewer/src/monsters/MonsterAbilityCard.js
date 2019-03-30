@@ -20,10 +20,10 @@ class MonsterAbilityCard extends Component {
         for(const macro of macros) {
           const what = typeof(output) === 'string' ? output : output.pop();
           const result = what.split(macro).reduce((prev, current, i) => {
-            if (!i) {
+            if (i==0) {
               return [current];
             }
-            return prev.concat(<MonsterAbilityMacroImage key={macro} macro={this.state.macros[macro]} />, current);
+            return prev.concat(<MonsterAbilityMacroImage key={'macro-'+i} macro={this.state.macros[macro]} />, current);
           }, []);
 
           if (typeof(output) === 'string') {
@@ -43,7 +43,7 @@ class MonsterAbilityCard extends Component {
           output = <small style={{ display: 'flex' }}>{output}</small>;
         }
 
-        return <div style={{ display: 'flex', margin: '0.5em' }} key={index}>{output}</div>;
+        return <div className="ability-entry" style={{ display: 'flex', margin: '0.5em', 'justify-content': 'center' }} key={index}>{output}</div>;
       });
       return body;
     }
