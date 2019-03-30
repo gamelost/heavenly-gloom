@@ -34,7 +34,7 @@ class GloomhavenDatabase {
   }
 
   async getMonsters() {
-    const [results] = await db.exec('SELECT m.id, m.name, mac.image_path, msc.image_path ' +
+    const [results] = await db.exec('SELECT m.id, m.name, md.id, mac.image_path, msc.image_path ' +
                                     'FROM monster m ' +
                                     'JOIN monster_deck md ON m.monster_deck_id = md.id ' +
                                     'LEFT JOIN monster_ability_card mac ON m.monster_deck_id = mac.monster_deck_id AND mac.image_back = 1 ' +
@@ -49,6 +49,22 @@ class GloomhavenDatabase {
                                     'JOIN monster m ON md.id = m.monster_deck_id ' +
                                     'GROUP BY md.id ' +
                                     'ORDER BY md.id');
+    return results.values;
+  }
+
+  async getMonsterDeckName(deckId) {
+    const [results] = await db.exec('SELECT md.class ' +
+                                    'FROM monster_deck md ' +
+                                    `WHERE md.id = ${deckId}`);
+    return results.values;
+  }
+
+  async getMonsterAbility(deckId) {
+    const [results] = await db.exec('SELECT ma.card_number, ma.shuffle, ma.initiative, ma.attacks, mac.image_path ' +
+                                    'FROM monster_ability ma ' +
+                                    'JOIN monster_ability_card mac ON ma.card_number = mac.monster_ability_id ' +
+                                    `WHERE ma.monster_deck_id = ${deckId} ` +
+                                    'ORDER BY ma.card_number');
     return results.values;
   }
 

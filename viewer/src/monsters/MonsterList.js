@@ -23,15 +23,17 @@ class MonsterList extends Component {
           .monsters
           .filter(([_, name]) => (filterStr==="")||name.toLowerCase().includes(filterStr.toLowerCase()))
           .map((params) => {
-            const [id, name, ability_back_card, stat_back_card] = params;
+            const [id, name, deck_id, ability_back_card, stat_back_card] = params;
             return <tr key={id}>
                      <td>{id}</td>
                      <td>{name}</td>
                      <td>
-                       <Image style={{ margin: 0 }}
-                              src={'/' + ability_back_card}
-                              size={128}>
-                       </Image>
+                       <a href={`/monsters/${deck_id}/ability`}>
+                         <Image style={{ margin: 0 }}
+                                src={'/' + ability_back_card}
+                                size={128}>
+                         </Image>
+                       </a>
                      </td>
                      <td>{stat_back_card}</td>
                    </tr>;
