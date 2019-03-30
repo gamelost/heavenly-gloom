@@ -34,14 +34,19 @@ class GloomhavenDatabase {
   }
 
   async getMonsters() {
-    const [results] = await db.exec('SELECT * FROM monster m');
+    const [results] = await db.exec('SELECT m.id, m.name, mac.image_path, msc.image_path ' +
+                                    'FROM monster m ' +
+                                    'JOIN monster_deck md ON m.monster_deck_id = md.id ' +
+                                    'LEFT JOIN monster_ability_card mac ON m.monster_deck_id = mac.monster_deck_id AND mac.image_back = 1 ' +
+                                    'LEFT JOIN monster_stat_card msc ON m.id = msc.monster_id AND msc.image_back = 1 ' +
+                                    'GROUP BY m.id');
     return results.values;
   }
 
   async getMonsterDeck() {
     const [results] = await db.exec('SELECT md.id, md.class, GROUP_CONCAT(m.name, ", ") ' +
                                     'FROM monster_deck md ' +
-                                    'JOIN monster m ON md.id = m.deck_id ' +
+                                    'JOIN monster m ON md.id = m.monster_deck_id ' +
                                     'GROUP BY md.id ' +
                                     'ORDER BY md.id');
     return results.values;

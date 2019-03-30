@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import GloomhavenDatabase from '../GloomhavenDatabase';
 import Table from 'react-bulma-components/lib/components/table';
 import { Field, Control, Label, Input } from 'react-bulma-components/lib/components/form';
+import Image from 'react-bulma-components/lib/components/image';
 
 class MonsterList extends Component {
   constructor(props) {
@@ -17,12 +18,24 @@ class MonsterList extends Component {
 
   render() {
     const { filterStr } = this.state;
-    const monsters = this.state.monsters.filter(([id, name]) => (filterStr==="")||name.toLowerCase().includes(filterStr.toLowerCase())).map(([id, name]) => {
-      return <tr key={id}>
-               <td>{id}</td>
-               <td>{name}</td>
-             </tr>;
-    });
+    const monsters = this
+          .state
+          .monsters
+          .filter(([_, name]) => (filterStr==="")||name.toLowerCase().includes(filterStr.toLowerCase()))
+          .map((params) => {
+            const [id, name, ability_back_card, stat_back_card] = params;
+            return <tr key={id}>
+                     <td>{id}</td>
+                     <td>{name}</td>
+                     <td>
+                       <Image style={{ margin: 0 }}
+                              src={'/' + ability_back_card}
+                              size={128}>
+                       </Image>
+                     </td>
+                     <td>{stat_back_card}</td>
+                   </tr>;
+          });
     return (
       <div>
         <Field>
@@ -33,7 +46,7 @@ class MonsterList extends Component {
         </Field>
         <Table>
           <thead>
-            <tr><th>ID</th><th>Name</th></tr>
+            <tr><th>ID</th><th>Name</th><th>Ability Cards</th><th>Stat Cards</th></tr>
           </thead>
           <tbody>
             {monsters}
