@@ -9,8 +9,13 @@ class ScenarioGraph extends Component {
 
   async componentDidMount() {
     // Load data and construct nodes and links
+    this.drawGraph();
+  }
+
+  async drawGraph() {
     let db = await new GloomhavenDatabase().getInstance();
     let scenarioRoutes = await db.getScenarioRoutes();
+    console.log(scenarioRoutes);
   }
 
   render() {
