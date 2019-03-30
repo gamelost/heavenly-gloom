@@ -55,9 +55,9 @@ DROP TABLE IF EXISTS monster;
 CREATE TABLE monster(
   id INTEGER PRIMARY KEY,
   name TEXT NOT NULL UNIQUE,
-  deck_id INTEGER NOT NULL,
+  monster_deck_id INTEGER NOT NULL,
   number INTEGER NOT NULL,
-  FOREIGN KEY(deck_id) REFERENCES monster_deck(id)
+  FOREIGN KEY(monster_deck_id) REFERENCES monster_deck(id)
 );
 
 DROP TABLE IF EXISTS scenario_monster;
@@ -72,21 +72,21 @@ CREATE TABLE scenario_monster(
 DROP TABLE IF EXISTS monster_ability;
 CREATE TABLE monster_ability(
   card_number INTEGER PRIMARY KEY,
-  monster_id INTEGER NOT NULL,
+  monster_deck_id INTEGER NOT NULL,
   shuffle BOOLEAN NOT NULL DEFAULT 0,
   initiative INTEGER NOT NULL,
   attacks JSON NOT NULL,
-  FOREIGN KEY(monster_id) REFERENCES monster(id)
+  FOREIGN KEY(monster_deck_id) REFERENCES monster_deck(id)
 );
 
 DROP TABLE IF EXISTS monster_ability_card;
 CREATE TABLE monster_ability_card(
   id INTEGER PRIMARY KEY,
-  monster_id INTEGER NOT NULL,
+  monster_deck_id INTEGER NOT NULL,
   monster_ability_id INTEGER,
   image_path TEXT NOT NULL,
   image_back BOOLEAN NOT NULL DEFAULT 0,
-  FOREIGN KEY(monster_id) REFERENCES monster(id),
+  FOREIGN KEY(monster_deck_id) REFERENCES monster_deck(id),
   FOREIGN KEY(monster_ability_id) REFERENCES monster_ability(card_number)
 );
 

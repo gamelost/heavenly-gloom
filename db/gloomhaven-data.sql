@@ -81,781 +81,781 @@ INSERT INTO monster_deck(class) VALUES('Wind Demon');
 
 
 -- monster
-INSERT INTO monster(name, number, deck_id) VALUES('Ancient Artillery', 6, 1);
-INSERT INTO monster(name, number, deck_id) VALUES('Bandit Archer', 6, 2);
-INSERT INTO monster(name, number, deck_id) VALUES('Bandit Guard', 6, 3);
-INSERT INTO monster(name, number, deck_id) VALUES('Black Imp', 10, 4);
-INSERT INTO monster(name, number, deck_id) VALUES('Cave Bear', 4, 6);
-INSERT INTO monster(name, number, deck_id) VALUES('City Archer', 6, 2);
-INSERT INTO monster(name, number, deck_id) VALUES('City Guard', 6, 3);
-INSERT INTO monster(name, number, deck_id) VALUES('Cultist', 6, 7);
-INSERT INTO monster(name, number, deck_id) VALUES('Deep Terror', 10, 8);
-INSERT INTO monster(name, number, deck_id) VALUES('Earth Demon', 6, 9);
-INSERT INTO monster(name, number, deck_id) VALUES('Flame Demon', 6, 10);
-INSERT INTO monster(name, number, deck_id) VALUES('Frost Demon', 6, 11);
-INSERT INTO monster(name, number, deck_id) VALUES('Forest Imp', 10, 4);
-INSERT INTO monster(name, number, deck_id) VALUES('Giant Viper', 10, 12);
-INSERT INTO monster(name, number, deck_id) VALUES('Harrower Infester', 4, 13);
-INSERT INTO monster(name, number, deck_id) VALUES('Hound', 6, 14);
-INSERT INTO monster(name, number, deck_id) VALUES('Inox Archer', 6, 2);
-INSERT INTO monster(name, number, deck_id) VALUES('Inox Guard', 6, 3);
-INSERT INTO monster(name, number, deck_id) VALUES('Inox Shaman', 4, 15);
-INSERT INTO monster(name, number, deck_id) VALUES('Living Bones', 10, 16);
-INSERT INTO monster(name, number, deck_id) VALUES('Living Corpse', 6, 17);
-INSERT INTO monster(name, number, deck_id) VALUES('Living Spirit', 6, 18);
-INSERT INTO monster(name, number, deck_id) VALUES('Lurker', 6, 19);
-INSERT INTO monster(name, number, deck_id) VALUES('Ooze', 10, 21);
-INSERT INTO monster(name, number, deck_id) VALUES('Night Demon', 6, 20);
-INSERT INTO monster(name, number, deck_id) VALUES('Rending Drake', 6, 22);
-INSERT INTO monster(name, number, deck_id) VALUES('Savvas Icestorm', 4, 23);
-INSERT INTO monster(name, number, deck_id) VALUES('Savvas Lavaflow', 4, 24);
-INSERT INTO monster(name, number, deck_id) VALUES('Spitting Drake', 6, 25);
-INSERT INTO monster(name, number, deck_id) VALUES('Stone Golem', 6, 26);
-INSERT INTO monster(name, number, deck_id) VALUES('Sun Demon', 6, 27);
-INSERT INTO monster(name, number, deck_id) VALUES('Vermling Scout', 10, 28);
-INSERT INTO monster(name, number, deck_id) VALUES('Vermling Shaman', 6, 15);
-INSERT INTO monster(name, number, deck_id) VALUES('Wind Demon', 6, 29);
-INSERT INTO monster(name, number, deck_id) VALUES('Bandit Commander', 1, 5);
-INSERT INTO monster(name, number, deck_id) VALUES('The Betrayer', 1, 5);
-INSERT INTO monster(name, number, deck_id) VALUES('Captain of the Guard', 1, 5);
-INSERT INTO monster(name, number, deck_id) VALUES('The Colorless', 1, 5);
-INSERT INTO monster(name, number, deck_id) VALUES('Dark Rider', 1, 5);
-INSERT INTO monster(name, number, deck_id) VALUES('Elder Drake', 1, 5);
-INSERT INTO monster(name, number, deck_id) VALUES('The Gloom', 1, 5);
-INSERT INTO monster(name, number, deck_id) VALUES('Inox Bodyguard', 2, 5);
-INSERT INTO monster(name, number, deck_id) VALUES('Jekserah', 1, 5);
-INSERT INTO monster(name, number, deck_id) VALUES('Merciless Overseer', 1, 5);
-INSERT INTO monster(name, number, deck_id) VALUES('Prime Demon', 1, 5);
-INSERT INTO monster(name, number, deck_id) VALUES('The Sightless Eye', 1, 5);
-INSERT INTO monster(name, number, deck_id) VALUES('Winged Horror', 1, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Ancient Artillery', 6, 1);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Bandit Archer', 6, 2);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Bandit Guard', 6, 3);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Black Imp', 10, 4);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Cave Bear', 4, 6);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('City Archer', 6, 2);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('City Guard', 6, 3);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Cultist', 6, 7);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Deep Terror', 10, 8);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Earth Demon', 6, 9);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Flame Demon', 6, 10);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Frost Demon', 6, 11);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Forest Imp', 10, 4);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Giant Viper', 10, 12);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Harrower Infester', 4, 13);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Hound', 6, 14);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Inox Archer', 6, 2);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Inox Guard', 6, 3);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Inox Shaman', 4, 15);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Living Bones', 10, 16);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Living Corpse', 6, 17);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Living Spirit', 6, 18);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Lurker', 6, 19);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Ooze', 10, 21);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Night Demon', 6, 20);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Rending Drake', 6, 22);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Savvas Icestorm', 4, 23);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Savvas Lavaflow', 4, 24);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Spitting Drake', 6, 25);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Stone Golem', 6, 26);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Sun Demon', 6, 27);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Vermling Scout', 10, 28);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Vermling Shaman', 6, 15);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Wind Demon', 6, 29);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Bandit Commander', 1, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('The Betrayer', 1, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Captain of the Guard', 1, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('The Colorless', 1, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Dark Rider', 1, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Elder Drake', 1, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('The Gloom', 1, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Inox Bodyguard', 2, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Jekserah', 1, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Merciless Overseer', 1, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Prime Demon', 1, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('The Sightless Eye', 1, 5);
+INSERT INTO monster(name, number, monster_deck_id) VALUES('Winged Horror', 1, 5);
 
 
 -- monster_ability and monster_ability_card
 -- Ancient Artillery
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(700, 1, 0, 46, '["%attack% - 1","^%range% + 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(1, 700, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(700, (SELECT id FROM monster_deck where class = 'Ancient Artillery'), 0, 46, '["%attack% - 1","^%range% + 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ancient Artillery'), 700, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-1.png');
 -- Ancient Artillery
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(701, 1, 1, 71, '["%attack% + 0","^%range% + 0","^All adjacent enemies suffer 2 damage"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(1, 701, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(701, (SELECT id FROM monster_deck where class = 'Ancient Artillery'), 1, 71, '["%attack% + 0","^%range% + 0","^All adjacent enemies suffer 2 damage"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ancient Artillery'), 701, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-2.png');
 -- Ancient Artillery
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(702, 1, 1, 71, '["%attack% + 0","^%range% + 0","^All adjacent enemies suffer 2 damage"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(1, 702, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(702, (SELECT id FROM monster_deck where class = 'Ancient Artillery'), 1, 71, '["%attack% + 0","^%range% + 0","^All adjacent enemies suffer 2 damage"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ancient Artillery'), 702, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-3.png');
 -- Ancient Artillery
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(703, 1, 0, 37, '["%push% 1","^Target all adjacent enemies","%attack% - 1 %aoe-triangle-2-side%","^%range% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(1, 703, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(703, (SELECT id FROM monster_deck where class = 'Ancient Artillery'), 0, 37, '["%push% 1","^Target all adjacent enemies","%attack% - 1 %aoe-triangle-2-side%","^%range% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ancient Artillery'), 703, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-4.png');
 -- Ancient Artillery
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(704, 1, 0, 37, '["%push% 1","^Target all adjacent enemies","%attack% - 1 %aoe-circle%","^%range% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(1, 704, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(704, (SELECT id FROM monster_deck where class = 'Ancient Artillery'), 0, 37, '["%push% 1","^Target all adjacent enemies","%attack% - 1 %aoe-circle%","^%range% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ancient Artillery'), 704, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-5.png');
 -- Ancient Artillery
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(706, 1, 0, 17, '["%push% 2","^Target all adjacent enemies","%shield% + 2","%attack% - 2","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(1, 706, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(706, (SELECT id FROM monster_deck where class = 'Ancient Artillery'), 0, 17, '["%push% 2","^Target all adjacent enemies","%shield% + 2","%attack% - 2","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ancient Artillery'), 706, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-6.png');
 -- Ancient Artillery
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(705, 1, 0, 95, '["%attack% + 1","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(1, 705, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(705, (SELECT id FROM monster_deck where class = 'Ancient Artillery'), 0, 95, '["%attack% + 1","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ancient Artillery'), 705, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-7.png');
 -- Ancient Artillery
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(707, 1, 0, 46, '["%attack% - 1 %aoe-triangle-2-side%","^%range% + 0","^%immobilize%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(1, 707, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(1, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(707, (SELECT id FROM monster_deck where class = 'Ancient Artillery'), 0, 46, '["%attack% - 1 %aoe-triangle-2-side%","^%range% + 0","^%immobilize%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ancient Artillery'), 707, 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Ancient Artillery'), 'gloomhaven-images/images/monster-ability-cards/ancient-artillery/ma-aa-back.png', 1);
 -- Archer
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(532, 2, 0, 16, '["%move% + 1","%attack% - 1","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(2, 532, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(532, (SELECT id FROM monster_deck where class = 'Archer'), 0, 16, '["%move% + 1","%attack% - 1","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Archer'), 532, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-1.png');
 -- Archer
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(533, 2, 0, 31, '["%move% + 0","%attack% + 0","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(2, 533, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(533, (SELECT id FROM monster_deck where class = 'Archer'), 0, 31, '["%move% + 0","%attack% + 0","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Archer'), 533, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-2.png');
 -- Archer
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(534, 2, 0, 32, '["%move% + 0","%attack% + 1","^%range% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(2, 534, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(534, (SELECT id FROM monster_deck where class = 'Archer'), 0, 32, '["%move% + 0","%attack% + 1","^%range% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Archer'), 534, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-3.png');
 -- Archer
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(535, 2, 0, 44, '["%move% - 1","%attack% + 1","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(2, 535, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(535, (SELECT id FROM monster_deck where class = 'Archer'), 0, 44, '["%move% - 1","%attack% + 1","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Archer'), 535, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-4.png');
 -- Archer
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(536, 2, 0, 56, '["%attack% - 1","^%range% + 0","^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(2, 536, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(536, (SELECT id FROM monster_deck where class = 'Archer'), 0, 56, '["%attack% - 1","^%range% + 0","^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Archer'), 536, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-5.png');
 -- Archer
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(537, 2, 1, 68, '["%attack% + 1","^%range% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(2, 537, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(537, (SELECT id FROM monster_deck where class = 'Archer'), 1, 68, '["%attack% + 1","^%range% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Archer'), 537, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-6.png');
 -- Archer
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(538, 2, 0, 14, '["%move% - 1","%attack% - 1","^%range% + 0","*Create a 3 damage trap in an adjacent empty hex closest to an enemy"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(2, 538, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(538, (SELECT id FROM monster_deck where class = 'Archer'), 0, 14, '["%move% - 1","%attack% - 1","^%range% + 0","*Create a 3 damage trap in an adjacent empty hex closest to an enemy"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Archer'), 538, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-7.png');
 -- Archer
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(539, 2, 1, 29, '["%move% + 0","%attack% - 1","^%range% + 1","^%immobilize%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(2, 539, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(2, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(539, (SELECT id FROM monster_deck where class = 'Archer'), 1, 29, '["%move% + 0","%attack% - 1","^%range% + 1","^%immobilize%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Archer'), 539, 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Archer'), 'gloomhaven-images/images/monster-ability-cards/archer/ma-ar-back.png', 1);
 -- Boss
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(572, 3, 0, 11, '["Special 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(3, 572, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(572, (SELECT id FROM monster_deck where class = 'Boss'), 0, 11, '["Special 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Boss'), 572, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-1.png');
 -- Boss
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(573, 3, 0, 14, '["Special 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(3, 573, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(573, (SELECT id FROM monster_deck where class = 'Boss'), 0, 14, '["Special 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Boss'), 573, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-2.png');
 -- Boss
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(574, 3, 1, 17, '["Special 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(3, 574, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(574, (SELECT id FROM monster_deck where class = 'Boss'), 1, 17, '["Special 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Boss'), 574, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-3.png');
 -- Boss
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(575, 3, 1, 85, '["Special 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(3, 575, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(575, (SELECT id FROM monster_deck where class = 'Boss'), 1, 85, '["Special 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Boss'), 575, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-4.png');
 -- Boss
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(576, 3, 0, 79, '["Special 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(3, 576, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(576, (SELECT id FROM monster_deck where class = 'Boss'), 0, 79, '["Special 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Boss'), 576, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-5.png');
 -- Boss
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(577, 3, 0, 73, '["Special 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(3, 577, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(577, (SELECT id FROM monster_deck where class = 'Boss'), 0, 73, '["Special 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Boss'), 577, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-6.png');
 -- Boss
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(578, 3, 0, 36, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(3, 578, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(578, (SELECT id FROM monster_deck where class = 'Boss'), 0, 36, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Boss'), 578, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-7.png');
 -- Boss
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(579, 3, 0, 52, '["%move% - 1","%attack% - 1","^%range% 3","^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(3, 579, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(3, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(579, (SELECT id FROM monster_deck where class = 'Boss'), 0, 52, '["%move% - 1","%attack% - 1","^%range% 3","^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Boss'), 579, 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Boss'), 'gloomhaven-images/images/monster-ability-cards/boss/ma-bo-back.png', 1);
 -- Cave Bear
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(596, 4, 0, 13, '["%move% + 1","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(4, 596, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(596, (SELECT id FROM monster_deck where class = 'Cave Bear'), 0, 13, '["%move% + 1","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 596, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-1.png');
 -- Cave Bear
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(597, 4, 0, 14, '["%move% - 1","%attack% - 1","^%immobilize%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(4, 597, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(597, (SELECT id FROM monster_deck where class = 'Cave Bear'), 0, 14, '["%move% - 1","%attack% - 1","^%immobilize%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 597, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-2.png');
 -- Cave Bear
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(598, 4, 1, 34, '["%attack% + 1","^%wound%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(4, 598, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(598, (SELECT id FROM monster_deck where class = 'Cave Bear'), 1, 34, '["%attack% + 1","^%wound%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 598, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-3.png');
 -- Cave Bear
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(599, 4, 0, 41, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(4, 599, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(599, (SELECT id FROM monster_deck where class = 'Cave Bear'), 0, 41, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 599, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-4.png');
 -- Cave Bear
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(600, 4, 0, 60, '["%move% - 1","%attack% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(4, 600, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(600, (SELECT id FROM monster_deck where class = 'Cave Bear'), 0, 60, '["%move% - 1","%attack% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 600, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-5.png');
 -- Cave Bear
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(601, 4, 1, 80, '["%attack% - 1","%move% - 2","%attack% - 1","^%wound%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(4, 601, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(601, (SELECT id FROM monster_deck where class = 'Cave Bear'), 1, 80, '["%attack% - 1","%move% - 2","%attack% - 1","^%wound%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 601, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-6.png');
 -- Cave Bear
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(602, 4, 0, 61, '["%move% + 0","%attack% - 1","^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(4, 602, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(602, (SELECT id FROM monster_deck where class = 'Cave Bear'), 0, 61, '["%move% + 0","%attack% - 1","^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 602, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-7.png');
 -- Cave Bear
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(603, 4, 0, 3, '["%shield% + 1","%retaliate% + 2","%heal% 2","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(4, 603, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(4, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(603, (SELECT id FROM monster_deck where class = 'Cave Bear'), 0, 3, '["%shield% + 1","%retaliate% + 2","%heal% 2","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 603, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-back.png', 1);
 -- Cultist
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(604, 5, 0, 10, '["%move% - 1","%attack% - 1","On Death:","^%attack% + 2 %aoe-circle-with-middle-black%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(5, 604, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(604, (SELECT id FROM monster_deck where class = 'Cultist'), 0, 10, '["%move% - 1","%attack% - 1","On Death:","^%attack% + 2 %aoe-circle-with-middle-black%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cultist'), 604, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-1.png');
 -- Cultist
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(605, 5, 0, 10, '["%move% - 1","%attack% - 1","On Death:","^%attack% + 2 %aoe-circle-with-middle-black%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(5, 605, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(605, (SELECT id FROM monster_deck where class = 'Cultist'), 0, 10, '["%move% - 1","%attack% - 1","On Death:","^%attack% + 2 %aoe-circle-with-middle-black%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cultist'), 605, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-2.png');
 -- Cultist
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(606, 5, 0, 27, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(5, 606, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(606, (SELECT id FROM monster_deck where class = 'Cultist'), 0, 27, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cultist'), 606, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-3.png');
 -- Cultist
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(607, 5, 0, 27, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(5, 607, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(607, (SELECT id FROM monster_deck where class = 'Cultist'), 0, 27, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cultist'), 607, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-4.png');
 -- Cultist
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(608, 5, 0, 39, '["%move% - 1","%attack% + 0","%heal% 1","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(5, 608, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(608, (SELECT id FROM monster_deck where class = 'Cultist'), 0, 39, '["%move% - 1","%attack% + 0","%heal% 1","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cultist'), 608, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-5.png');
 -- Cultist
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(609, 5, 1, 63, '[" ","Summon normal Living Bones","^Cultist suffers 2 damage."]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(5, 609, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(609, (SELECT id FROM monster_deck where class = 'Cultist'), 1, 63, '[" ","Summon normal Living Bones","^Cultist suffers 2 damage."]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cultist'), 609, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-6.png');
 -- Cultist
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(610, 5, 1, 63, '[" ","Summon normal Living Bones","^Cultist suffers 2 damage."]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(5, 610, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(610, (SELECT id FROM monster_deck where class = 'Cultist'), 1, 63, '[" ","Summon normal Living Bones","^Cultist suffers 2 damage."]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cultist'), 610, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-7.png');
 -- Cultist
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(611, 5, 0, 31, '["%move% - 1","%heal% 3","^%range% 3"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(5, 611, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(5, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(611, (SELECT id FROM monster_deck where class = 'Cultist'), 0, 31, '["%move% - 1","%heal% 3","^%range% 3"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cultist'), 611, 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Cultist'), 'gloomhaven-images/images/monster-ability-cards/cultist/ma-cu-back.png', 1);
 -- Deep Terror
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(732, 6, 0, 65, '["%attack% + 0","^%range% 3","^%target% 3","^%curse%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(6, 732, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(732, (SELECT id FROM monster_deck where class = 'Deep Terror'), 0, 65, '["%attack% + 0","^%range% 3","^%target% 3","^%curse%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Deep Terror'), 732, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-1.png');
 -- Deep Terror
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(733, 6, 1, 60, '["%attack% + 0 %aoe-line-6-with-black%","^%pierce% 3"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(6, 733, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(733, (SELECT id FROM monster_deck where class = 'Deep Terror'), 1, 60, '["%attack% + 0 %aoe-line-6-with-black%","^%pierce% 3"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Deep Terror'), 733, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-2.png');
 -- Deep Terror
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(734, 6, 1, 60, '["%attack% + 0 %aoe-line-6-with-black%","^%pierce% 3"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(6, 734, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(734, (SELECT id FROM monster_deck where class = 'Deep Terror'), 1, 60, '["%attack% + 0 %aoe-line-6-with-black%","^%pierce% 3"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Deep Terror'), 734, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-3.png');
 -- Deep Terror
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(735, 6, 0, 84, '["%attack% - 1","^Target all adjacent enemies","%attack% + 0","^%range% 4","^%wound%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(6, 735, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(735, (SELECT id FROM monster_deck where class = 'Deep Terror'), 0, 84, '["%attack% - 1","^Target all adjacent enemies","%attack% + 0","^%range% 4","^%wound%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Deep Terror'), 735, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-4.png');
 -- Deep Terror
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(736, 6, 0, 75, '["%attack% + 0","^%poison%","%attack% - 1","^%range% 5","^%immobilize%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(6, 736, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(736, (SELECT id FROM monster_deck where class = 'Deep Terror'), 0, 75, '["%attack% + 0","^%poison%","%attack% - 1","^%range% 5","^%immobilize%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Deep Terror'), 736, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-5.png');
 -- Deep Terror
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(737, 6, 0, 75, '["%attack% - 2","^Target all adjacent enemies","^%disarm%","%attack% + 0","^%range% 3","^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(6, 737, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(737, (SELECT id FROM monster_deck where class = 'Deep Terror'), 0, 75, '["%attack% - 2","^Target all adjacent enemies","^%disarm%","%attack% + 0","^%range% 3","^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Deep Terror'), 737, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-6.png');
 -- Deep Terror
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(738, 6, 0, 96, '["%attack% - 2","^%range% 6","^Summon normal Deep Terror in a hex adjacent to the target"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(6, 738, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(738, (SELECT id FROM monster_deck where class = 'Deep Terror'), 0, 96, '["%attack% - 2","^%range% 6","^Summon normal Deep Terror in a hex adjacent to the target"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Deep Terror'), 738, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-7.png');
 -- Deep Terror
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(739, 6, 0, 54, '["%wound% and","%poison%","^Target all adjacent enemies","%attack% + 0","^%range% 4"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(6, 739, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(6, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(739, (SELECT id FROM monster_deck where class = 'Deep Terror'), 0, 54, '["%wound% and","%poison%","^Target all adjacent enemies","%attack% + 0","^%range% 4"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Deep Terror'), 739, 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Deep Terror'), 'gloomhaven-images/images/monster-ability-cards/deep-terror/ma-dt-back.png', 1);
 -- Earth Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(636, 7, 1, 40, '["%heal% 3","^Self","%earth%%use%","!*%immobilize%","!*Target all enemies within %range% 3"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(7, 636, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(636, (SELECT id FROM monster_deck where class = 'Earth Demon'), 1, 40, '["%heal% 3","^Self","%earth%%use%","!*%immobilize%","!*Target all enemies within %range% 3"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Earth Demon'), 636, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-1.png');
 -- Earth Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(637, 7, 1, 42, '["%move% + 1","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(7, 637, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(637, (SELECT id FROM monster_deck where class = 'Earth Demon'), 1, 42, '["%move% + 1","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Earth Demon'), 637, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-2.png');
 -- Earth Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(638, 7, 0, 62, '["%move% + 0","%attack% + 0","%earth%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(7, 638, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(638, (SELECT id FROM monster_deck where class = 'Earth Demon'), 0, 62, '["%move% + 0","%attack% + 0","%earth%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Earth Demon'), 638, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-3.png');
 -- Earth Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(639, 7, 0, 71, '["%attack% + 0","^%range% 4","%earth%%use%","!^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(7, 639, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(639, (SELECT id FROM monster_deck where class = 'Earth Demon'), 0, 71, '["%attack% + 0","^%range% 4","%earth%%use%","!^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Earth Demon'), 639, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-4.png');
 -- Earth Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(640, 7, 0, 83, '["%move% - 1","%attack% + 1","%earth%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(7, 640, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(640, (SELECT id FROM monster_deck where class = 'Earth Demon'), 0, 83, '["%move% - 1","%attack% + 1","%earth%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Earth Demon'), 640, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-5.png');
 -- Earth Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(641, 7, 0, 93, '["%move% - 1","%attack% - 1","^Target all adjacent enemies","%earth%%use%","!^%push% 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(7, 641, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(641, (SELECT id FROM monster_deck where class = 'Earth Demon'), 0, 93, '["%move% - 1","%attack% - 1","^Target all adjacent enemies","%earth%%use%","!^%push% 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Earth Demon'), 641, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-6.png');
 -- Earth Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(642, 7, 0, 79, '["%move% + 1","%attack% + 0","%air%%use%","!^-2 %attack%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(7, 642, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(642, (SELECT id FROM monster_deck where class = 'Earth Demon'), 0, 79, '["%move% + 1","%attack% + 0","%air%%use%","!^-2 %attack%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Earth Demon'), 642, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-7.png');
 -- Earth Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(643, 7, 0, 87, '["%move% + 0","%attack% - 1","%aoe-4-with-black%","%any%%use%","!%earth%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(7, 643, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(7, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(643, (SELECT id FROM monster_deck where class = 'Earth Demon'), 0, 87, '["%move% + 0","%attack% - 1","%aoe-4-with-black%","%any%%use%","!%earth%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Earth Demon'), 643, 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Earth Demon'), 'gloomhaven-images/images/monster-ability-cards/earth-demon/ma-ed-back.png', 1);
 -- Flame Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(628, 8, 0, 3, '["%move% + 1","%attack% - 1","^%range% + 0","%fire%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(8, 628, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(628, (SELECT id FROM monster_deck where class = 'Flame Demon'), 0, 3, '["%move% + 1","%attack% - 1","^%range% + 0","%fire%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Flame Demon'), 628, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-1.png');
 -- Flame Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(629, 8, 0, 24, '["%move% + 0","%attack% + 0","^%range% + 0","%fire%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(8, 629, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(629, (SELECT id FROM monster_deck where class = 'Flame Demon'), 0, 24, '["%move% + 0","%attack% + 0","^%range% + 0","%fire%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Flame Demon'), 629, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-2.png');
 -- Flame Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(630, 8, 1, 46, '["%attack% + 0","^%range% + 0","%fire%%use%","!%aoe-circle%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(8, 630, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(630, (SELECT id FROM monster_deck where class = 'Flame Demon'), 1, 46, '["%attack% + 0","^%range% + 0","%fire%%use%","!%aoe-circle%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Flame Demon'), 630, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-3.png');
 -- Flame Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(631, 8, 0, 49, '["%attack% + 0","%aoe-line-3-with-black%","%fire%%use%","!^+1 %attack%","!^%wound%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(8, 631, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(631, (SELECT id FROM monster_deck where class = 'Flame Demon'), 0, 49, '["%attack% + 0","%aoe-line-3-with-black%","%fire%%use%","!^+1 %attack%","!^%wound%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Flame Demon'), 631, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-4.png');
 -- Flame Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(632, 8, 0, 67, '["%move% - 1","%attack% + 1","^%range% - 1","%fire%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(8, 632, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(632, (SELECT id FROM monster_deck where class = 'Flame Demon'), 0, 67, '["%move% - 1","%attack% + 1","^%range% - 1","%fire%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Flame Demon'), 632, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-5.png');
 -- Flame Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(633, 8, 0, 77, '["%attack% + 0","^Target all adjacent enemies","%ice%%use%","!^Flame Demon suffers 1 damage."]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(8, 633, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(633, (SELECT id FROM monster_deck where class = 'Flame Demon'), 0, 77, '["%attack% + 0","^Target all adjacent enemies","%ice%%use%","!^Flame Demon suffers 1 damage."]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Flame Demon'), 633, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-6.png');
 -- Flame Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(634, 8, 1, 30, '["%fire%%use%","!^All adjacent enemies","!^suffer 2 damage.","%move% + 0","%attack% - 2","^%range% + 0","^%wound%","^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(8, 634, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(634, (SELECT id FROM monster_deck where class = 'Flame Demon'), 1, 30, '["%fire%%use%","!^All adjacent enemies","!^suffer 2 damage.","%move% + 0","%attack% - 2","^%range% + 0","^%wound%","^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Flame Demon'), 634, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-7.png');
 -- Flame Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(635, 8, 0, 8, '["%move% - 1","*Create a 4 damage trap in an adjacent empty hex closest to an enemy","%any%%use%","!%fire%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(8, 635, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(8, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(635, (SELECT id FROM monster_deck where class = 'Flame Demon'), 0, 8, '["%move% - 1","*Create a 4 damage trap in an adjacent empty hex closest to an enemy","%any%%use%","!%fire%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Flame Demon'), 635, 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Flame Demon'), 'gloomhaven-images/images/monster-ability-cards/flame-demon/ma-fld-back.png', 1);
 -- Frost Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(620, 9, 0, 18, '["%immobilize%","^Target all enemies within %range% 2","%ice%%use%","!^%heal% 3","!^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(9, 620, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(620, (SELECT id FROM monster_deck where class = 'Frost Demon'), 0, 18, '["%immobilize%","^Target all enemies within %range% 2","%ice%%use%","!^%heal% 3","!^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Frost Demon'), 620, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-1.png');
 -- Frost Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(621, 9, 0, 38, '["%move% + 1","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(9, 621, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(621, (SELECT id FROM monster_deck where class = 'Frost Demon'), 0, 38, '["%move% + 1","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Frost Demon'), 621, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-2.png');
 -- Frost Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(622, 9, 0, 58, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(9, 622, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(622, (SELECT id FROM monster_deck where class = 'Frost Demon'), 0, 58, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Frost Demon'), 622, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-3.png');
 -- Frost Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(623, 9, 0, 58, '["%move% - 1","%attack% + 0","^%range% 2","%ice%%use%","!^+2 %attack%, +1 %range%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(9, 623, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(623, (SELECT id FROM monster_deck where class = 'Frost Demon'), 0, 58, '["%move% - 1","%attack% + 0","^%range% 2","%ice%%use%","!^+2 %attack%, +1 %range%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Frost Demon'), 623, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-4.png');
 -- Frost Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(624, 9, 1, 78, '["%move% - 1","%attack% + 0 %aoe-triangle-2-side-with-black%","%ice%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(9, 624, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(624, (SELECT id FROM monster_deck where class = 'Frost Demon'), 1, 78, '["%move% - 1","%attack% + 0 %aoe-triangle-2-side-with-black%","%ice%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Frost Demon'), 624, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-5.png');
 -- Frost Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(625, 9, 1, 78, '["%move% - 1","%attack% + 0 %aoe-triangle-2-side-with-black%","%ice%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(9, 625, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(625, (SELECT id FROM monster_deck where class = 'Frost Demon'), 1, 78, '["%move% - 1","%attack% + 0 %aoe-triangle-2-side-with-black%","%ice%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Frost Demon'), 625, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-6.png');
 -- Frost Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(626, 9, 0, 58, '["%move% - 1","%attack% - 1","^%pierce% 3","%any%%use%","!%ice%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(9, 626, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(626, (SELECT id FROM monster_deck where class = 'Frost Demon'), 0, 58, '["%move% - 1","%attack% - 1","^%pierce% 3","%any%%use%","!%ice%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Frost Demon'), 626, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-7.png');
 -- Frost Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(627, 9, 0, 18, '["%shield% + 2","%move% + 1","%fire%%use%","!^Frost Demon suffers 1 damage"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(9, 627, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(9, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(627, (SELECT id FROM monster_deck where class = 'Frost Demon'), 0, 18, '["%shield% + 2","%move% + 1","%fire%%use%","!^Frost Demon suffers 1 damage"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Frost Demon'), 627, 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Frost Demon'), 'gloomhaven-images/images/monster-ability-cards/frost-demon/ma-frd-back.png', 1);
 -- Giant Viper
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(684, 10, 1, 32, '["%move% + 0","%attack% + 0","^Add +2 Attack if the target is adjacent to any of the Giant Viper''s allies."]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(10, 684, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(684, (SELECT id FROM monster_deck where class = 'Giant Viper'), 1, 32, '["%move% + 0","%attack% + 0","^Add +2 Attack if the target is adjacent to any of the Giant Viper''s allies."]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Giant Viper'), 684, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-1.png');
 -- Giant Viper
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(685, 10, 1, 32, '["%move% + 0","%attack% + 0","^Add +2 Attack if the target is adjacent to any of the Giant Viper''s allies."]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(10, 685, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(685, (SELECT id FROM monster_deck where class = 'Giant Viper'), 1, 32, '["%move% + 0","%attack% + 0","^Add +2 Attack if the target is adjacent to any of the Giant Viper''s allies."]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Giant Viper'), 685, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-2.png');
 -- Giant Viper
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(686, 10, 0, 11, '["%shield% + 1","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(10, 686, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(686, (SELECT id FROM monster_deck where class = 'Giant Viper'), 0, 11, '["%shield% + 1","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Giant Viper'), 686, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-3.png');
 -- Giant Viper
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(687, 10, 0, 43, '["%move% + 1","^%jump%","%attack% - 1","^Target all adjacent enemies."]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(10, 687, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(687, (SELECT id FROM monster_deck where class = 'Giant Viper'), 0, 43, '["%move% + 1","^%jump%","%attack% - 1","^Target all adjacent enemies."]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Giant Viper'), 687, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-4.png');
 -- Giant Viper
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(688, 10, 0, 58, '["%move% - 1","%attack% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(10, 688, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(688, (SELECT id FROM monster_deck where class = 'Giant Viper'), 0, 58, '["%move% - 1","%attack% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Giant Viper'), 688, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-5.png');
 -- Giant Viper
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(689, 10, 0, 58, '["%move% + 1","^%jump%","%attack% - 1","^All attacks targeting Giant Viper this round gain Disadvantage."]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(10, 689, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(689, (SELECT id FROM monster_deck where class = 'Giant Viper'), 0, 58, '["%move% + 1","^%jump%","%attack% - 1","^All attacks targeting Giant Viper this round gain Disadvantage."]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Giant Viper'), 689, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-6.png');
 -- Giant Viper
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(690, 10, 0, 43, '["%move% - 1","^%jump%","%attack% + 0","^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(10, 690, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(690, (SELECT id FROM monster_deck where class = 'Giant Viper'), 0, 43, '["%move% - 1","^%jump%","%attack% + 0","^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Giant Viper'), 690, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-7.png');
 -- Giant Viper
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(691, 10, 0, 23, '["%move% - 1","%attack% - 1","^%immobilize%","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(10, 691, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(10, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(691, (SELECT id FROM monster_deck where class = 'Giant Viper'), 0, 23, '["%move% - 1","%attack% - 1","^%immobilize%","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Giant Viper'), 691, 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Giant Viper'), 'gloomhaven-images/images/monster-ability-cards/giant-viper/ma-gv-back.png', 1);
 -- Guard
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(524, 11, 1, 15, '["%shield% + 1","%retaliate% + 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(11, 524, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(524, (SELECT id FROM monster_deck where class = 'Guard'), 1, 15, '["%shield% + 1","%retaliate% + 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Guard'), 524, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-1.png');
 -- Guard
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(525, 11, 0, 30, '["%move% + 1","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(11, 525, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(525, (SELECT id FROM monster_deck where class = 'Guard'), 0, 30, '["%move% + 1","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Guard'), 525, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-2.png');
 -- Guard
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(526, 11, 0, 35, '["%move% - 1","%attack% + 0","^%range% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(11, 526, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(526, (SELECT id FROM monster_deck where class = 'Guard'), 0, 35, '["%move% - 1","%attack% + 0","^%range% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Guard'), 526, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-3.png');
 -- Guard
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(527, 11, 0, 50, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(11, 527, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(527, (SELECT id FROM monster_deck where class = 'Guard'), 0, 50, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Guard'), 527, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-4.png');
 -- Guard
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(528, 11, 0, 50, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(11, 528, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(528, (SELECT id FROM monster_deck where class = 'Guard'), 0, 50, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Guard'), 528, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-5.png');
 -- Guard
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(529, 11, 0, 70, '["%move% - 1","%attack% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(11, 529, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(529, (SELECT id FROM monster_deck where class = 'Guard'), 0, 70, '["%move% - 1","%attack% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Guard'), 529, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-6.png');
 -- Guard
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(530, 11, 0, 55, '["%move% - 1","%attack% + 0","%strengthen%","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(11, 530, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(530, (SELECT id FROM monster_deck where class = 'Guard'), 0, 55, '["%move% - 1","%attack% + 0","%strengthen%","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Guard'), 530, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-7.png');
 -- Guard
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(531, 11, 1, 15, '["%shield% + 1","%attack% + 0","^%poison%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(11, 531, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(11, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(531, (SELECT id FROM monster_deck where class = 'Guard'), 1, 15, '["%shield% + 1","%attack% + 0","^%poison%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Guard'), 531, 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Guard'), 'gloomhaven-images/images/monster-ability-cards/guard/ma-gu-back.png', 1);
 -- Harrower Infester
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(724, 12, 0, 38, '["%move% - 1","%attack% + 1","^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(12, 724, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(724, (SELECT id FROM monster_deck where class = 'Harrower Infester'), 0, 38, '["%move% - 1","%attack% + 1","^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Harrower Infester'), 724, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-1.png');
 -- Harrower Infester
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(725, 12, 0, 7, '["%move% + 0","%attack% - 1","^%poison%","%dark%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(12, 725, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(725, (SELECT id FROM monster_deck where class = 'Harrower Infester'), 0, 7, '["%move% + 0","%attack% - 1","^%poison%","%dark%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Harrower Infester'), 725, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-2.png');
 -- Harrower Infester
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(726, 12, 0, 16, '["%move% - 1","%attack% - 1","%heal% 5","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(12, 726, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(726, (SELECT id FROM monster_deck where class = 'Harrower Infester'), 0, 16, '["%move% - 1","%attack% - 1","%heal% 5","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Harrower Infester'), 726, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-3.png');
 -- Harrower Infester
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(727, 12, 0, 16, '["%attack% + 2","^%immobilize%","%retaliate% + 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(12, 727, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(727, (SELECT id FROM monster_deck where class = 'Harrower Infester'), 0, 16, '["%attack% + 2","^%immobilize%","%retaliate% + 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Harrower Infester'), 727, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-4.png');
 -- Harrower Infester
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(728, 12, 1, 2, '["%shield% + 2","%retaliate% 2","^%range% 3"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(12, 728, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(728, (SELECT id FROM monster_deck where class = 'Harrower Infester'), 1, 2, '["%shield% + 2","%retaliate% 2","^%range% 3"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Harrower Infester'), 728, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-5.png');
 -- Harrower Infester
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(729, 12, 0, 30, '["%move% - 1","%attack% + 0 %aoe-line-4-with-black%","%dark%%use%","!^Perform \"%heal% 2, Self\"","!^for each target damaged"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(12, 729, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(729, (SELECT id FROM monster_deck where class = 'Harrower Infester'), 0, 30, '["%move% - 1","%attack% + 0 %aoe-line-4-with-black%","%dark%%use%","!^Perform \"%heal% 2, Self\"","!^for each target damaged"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Harrower Infester'), 729, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-6.png');
 -- Harrower Infester
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(730, 12, 0, 38, '["%move% + 0","%attack% - 1","^%target% 2","%dark%%use%","!^+2 %attack%, %disarm%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(12, 730, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(730, (SELECT id FROM monster_deck where class = 'Harrower Infester'), 0, 38, '["%move% + 0","%attack% - 1","^%target% 2","%dark%%use%","!^+2 %attack%, %disarm%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Harrower Infester'), 730, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-7.png');
 -- Harrower Infester
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(731, 12, 1, 7, '["%attack% - 1","^%range% 3","^%muddle%","%heal% 4","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(12, 731, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(12, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(731, (SELECT id FROM monster_deck where class = 'Harrower Infester'), 1, 7, '["%attack% - 1","^%range% 3","^%muddle%","%heal% 4","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Harrower Infester'), 731, 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Harrower Infester'), 'gloomhaven-images/images/monster-ability-cards/harrower-infester/ma-hi-back.png', 1);
 -- Hound
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(540, 13, 0, 6, '["%move% - 1","%attack% + 0","^%immobilize%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(13, 540, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(540, (SELECT id FROM monster_deck where class = 'Hound'), 0, 6, '["%move% - 1","%attack% + 0","^%immobilize%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Hound'), 540, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-1.png');
 -- Hound
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(541, 13, 0, 7, '["%move% + 0","%muddle%","^Target all adjacent enemies"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(13, 541, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(541, (SELECT id FROM monster_deck where class = 'Hound'), 0, 7, '["%move% + 0","%muddle%","^Target all adjacent enemies"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Hound'), 541, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-2.png');
 -- Hound
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(542, 13, 1, 19, '["%move% + 0","%attack% + 0","^Add +2 %attack% if the target is adjacent","^to any of the Hound''s allies"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(13, 542, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(542, (SELECT id FROM monster_deck where class = 'Hound'), 1, 19, '["%move% + 0","%attack% + 0","^Add +2 %attack% if the target is adjacent","^to any of the Hound''s allies"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Hound'), 542, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-3.png');
 -- Hound
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(543, 13, 1, 19, '["%move% + 0","%attack% + 0","^Add +2 %attack% if the target is adjacent","^to any of the Hound''s allies"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(13, 543, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(543, (SELECT id FROM monster_deck where class = 'Hound'), 1, 19, '["%move% + 0","%attack% + 0","^Add +2 %attack% if the target is adjacent","^to any of the Hound''s allies"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Hound'), 543, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-4.png');
 -- Hound
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(544, 13, 0, 26, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(13, 544, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(544, (SELECT id FROM monster_deck where class = 'Hound'), 0, 26, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Hound'), 544, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-5.png');
 -- Hound
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(545, 13, 0, 26, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(13, 545, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(545, (SELECT id FROM monster_deck where class = 'Hound'), 0, 26, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Hound'), 545, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-6.png');
 -- Hound
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(546, 13, 0, 83, '["%move% - 2","%attack% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(13, 546, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(546, (SELECT id FROM monster_deck where class = 'Hound'), 0, 83, '["%move% - 2","%attack% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Hound'), 546, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-7.png');
 -- Hound
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(547, 13, 0, 72, '["%attack% - 1","^%pierce% 2","%move% - 2","%attack% - 1","^%pierce% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(13, 547, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(13, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(547, (SELECT id FROM monster_deck where class = 'Hound'), 0, 72, '["%attack% - 1","^%pierce% 2","%move% - 2","%attack% - 1","^%pierce% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Hound'), 547, 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Hound'), 'gloomhaven-images/images/monster-ability-cards/hound/ma-ho-back.png', 1);
 -- Imp
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(676, 14, 0, 5, '["%shield% + 5","%heal% 1","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(14, 676, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(676, (SELECT id FROM monster_deck where class = 'Imp'), 0, 5, '["%shield% + 5","%heal% 1","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Imp'), 676, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-1.png');
 -- Imp
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(677, 14, 0, 37, '["%move% + 0","%attack% + 0","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(14, 677, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(677, (SELECT id FROM monster_deck where class = 'Imp'), 0, 37, '["%move% + 0","%attack% + 0","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Imp'), 677, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-2.png');
 -- Imp
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(678, 14, 0, 37, '["%move% + 0","%attack% + 0","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(14, 678, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(678, (SELECT id FROM monster_deck where class = 'Imp'), 0, 37, '["%move% + 0","%attack% + 0","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Imp'), 678, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-3.png');
 -- Imp
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(679, 14, 0, 42, '["%move% + 1","%heal% 2","^%range% 3"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(14, 679, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(679, (SELECT id FROM monster_deck where class = 'Imp'), 0, 42, '["%move% + 1","%heal% 2","^%range% 3"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Imp'), 679, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-4.png');
 -- Imp
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(680, 14, 1, 43, '["%move% + 0","%attack% - 1","^%range% + 0","^%target% 2","^%poison%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(14, 680, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(680, (SELECT id FROM monster_deck where class = 'Imp'), 1, 43, '["%move% + 0","%attack% - 1","^%range% + 0","^%target% 2","^%poison%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Imp'), 680, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-5.png');
 -- Imp
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(681, 14, 0, 76, '["%move% - 1","%attack% + 1","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(14, 681, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(681, (SELECT id FROM monster_deck where class = 'Imp'), 0, 76, '["%move% - 1","%attack% + 1","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Imp'), 681, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-6.png');
 -- Imp
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(682, 14, 1, 43, '["%move% + 0","%attack% - 1","^%range% + 0","^%target% 2","^%curse%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(14, 682, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(682, (SELECT id FROM monster_deck where class = 'Imp'), 1, 43, '["%move% + 0","%attack% - 1","^%range% + 0","^%target% 2","^%curse%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Imp'), 682, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-7.png');
 -- Imp
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(683, 14, 0, 24, '["%strengthen%","^Affect all allies within %range% 2","%muddle%","^Target all enemies within %range% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(14, 683, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(14, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(683, (SELECT id FROM monster_deck where class = 'Imp'), 0, 24, '["%strengthen%","^Affect all allies within %range% 2","%muddle%","^Target all enemies within %range% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Imp'), 683, 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Imp'), 'gloomhaven-images/images/monster-ability-cards/imp/ma-im-back.png', 1);
 -- Living Bones
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(516, 15, 0, 64, '["%move% - 1","%attack% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(15, 516, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(516, (SELECT id FROM monster_deck where class = 'Living Bones'), 0, 64, '["%move% - 1","%attack% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Bones'), 516, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-1.png');
 -- Living Bones
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(517, 15, 1, 20, '["%move% - 2","%attack% + 0","%heal% 2","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(15, 517, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(517, (SELECT id FROM monster_deck where class = 'Living Bones'), 1, 20, '["%move% - 2","%attack% + 0","%heal% 2","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Bones'), 517, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-2.png');
 -- Living Bones
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(518, 15, 0, 25, '["%move% + 1","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(15, 518, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(518, (SELECT id FROM monster_deck where class = 'Living Bones'), 0, 25, '["%move% + 1","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Bones'), 518, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-3.png');
 -- Living Bones
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(519, 15, 0, 45, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(15, 519, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(519, (SELECT id FROM monster_deck where class = 'Living Bones'), 0, 45, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Bones'), 519, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-4.png');
 -- Living Bones
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(520, 15, 0, 45, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(15, 520, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(520, (SELECT id FROM monster_deck where class = 'Living Bones'), 0, 45, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Bones'), 520, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-5.png');
 -- Living Bones
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(521, 15, 0, 81, '["%attack% + 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(15, 521, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(521, (SELECT id FROM monster_deck where class = 'Living Bones'), 0, 81, '["%attack% + 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Bones'), 521, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-6.png');
 -- Living Bones
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(522, 15, 0, 74, '["%move% + 0","%attack% + 0","^Target one enemy with all attacks"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(15, 522, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(522, (SELECT id FROM monster_deck where class = 'Living Bones'), 0, 74, '["%move% + 0","%attack% + 0","^Target one enemy with all attacks"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Bones'), 522, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-7.png');
 -- Living Bones
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(523, 15, 1, 12, '["%shield% + 1","%heal% 2","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(15, 523, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(15, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(523, (SELECT id FROM monster_deck where class = 'Living Bones'), 1, 12, '["%shield% + 1","%heal% 2","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Bones'), 523, 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Living Bones'), 'gloomhaven-images/images/monster-ability-cards/living-bones/ma-lb-back.png', 1);
 -- Living Corpse
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(564, 16, 0, 21, '["%move% + 1","%muddle% and","%immobilize%","^Target one adjacent enemy"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(16, 564, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(564, (SELECT id FROM monster_deck where class = 'Living Corpse'), 0, 21, '["%move% + 1","%muddle% and","%immobilize%","^Target one adjacent enemy"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Corpse'), 564, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-1.png');
 -- Living Corpse
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(565, 16, 0, 47, '["%move% + 1","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(16, 565, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(565, (SELECT id FROM monster_deck where class = 'Living Corpse'), 0, 47, '["%move% + 1","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Corpse'), 565, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-2.png');
 -- Living Corpse
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(566, 16, 1, 66, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(16, 566, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(566, (SELECT id FROM monster_deck where class = 'Living Corpse'), 1, 66, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Corpse'), 566, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-3.png');
 -- Living Corpse
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(567, 16, 1, 66, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(16, 567, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(567, (SELECT id FROM monster_deck where class = 'Living Corpse'), 1, 66, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Corpse'), 567, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-4.png');
 -- Living Corpse
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(568, 16, 0, 82, '["%move% - 1","%attack% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(16, 568, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(568, (SELECT id FROM monster_deck where class = 'Living Corpse'), 0, 82, '["%move% - 1","%attack% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Corpse'), 568, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-5.png');
 -- Living Corpse
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(569, 16, 0, 91, '["%move% + 1","Living Corpse suffers 1 damage."]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(16, 569, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(569, (SELECT id FROM monster_deck where class = 'Living Corpse'), 0, 91, '["%move% + 1","Living Corpse suffers 1 damage."]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Corpse'), 569, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-6.png');
 -- Living Corpse
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(570, 16, 0, 71, '["%move% + 0","%attack% + 1","%poison%","^Target all adjacent enemies"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(16, 570, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(570, (SELECT id FROM monster_deck where class = 'Living Corpse'), 0, 71, '["%move% + 0","%attack% + 1","%poison%","^Target all adjacent enemies"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Corpse'), 570, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-7.png');
 -- Living Corpse
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(571, 16, 0, 32, '["%attack% + 2","^%push% 1","Living Corpse suffers 1 damage."]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(16, 571, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(16, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(571, (SELECT id FROM monster_deck where class = 'Living Corpse'), 0, 32, '["%attack% + 2","^%push% 1","Living Corpse suffers 1 damage."]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Corpse'), 571, 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Living Corpse'), 'gloomhaven-images/images/monster-ability-cards/living-corpse/ma-lc-back.png', 1);
 -- Living Spirit
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(580, 17, 1, 22, '["%move% - 1","%attack% - 1","^%range% + 0","^%muddle%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(17, 580, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(580, (SELECT id FROM monster_deck where class = 'Living Spirit'), 1, 22, '["%move% - 1","%attack% - 1","^%range% + 0","^%muddle%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Spirit'), 580, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-1.png');
 -- Living Spirit
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(581, 17, 1, 33, '["%move% + 0","%attack% - 1","^%range% + 0","^Target all enemies within range"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(17, 581, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(581, (SELECT id FROM monster_deck where class = 'Living Spirit'), 1, 33, '["%move% + 0","%attack% - 1","^%range% + 0","^Target all enemies within range"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Spirit'), 581, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-2.png');
 -- Living Spirit
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(582, 17, 0, 48, '["%move% + 0","%attack% + 0","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(17, 582, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(582, (SELECT id FROM monster_deck where class = 'Living Spirit'), 0, 48, '["%move% + 0","%attack% + 0","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Spirit'), 582, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-3.png');
 -- Living Spirit
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(583, 17, 0, 48, '["%move% + 0","%attack% + 0","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(17, 583, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(583, (SELECT id FROM monster_deck where class = 'Living Spirit'), 0, 48, '["%move% + 0","%attack% + 0","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Spirit'), 583, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-4.png');
 -- Living Spirit
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(584, 17, 0, 61, '["%attack% + 0","^%range% - 1","^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(17, 584, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(584, (SELECT id FROM monster_deck where class = 'Living Spirit'), 0, 61, '["%attack% + 0","^%range% - 1","^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Spirit'), 584, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-5.png');
 -- Living Spirit
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(585, 17, 0, 75, '["%move% - 1","%attack% + 1","^%range% - 1","%heal% 1","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(17, 585, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(585, (SELECT id FROM monster_deck where class = 'Living Spirit'), 0, 75, '["%move% - 1","%attack% + 1","^%range% - 1","%heal% 1","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Spirit'), 585, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-6.png');
 -- Living Spirit
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(586, 17, 0, 55, '["%move% + 0","%curse%","^%range% + 0","^Target all enemies within range","%ice%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(17, 586, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(586, (SELECT id FROM monster_deck where class = 'Living Spirit'), 0, 55, '["%move% + 0","%curse%","^%range% + 0","^Target all enemies within range","%ice%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Spirit'), 586, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-7.png');
 -- Living Spirit
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(587, 17, 0, 67, '["%move% - 1","%attack% + 1","^%range% + 0","%ice%%use%","!^%stun%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(17, 587, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(17, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(587, (SELECT id FROM monster_deck where class = 'Living Spirit'), 0, 67, '["%move% - 1","%attack% + 1","^%range% + 0","%ice%%use%","!^%stun%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Living Spirit'), 587, 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Living Spirit'), 'gloomhaven-images/images/monster-ability-cards/living-spirit/ma-ls-back.png', 1);
 -- Lurker
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(612, 18, 1, 11, '["%shield% + 1","%ice%%use%","!^%shield% + 2 instead","%wound%","^Target all adjacent enemies"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(18, 612, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(612, (SELECT id FROM monster_deck where class = 'Lurker'), 1, 11, '["%shield% + 1","%ice%%use%","!^%shield% + 2 instead","%wound%","^Target all adjacent enemies"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Lurker'), 612, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-1.png');
 -- Lurker
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(613, 18, 0, 28, '["%move% + 1","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(18, 613, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(613, (SELECT id FROM monster_deck where class = 'Lurker'), 0, 28, '["%move% + 1","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Lurker'), 613, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-2.png');
 -- Lurker
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(614, 18, 0, 38, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(18, 614, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(614, (SELECT id FROM monster_deck where class = 'Lurker'), 0, 38, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Lurker'), 614, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-3.png');
 -- Lurker
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(615, 18, 0, 38, '["%move% + 0","%attack% + 0","^Target one enemy with all attacks"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(18, 615, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(615, (SELECT id FROM monster_deck where class = 'Lurker'), 0, 38, '["%move% + 0","%attack% + 0","^Target one enemy with all attacks"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Lurker'), 615, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-4.png');
 -- Lurker
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(616, 18, 0, 61, '["%move% - 1","%attack% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(18, 616, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(616, (SELECT id FROM monster_deck where class = 'Lurker'), 0, 61, '["%move% - 1","%attack% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Lurker'), 616, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-5.png');
 -- Lurker
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(617, 18, 0, 64, '["%attack% + 1","^Target all adjacent enemies"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(18, 617, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(617, (SELECT id FROM monster_deck where class = 'Lurker'), 0, 64, '["%attack% + 1","^Target all adjacent enemies"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Lurker'), 617, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-6.png');
 -- Lurker
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(618, 18, 0, 41, '["%ice%%use%","!^%strengthen%","!^Self","%move% + 0","%attack% - 1","^%wound%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(18, 618, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(618, (SELECT id FROM monster_deck where class = 'Lurker'), 0, 41, '["%ice%%use%","!^%strengthen%","!^Self","%move% + 0","%attack% - 1","^%wound%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Lurker'), 618, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-7.png');
 -- Lurker
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(619, 18, 1, 23, '["%shield% + 1","%move% + 0","%attack% - 1","%ice%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(18, 619, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(18, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(619, (SELECT id FROM monster_deck where class = 'Lurker'), 1, 23, '["%shield% + 1","%move% + 0","%attack% - 1","%ice%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Lurker'), 619, 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Lurker'), 'gloomhaven-images/images/monster-ability-cards/lurker/ma-lu-back.png', 1);
 -- Night Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(660, 19, 0, 4, '["%move% + 1","%attack% - 1","%dark%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(19, 660, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(660, (SELECT id FROM monster_deck where class = 'Night Demon'), 0, 4, '["%move% + 1","%attack% - 1","%dark%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Night Demon'), 660, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-1.png');
 -- Night Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(661, 19, 0, 7, '["%move% + 1","%attack% - 1","%dark%%use%","!^%invisible%","!^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(19, 661, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(661, (SELECT id FROM monster_deck where class = 'Night Demon'), 0, 7, '["%move% + 1","%attack% - 1","%dark%%use%","!^%invisible%","!^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Night Demon'), 661, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-2.png');
 -- Night Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(662, 19, 0, 22, '["%move% + 0","%attack% + 0","%dark%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(19, 662, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(662, (SELECT id FROM monster_deck where class = 'Night Demon'), 0, 22, '["%move% + 0","%attack% + 0","%dark%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Night Demon'), 662, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-3.png');
 -- Night Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(663, 19, 0, 26, '["%attack% - 2","^%range% 3","^%target% 3","%dark%%use%","!^%muddle%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(19, 663, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(663, (SELECT id FROM monster_deck where class = 'Night Demon'), 0, 26, '["%attack% - 2","^%range% 3","^%target% 3","%dark%%use%","!^%muddle%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Night Demon'), 663, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-4.png');
 -- Night Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(664, 19, 1, 46, '["%move% - 1","%attack% + 1","%dark%%use%","!^+2 %attack%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(19, 664, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(664, (SELECT id FROM monster_deck where class = 'Night Demon'), 1, 46, '["%move% - 1","%attack% + 1","%dark%%use%","!^+2 %attack%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Night Demon'), 664, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-5.png');
 -- Night Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(665, 19, 1, 41, '["%move% - 1","%attack% + 1","%dark%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(19, 665, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(665, (SELECT id FROM monster_deck where class = 'Night Demon'), 1, 41, '["%move% - 1","%attack% + 1","%dark%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Night Demon'), 665, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-6.png');
 -- Night Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(666, 19, 0, 35, '["%attack% - 1","%attack% - 1","^%pierce% 2","%light%%use%","!^%curse%","!^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(19, 666, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(666, (SELECT id FROM monster_deck where class = 'Night Demon'), 0, 35, '["%attack% - 1","%attack% - 1","^%pierce% 2","%light%%use%","!^%curse%","!^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Night Demon'), 666, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-7.png');
 -- Night Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(667, 19, 0, 15, '["%move% + 0","%attack% - 1","*All adjacent enemies and allies suffer 1 damage.","%any%%use%","!%dark%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(19, 667, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(19, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(667, (SELECT id FROM monster_deck where class = 'Night Demon'), 0, 15, '["%move% + 0","%attack% - 1","*All adjacent enemies and allies suffer 1 damage.","%any%%use%","!%dark%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Night Demon'), 667, 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Night Demon'), 'gloomhaven-images/images/monster-ability-cards/night-demon/ma-nd-back.png', 1);
 -- Ooze
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(692, 20, 0, 36, '["%move% + 1","%attack% - 1","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(20, 692, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(692, (SELECT id FROM monster_deck where class = 'Ooze'), 0, 36, '["%move% + 1","%attack% - 1","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ooze'), 692, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-1.png');
 -- Ooze
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(693, 20, 0, 57, '["%move% + 0","%attack% + 0","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(20, 693, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(693, (SELECT id FROM monster_deck where class = 'Ooze'), 0, 57, '["%move% + 0","%attack% + 0","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ooze'), 693, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-2.png');
 -- Ooze
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(694, 20, 0, 59, '["%attack% + 0","^%range% + 0","^%target% 2","^%poison%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(20, 694, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(694, (SELECT id FROM monster_deck where class = 'Ooze'), 0, 59, '["%attack% + 0","^%range% + 0","^%target% 2","^%poison%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ooze'), 694, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-3.png');
 -- Ooze
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(695, 20, 0, 66, '["%move% - 1","%attack% + 1","^%range% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(20, 695, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(695, (SELECT id FROM monster_deck where class = 'Ooze'), 0, 66, '["%move% - 1","%attack% + 1","^%range% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ooze'), 695, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-4.png');
 -- Ooze
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(696, 20, 1, 94, '["Ooze suffers 2 damage","*Summons normal Ooze with a hit point value equal to the summoning Ooze''s current hit point value (limited by a normal Ooze''s specified maximum hit point value)"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(20, 696, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(696, (SELECT id FROM monster_deck where class = 'Ooze'), 1, 94, '["Ooze suffers 2 damage","*Summons normal Ooze with a hit point value equal to the summoning Ooze''s current hit point value (limited by a normal Ooze''s specified maximum hit point value)"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ooze'), 696, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-5.png');
 -- Ooze
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(697, 20, 1, 94, '["Ooze suffers 2 damage","*Summons normal Ooze with a hit point value equal to the summoning Ooze''s current hit point value (limited by a normal Ooze''s specified maximum hit point value)"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(20, 697, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(697, (SELECT id FROM monster_deck where class = 'Ooze'), 1, 94, '["Ooze suffers 2 damage","*Summons normal Ooze with a hit point value equal to the summoning Ooze''s current hit point value (limited by a normal Ooze''s specified maximum hit point value)"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ooze'), 697, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-6.png');
 -- Ooze
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(699, 20, 0, 85, '["%push% 1 and","%poison%","^Target all adjacent enemies","%attack% + 1","^%range% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(20, 699, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(699, (SELECT id FROM monster_deck where class = 'Ooze'), 0, 85, '["%push% 1 and","%poison%","^Target all adjacent enemies","%attack% + 1","^%range% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ooze'), 699, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-7.png');
 -- Ooze
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(698, 20, 0, 66, '["%move% - 1","%loot% 1","%heal% 2","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(20, 698, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(20, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(698, (SELECT id FROM monster_deck where class = 'Ooze'), 0, 66, '["%move% - 1","%loot% 1","%heal% 2","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Ooze'), 698, 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Ooze'), 'gloomhaven-images/images/monster-ability-cards/ooze/ma-oo-back.png', 1);
 -- Rending Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(548, 21, 0, 12, '["%move% + 1","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(21, 548, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(548, (SELECT id FROM monster_deck where class = 'Rending Drake'), 0, 12, '["%move% + 1","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Rending Drake'), 548, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-1.png');
 -- Rending Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(549, 21, 1, 13, '["%attack% - 1","%move% - 1","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(21, 549, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(549, (SELECT id FROM monster_deck where class = 'Rending Drake'), 1, 13, '["%attack% - 1","%move% - 1","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Rending Drake'), 549, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-2.png');
 -- Rending Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(550, 21, 0, 25, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(21, 550, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(550, (SELECT id FROM monster_deck where class = 'Rending Drake'), 0, 25, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Rending Drake'), 550, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-3.png');
 -- Rending Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(551, 21, 0, 39, '["%move% - 1","%attack% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(21, 551, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(551, (SELECT id FROM monster_deck where class = 'Rending Drake'), 0, 39, '["%move% - 1","%attack% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Rending Drake'), 551, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-4.png');
 -- Rending Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(552, 21, 0, 54, '["%move% - 2","%attack% - 1","^%range% 3","^%target% 2","^%poison%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(21, 552, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(552, (SELECT id FROM monster_deck where class = 'Rending Drake'), 0, 54, '["%move% - 2","%attack% - 1","^%range% 3","^%target% 2","^%poison%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Rending Drake'), 552, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-5.png');
 -- Rending Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(553, 21, 0, 59, '["%move% - 2","%attack% + 1","^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(21, 553, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(553, (SELECT id FROM monster_deck where class = 'Rending Drake'), 0, 59, '["%move% - 2","%attack% + 1","^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Rending Drake'), 553, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-6.png');
 -- Rending Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(555, 21, 0, 6, '["%shield% + 2","%heal% 2","^Self","%strengthen%","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(21, 555, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(555, (SELECT id FROM monster_deck where class = 'Rending Drake'), 0, 6, '["%shield% + 2","%heal% 2","^Self","%strengthen%","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Rending Drake'), 555, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-7.png');
 -- Rending Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(554, 21, 1, 72, '["%attack% - 1","%attack% - 1","%attack% - 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(21, 554, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(21, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(554, (SELECT id FROM monster_deck where class = 'Rending Drake'), 1, 72, '["%attack% - 1","%attack% - 1","%attack% - 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Rending Drake'), 554, 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Rending Drake'), 'gloomhaven-images/images/monster-ability-cards/rending-drake/ma-rd-back.png', 1);
 -- Savvas Icestorm
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(708, 22, 0, 70, '["%push% 2","^Target all adjacent enemies","%air%%use%","!^%push% 4 instead","%attack% + 1","^%range% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(22, 708, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(708, (SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 0, 70, '["%push% 2","^Target all adjacent enemies","%air%%use%","!^%push% 4 instead","%attack% + 1","^%range% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 708, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-1.png');
 -- Savvas Icestorm
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(709, 22, 0, 98, '["^Summon normal Wind Demon","%air%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(22, 709, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(709, (SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 0, 98, '["^Summon normal Wind Demon","%air%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 709, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-2.png');
 -- Savvas Icestorm
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(710, 22, 0, 98, '["^Summon normal Frost Demon","%ice%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(22, 710, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(710, (SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 0, 98, '["^Summon normal Frost Demon","%ice%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 710, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-3.png');
 -- Savvas Icestorm
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(711, 22, 0, 19, '["%move% + 0","%attack% - 1","^%range% - 1","%shield% + 1","^Affect self and all allies within %range% 2","%ice%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(22, 711, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(711, (SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 0, 19, '["%move% + 0","%attack% - 1","^%range% - 1","%shield% + 1","^Affect self and all allies within %range% 2","%ice%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 711, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-4.png');
 -- Savvas Icestorm
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(712, 22, 0, 14, '["%attack% + 0","^%range% + 0","%ice%%use%","!^+2 %attack%","!^%immobilize%","%retaliate% + 2","%air%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(22, 712, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(712, (SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 0, 14, '["%attack% + 0","^%range% + 0","%ice%%use%","!^+2 %attack%","!^%immobilize%","%retaliate% + 2","%air%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 712, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-5.png');
 -- Savvas Icestorm
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(713, 22, 0, 14, '["%shield% + 4","%heal% 2","^%range% 3","%ice%%use%","!^+3 %heal%","%air%%use%","!^%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(22, 713, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(713, (SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 0, 14, '["%shield% + 4","%heal% 2","^%range% 3","%ice%%use%","!^+3 %heal%","%air%%use%","!^%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 713, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-6.png');
 -- Savvas Icestorm
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(714, 22, 1, 47, '["%disarm%","^Target all adjacent enemies","%move% + 0","%attack% - 1","^%range% + 0","%air%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(22, 714, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(714, (SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 1, 47, '["%disarm%","^Target all adjacent enemies","%move% + 0","%attack% - 1","^%range% + 0","%air%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 714, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-7.png');
 -- Savvas Icestorm
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(715, 22, 1, 35, '["%move% - 1","%attack% - 1 %aoe-triangle-3-side-with-corner-black%","%ice%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(22, 715, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(22, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(715, (SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 1, 35, '["%move% - 1","%attack% - 1 %aoe-triangle-3-side-with-corner-black%","%ice%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 715, 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Savvas Icestorm'), 'gloomhaven-images/images/monster-ability-cards/savvas-icestorm/ma-si-back.png', 1);
 -- Savvas Lavaflow
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(716, 23, 0, 97, '["^Summon normal Flame Demon","%fire%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(23, 716, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(716, (SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 0, 97, '["^Summon normal Flame Demon","%fire%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 716, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-1.png');
 -- Savvas Lavaflow
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(717, 23, 0, 97, '["^Summon normal Earth Demon","%earth%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(23, 717, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(717, (SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 0, 97, '["^Summon normal Earth Demon","%earth%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 717, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-2.png');
 -- Savvas Lavaflow
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(718, 23, 0, 22, '["%move% + 1","%attack% - 1","^Target all adjacent enemies","%fire%%use%","!^%retaliate% + 3"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(23, 718, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(718, (SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 0, 22, '["%move% + 1","%attack% - 1","^Target all adjacent enemies","%fire%%use%","!^%retaliate% + 3"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 718, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-3.png');
 -- Savvas Lavaflow
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(719, 23, 1, 68, '["%move% - 1","%attack% + 1","^%range% 3","^All allies and enemies adjacent to the target suffer 2 damage.","%earth%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(23, 719, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(719, (SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 1, 68, '["%move% - 1","%attack% + 1","^%range% 3","^All allies and enemies adjacent to the target suffer 2 damage.","%earth%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 719, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-4.png');
 -- Savvas Lavaflow
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(720, 23, 0, 41, '["%move% + 0","%attack% - 1 %aoe-line-4-with-black%","%earth%%use%","!^+2 %attack%, %immobilize%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(23, 720, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(720, (SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 0, 41, '["%move% + 0","%attack% - 1 %aoe-line-4-with-black%","%earth%%use%","!^+2 %attack%, %immobilize%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 720, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-5.png');
 -- Savvas Lavaflow
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(721, 23, 0, 51, '["^All enemies suffer 2 damage.","%fire%%use%","!^%wound% all enemies","%earth%%use%","!^%disarm% all enemies"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(23, 721, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(721, (SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 0, 51, '["^All enemies suffer 2 damage.","%fire%%use%","!^%wound% all enemies","%earth%%use%","!^%disarm% all enemies"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 721, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-6.png');
 -- Savvas Lavaflow
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(722, 23, 0, 31, '["%heal% 4","^%range% 3","%earth%%use%","!^%target% 3"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(23, 722, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(722, (SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 0, 31, '["%heal% 4","^%range% 3","%earth%%use%","!^%target% 3"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 722, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-7.png');
 -- Savvas Lavaflow
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(723, 23, 1, 68, '["%move% - 1","%attack% - 1","^%range% 3","^%target% 2","%fire%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(23, 723, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(23, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(723, (SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 1, 68, '["%move% - 1","%attack% - 1","^%range% 3","^%target% 2","%fire%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 723, 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Savvas Lavaflow'), 'gloomhaven-images/images/monster-ability-cards/savvas-lavaflow/ma-sl-back.png', 1);
 -- Scout
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(668, 24, 0, 29, '["%move% - 1","%attack% - 1","^%range% 3"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(24, 668, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(668, (SELECT id FROM monster_deck where class = 'Scout'), 0, 29, '["%move% - 1","%attack% - 1","^%range% 3"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Scout'), 668, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-1.png');
 -- Scout
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(669, 24, 0, 40, '["%move% + 1","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(24, 669, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(669, (SELECT id FROM monster_deck where class = 'Scout'), 0, 40, '["%move% + 1","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Scout'), 669, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-2.png');
 -- Scout
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(670, 24, 0, 53, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(24, 670, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(670, (SELECT id FROM monster_deck where class = 'Scout'), 0, 53, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Scout'), 670, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-3.png');
 -- Scout
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(671, 24, 0, 54, '["%move% - 2","%attack% + 0","^%range% 3","^%poison%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(24, 671, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(671, (SELECT id FROM monster_deck where class = 'Scout'), 0, 54, '["%move% - 2","%attack% + 0","^%range% 3","^%poison%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Scout'), 671, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-4.png');
 -- Scout
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(672, 24, 0, 69, '["%move% - 1","%attack% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(24, 672, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(672, (SELECT id FROM monster_deck where class = 'Scout'), 0, 69, '["%move% - 1","%attack% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Scout'), 672, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-5.png');
 -- Scout
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(673, 24, 1, 92, '["%attack% + 2","^%poison%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(24, 673, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(673, (SELECT id FROM monster_deck where class = 'Scout'), 1, 92, '["%attack% + 2","^%poison%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Scout'), 673, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-6.png');
 -- Scout
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(675, 24, 1, 35, '["%move% + 1","^%jump%","%loot% 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(24, 675, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(675, (SELECT id FROM monster_deck where class = 'Scout'), 1, 35, '["%move% + 1","^%jump%","%loot% 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Scout'), 675, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-7.png');
 -- Scout
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(674, 24, 0, 79, '["%attack% - 1","^%range% 4","^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(24, 674, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(24, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(674, (SELECT id FROM monster_deck where class = 'Scout'), 0, 79, '["%attack% - 1","^%range% 4","^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Scout'), 674, 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Scout'), 'gloomhaven-images/images/monster-ability-cards/scout/ma-sc-back.png', 1);
 -- Shaman
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(588, 25, 0, 8, '["%move% + 0","%attack% - 1","^%range% + 0","^%disarm%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(25, 588, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(588, (SELECT id FROM monster_deck where class = 'Shaman'), 0, 8, '["%move% + 0","%attack% - 1","^%range% + 0","^%disarm%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Shaman'), 588, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-1.png');
 -- Shaman
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(589, 25, 0, 8, '["%move% - 1","%attack% + 0","^%range% + 0","^%immobilize%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(25, 589, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(589, (SELECT id FROM monster_deck where class = 'Shaman'), 0, 8, '["%move% - 1","%attack% + 0","^%range% + 0","^%immobilize%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Shaman'), 589, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-2.png');
 -- Shaman
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(590, 25, 1, 23, '["%move% + 0","%heal% 3","^%range% 3"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(25, 590, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(590, (SELECT id FROM monster_deck where class = 'Shaman'), 1, 23, '["%move% + 0","%heal% 3","^%range% 3"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Shaman'), 590, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-3.png');
 -- Shaman
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(591, 25, 1, 23, '["%move% + 0","%heal% 3","^%range% 3"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(25, 591, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(591, (SELECT id FROM monster_deck where class = 'Shaman'), 1, 23, '["%move% + 0","%heal% 3","^%range% 3"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Shaman'), 591, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-4.png');
 -- Shaman
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(592, 25, 0, 62, '["%move% + 0","%attack% + 0","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(25, 592, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(592, (SELECT id FROM monster_deck where class = 'Shaman'), 0, 62, '["%move% + 0","%attack% + 0","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Shaman'), 592, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-5.png');
 -- Shaman
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(593, 25, 0, 74, '["%move% - 1","%attack% + 1","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(25, 593, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(593, (SELECT id FROM monster_deck where class = 'Shaman'), 0, 74, '["%move% - 1","%attack% + 1","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Shaman'), 593, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-6.png');
 -- Shaman
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(594, 25, 0, 89, '["%move% - 1","%heal% 1","^Affect all adjacent allies","%bless%","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(25, 594, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(594, (SELECT id FROM monster_deck where class = 'Shaman'), 0, 89, '["%move% - 1","%heal% 1","^Affect all adjacent allies","%bless%","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Shaman'), 594, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-7.png');
 -- Shaman
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(595, 25, 0, 9, '["%move% + 1","%attack% - 1","^%range% + 0","^%curse%","^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(25, 595, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(25, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(595, (SELECT id FROM monster_deck where class = 'Shaman'), 0, 9, '["%move% + 1","%attack% - 1","^%range% + 0","^%curse%","^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Shaman'), 595, 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Shaman'), 'gloomhaven-images/images/monster-ability-cards/shaman/ma-sh-back.png', 1);
 -- Spitting Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(556, 26, 0, 32, '["%move% + 1","%attack% - 1","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(26, 556, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(556, (SELECT id FROM monster_deck where class = 'Spitting Drake'), 0, 32, '["%move% + 1","%attack% - 1","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Spitting Drake'), 556, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-1.png');
 -- Spitting Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(557, 26, 0, 52, '["%move% + 0","%attack% + 0","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(26, 557, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(557, (SELECT id FROM monster_deck where class = 'Spitting Drake'), 0, 52, '["%move% + 0","%attack% + 0","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Spitting Drake'), 557, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-2.png');
 -- Spitting Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(558, 26, 1, 57, '["%move% + 0","%attack% - 1 %aoe-triangle-2-side%","^%range% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(26, 558, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(558, (SELECT id FROM monster_deck where class = 'Spitting Drake'), 1, 57, '["%move% + 0","%attack% - 1 %aoe-triangle-2-side%","^%range% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Spitting Drake'), 558, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-3.png');
 -- Spitting Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(559, 26, 0, 27, '["%attack% + 0","^%range% + 0","^%target% 2","^%poison%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(26, 559, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(559, (SELECT id FROM monster_deck where class = 'Spitting Drake'), 0, 27, '["%attack% + 0","^%range% + 0","^%target% 2","^%poison%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Spitting Drake'), 559, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-4.png');
 -- Spitting Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(560, 26, 0, 87, '["%move% - 1","%attack% + 1","^%range% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(26, 560, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(560, (SELECT id FROM monster_deck where class = 'Spitting Drake'), 0, 87, '["%move% - 1","%attack% + 1","^%range% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Spitting Drake'), 560, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-5.png');
 -- Spitting Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(561, 26, 0, 89, '["%attack% - 2","^%range% + 0","^%stun%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(26, 561, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(561, (SELECT id FROM monster_deck where class = 'Spitting Drake'), 0, 89, '["%attack% - 2","^%range% + 0","^%stun%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Spitting Drake'), 561, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-6.png');
 -- Spitting Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(562, 26, 0, 6, '["%shield% + 2","%heal% 2","^Self","%strengthen%","^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(26, 562, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(562, (SELECT id FROM monster_deck where class = 'Spitting Drake'), 0, 6, '["%shield% + 2","%heal% 2","^Self","%strengthen%","^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Spitting Drake'), 562, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-7.png');
 -- Spitting Drake
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(563, 26, 1, 89, '["%move% - 1","%attack% - 2 %aoe-circle%","^%range% - 2","^%poison%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(26, 563, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(26, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(563, (SELECT id FROM monster_deck where class = 'Spitting Drake'), 1, 89, '["%move% - 1","%attack% - 2 %aoe-circle%","^%range% - 2","^%poison%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Spitting Drake'), 563, 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Spitting Drake'), 'gloomhaven-images/images/monster-ability-cards/spitting-drake/ma-spd-back.png', 1);
 -- Stone Golem
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(740, 27, 0, 11, '["%retaliate% 3","^%range% 3"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(27, 740, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(740, (SELECT id FROM monster_deck where class = 'Stone Golem'), 0, 11, '["%retaliate% 3","^%range% 3"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Stone Golem'), 740, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-1.png');
 -- Stone Golem
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(741, 27, 0, 28, '["%move% + 1","%attack% + 0","Stone Golem suffers 1 damage."]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(27, 741, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(741, (SELECT id FROM monster_deck where class = 'Stone Golem'), 0, 28, '["%move% + 1","%attack% + 0","Stone Golem suffers 1 damage."]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Stone Golem'), 741, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-2.png');
 -- Stone Golem
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(742, 27, 1, 51, '["%move% + 1","%attack% - 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(27, 742, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(742, (SELECT id FROM monster_deck where class = 'Stone Golem'), 1, 51, '["%move% + 1","%attack% - 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Stone Golem'), 742, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-3.png');
 -- Stone Golem
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(743, 27, 0, 65, '["%move% + 0","%attack% + 0"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(27, 743, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(743, (SELECT id FROM monster_deck where class = 'Stone Golem'), 0, 65, '["%move% + 0","%attack% + 0"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Stone Golem'), 743, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-4.png');
 -- Stone Golem
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(744, 27, 0, 72, '["%attack% + 1","^%range% 3","Stone Golem suffers 2 damage"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(27, 744, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(744, (SELECT id FROM monster_deck where class = 'Stone Golem'), 0, 72, '["%attack% + 1","^%range% 3","Stone Golem suffers 2 damage"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Stone Golem'), 744, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-5.png');
 -- Stone Golem
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(745, 27, 1, 90, '["%move% - 1","%attack% + 1"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(27, 745, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(745, (SELECT id FROM monster_deck where class = 'Stone Golem'), 1, 90, '["%move% - 1","%attack% + 1"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Stone Golem'), 745, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-6.png');
 -- Stone Golem
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(747, 27, 0, 28, '["%move% + 1","%attack% - 2","^%range% 3","^%pull% 2","^%immobilize%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(27, 747, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(747, (SELECT id FROM monster_deck where class = 'Stone Golem'), 0, 28, '["%move% + 1","%attack% - 2","^%range% 3","^%pull% 2","^%immobilize%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Stone Golem'), 747, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-7.png');
 -- Stone Golem
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(746, 27, 0, 83, '["%move% + 0","%attack% - 1","^Target all adjacent enemies"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(27, 746, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(27, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(746, (SELECT id FROM monster_deck where class = 'Stone Golem'), 0, 83, '["%move% + 0","%attack% - 1","^Target all adjacent enemies"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Stone Golem'), 746, 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Stone Golem'), 'gloomhaven-images/images/monster-ability-cards/stone-golem/ma-sg-back.png', 1);
 -- Sun Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(652, 28, 1, 17, '["%heal% 3","^%range% 3","%light%%use%","!^Target all allies within range"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(28, 652, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(652, (SELECT id FROM monster_deck where class = 'Sun Demon'), 1, 17, '["%heal% 3","^%range% 3","%light%%use%","!^Target all allies within range"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Sun Demon'), 652, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-1.png');
 -- Sun Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(653, 28, 0, 36, '["%move% + 0","%attack% + 0","^Target all adjacent enemies","%light%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(28, 653, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(653, (SELECT id FROM monster_deck where class = 'Sun Demon'), 0, 36, '["%move% + 0","%attack% + 0","^Target all adjacent enemies","%light%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Sun Demon'), 653, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-2.png');
 -- Sun Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(654, 28, 0, 36, '["%move% + 0","%attack% + 0","^Target all adjacent enemies","%light%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(28, 654, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(654, (SELECT id FROM monster_deck where class = 'Sun Demon'), 0, 36, '["%move% + 0","%attack% + 0","^Target all adjacent enemies","%light%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Sun Demon'), 654, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-3.png');
 -- Sun Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(655, 28, 0, 68, '["%move% + 0","%attack% + 1","%light%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(28, 655, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(655, (SELECT id FROM monster_deck where class = 'Sun Demon'), 0, 68, '["%move% + 0","%attack% + 1","%light%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Sun Demon'), 655, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-4.png');
 -- Sun Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(656, 28, 1, 73, '["%move% + 0","%attack% + 1","%light%%use%","!^%heal% 3","!^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(28, 656, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(656, (SELECT id FROM monster_deck where class = 'Sun Demon'), 1, 73, '["%move% + 0","%attack% + 1","%light%%use%","!^%heal% 3","!^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Sun Demon'), 656, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-5.png');
 -- Sun Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(657, 28, 0, 95, '["%move% - 1","%attack% + 0","^%range% 4","%light%%use%","!^Target all enemies within range"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(28, 657, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(657, (SELECT id FROM monster_deck where class = 'Sun Demon'), 0, 95, '["%move% - 1","%attack% + 0","^%range% 4","%light%%use%","!^Target all enemies within range"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Sun Demon'), 657, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-6.png');
 -- Sun Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(658, 28, 0, 88, '["%move% - 1","%attack% - 1","^Target all adjacent enemies","%dark%%use%","!^%muddle%","!^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(28, 658, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(658, (SELECT id FROM monster_deck where class = 'Sun Demon'), 0, 88, '["%move% - 1","%attack% - 1","^Target all adjacent enemies","%dark%%use%","!^%muddle%","!^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Sun Demon'), 658, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-7.png');
 -- Sun Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(659, 28, 0, 50, '["%move% + 0","%attack% + 0","^%range% 3","%any%%use%","!%light%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(28, 659, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(28, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(659, (SELECT id FROM monster_deck where class = 'Sun Demon'), 0, 50, '["%move% + 0","%attack% + 0","^%range% 3","%any%%use%","!%light%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Sun Demon'), 659, 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Sun Demon'), 'gloomhaven-images/images/monster-ability-cards/sun-demon/ma-sud-back.png', 1);
 -- Wind Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(644, 29, 0, 9, '["%attack% - 1","^%range% + 0","%heal% 1","^Self","%air%%use%","!^%invisible%","!^Self"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(29, 644, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-1.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(644, (SELECT id FROM monster_deck where class = 'Wind Demon'), 0, 9, '["%attack% - 1","^%range% + 0","%heal% 1","^Self","%air%%use%","!^%invisible%","!^Self"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Wind Demon'), 644, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-1.png');
 -- Wind Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(645, 29, 1, 21, '["%move% + 0","%attack% + 0","^%range% + 0","^%pull% 1","%air%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(29, 645, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-2.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(645, (SELECT id FROM monster_deck where class = 'Wind Demon'), 1, 21, '["%move% + 0","%attack% + 0","^%range% + 0","^%pull% 1","%air%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Wind Demon'), 645, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-2.png');
 -- Wind Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(646, 29, 1, 21, '["%move% + 0","%attack% + 0","^%range% + 0","^%pull% 1","%air%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(29, 646, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-3.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(646, (SELECT id FROM monster_deck where class = 'Wind Demon'), 1, 21, '["%move% + 0","%attack% + 0","^%range% + 0","^%pull% 1","%air%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Wind Demon'), 646, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-3.png');
 -- Wind Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(647, 29, 0, 29, '["%move% + 0","%attack% - 1","^%range% + 0","^%target% 2","%air%%use%","!^%push% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(29, 647, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-4.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(647, (SELECT id FROM monster_deck where class = 'Wind Demon'), 0, 29, '["%move% + 0","%attack% - 1","^%range% + 0","^%target% 2","%air%%use%","!^%push% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Wind Demon'), 647, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-4.png');
 -- Wind Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(648, 29, 0, 37, '["%move% + 0","%attack% + 0 %aoe-4-with-black%","%air%%use%","!^+1 %attack% %aoe-circle-with-side-black%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(29, 648, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-5.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(648, (SELECT id FROM monster_deck where class = 'Wind Demon'), 0, 37, '["%move% + 0","%attack% + 0 %aoe-4-with-black%","%air%%use%","!^+1 %attack% %aoe-circle-with-side-black%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Wind Demon'), 648, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-5.png');
 -- Wind Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(649, 29, 0, 43, '["%move% - 1","%attack% + 1","^%range% + 0","%air%%use%","!^%target% 2"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(29, 649, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-6.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(649, (SELECT id FROM monster_deck where class = 'Wind Demon'), 0, 43, '["%move% - 1","%attack% + 1","^%range% + 0","%air%%use%","!^%target% 2"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Wind Demon'), 649, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-6.png');
 -- Wind Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(650, 29, 0, 43, '["%push% 1","^Target all adjacent enemies","%attack% + 0","^%range% + 0","%earth%%use%","!^-2 %range%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(29, 650, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-7.png');
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(650, (SELECT id FROM monster_deck where class = 'Wind Demon'), 0, 43, '["%push% 1","^Target all adjacent enemies","%attack% + 0","^%range% + 0","%earth%%use%","!^-2 %range%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Wind Demon'), 650, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-7.png');
 -- Wind Demon
-INSERT INTO monster_ability(card_number, monster_id, shuffle, initiative, attacks) VALUES(651, 29, 0, 2, '["%shield% + 1","%move% - 1","%attack% - 1","^%range% + 0","%any%%use%","!%air%"]');
-INSERT INTO monster_ability_card(monster_id, monster_ability_id, image_path) VALUES(29, 651, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-8.png');
-INSERT INTO monster_ability_card(monster_id, image_path, image_back) VALUES(29, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-back.png', 1);
+INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(651, (SELECT id FROM monster_deck where class = 'Wind Demon'), 0, 2, '["%shield% + 1","%move% - 1","%attack% - 1","^%range% + 0","%any%%use%","!%air%"]');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Wind Demon'), 651, 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Wind Demon'), 'gloomhaven-images/images/monster-ability-cards/wind-demon/ma-wd-back.png', 1);
 
 
 -- monster_stat and monster_stat_card
