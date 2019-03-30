@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import GloomhavenDatabase from '../GloomhavenDatabase';
 import Table from 'react-bulma-components/lib/components/table';
-import Image from 'react-bulma-components/lib/components/image';
 import Heading from 'react-bulma-components/lib/components/heading';
 import Box from 'react-bulma-components/lib/components/box';
 import MonsterAbilityImage from './MonsterAbilityImage';
+import MonsterAbilityCard from './MonsterAbilityCard';
 
 class MonsterAbilityList extends Component {
   constructor(props) {
@@ -21,64 +21,20 @@ class MonsterAbilityList extends Component {
     this.setState({ deckName, abilities, macros });
   }
 
-  getMacroImage(key) {
-    const macro = this.state.macros[key];
-    return <div key={key} style={{ display: 'flex' }}>
-             {macro.description}
-             <Image
-               style={{ margin: '0 0.5em', width: macro.aoe ? 48 : 16 }}
-               src={'/' + macro.path}>
-             </Image>
-           </div>;
-  }
-
   render() {
     const monsters = this
           .state
-          .abilities
-          .map((params) => {
-            const [card_number, shuffle, initiative, attacks] = params;
-            const body = JSON.parse(attacks).map((attack, index) => {
-              let output = attack;
-
-              const macros = attack.match(/%[^%]+%/g);
-              if (macros) {
-                for(const macro of macros) {
-                  const what = typeof(output) === 'string' ? output : output.pop();
-                  const result = what.split(macro).reduce((prev, current, i) => {
-                    if (!i) {
-                      return [current];
-                    }
-                    return prev.concat(this.getMacroImage(macro), current);
-                  }, []);
-
-                  if (typeof(output) === 'string') {
-                    output = result;
-                  } else {
-                    output.push(result);
-                  }
-                }
-              }
-
-              // account for "block" -- TODO could be better
-              if (attack.startsWith('^')) {
-                if (typeof(output) === 'string') {
-                  output = output.substr(1);
-                } else {
-                  output.shift(1);
-                }
-                output = <small style={{ display: 'flex' }}>{output}</small>;
-              }
-
-              return <div style={{ display: 'flex', margin: '0.5em' }} key={index}>{output}</div>;
-            });
+          .abilities.map((ability) => {
+            const [card_number, shuffle, initiative,,] = ability;
             return <tr key={card_number}>
                      <td>
-                       <MonsterAbilityImage deckName={this.state.deckName} deckId={this.state.deckId} ability={params} />
+                       <MonsterAbilityImage deckName={this.state.deckName} deckId={this.state.deckId} ability={ability} />
                      </td>
                      <td><Heading>{initiative}</Heading></td>
                      <td>{card_number}</td>
-                     <td style={{ color: 'white', background: 'black' }}>{body}</td>
+                     <td style={{ color: 'white', background: 'black' }}>
+                       <MonsterAbilityCard deckName={this.state.deckName} deckId={this.state.deckId} ability={ability} macros={this.state.macros} />
+                     </td>
                      <td>{shuffle}</td>
                    </tr>;
           });
