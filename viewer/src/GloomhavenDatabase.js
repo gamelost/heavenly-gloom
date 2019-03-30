@@ -68,6 +68,15 @@ class GloomhavenDatabase {
     return results.values;
   }
 
+  async getMacros() {
+    const [results] = await db.exec('SELECT m.macro, m.description, m.image_path, m.is_area_of_effect ' +
+                                    'FROM macro m ');
+    return results.values.reduce((accum, [key, description, path, aoe]) => {
+      accum[key] = { description, path, aoe };
+      return accum;
+    }, {});
+  }
+
   async run(str) {
     return db.exec(str);
   }
