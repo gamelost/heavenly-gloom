@@ -50,7 +50,7 @@ class MonsterAbilityCard extends Component {
       return (
         <Card style={{ color: 'white', background: 'black', borderRadius: '0.75em', overflow: 'hidden' }}>
           <Card.Header style={{ background: '#666' }}>
-            <Tag style={{ borderRadius: 0 }}>{this.state.initiative}</Tag>
+            <Tag className="card-initiative" style={{ borderRadius: 0 }}>{this.state.initiative}</Tag>
             <Card.Header.Title style={{ fontWeight: 'bold', color: 'white', justifyContent: 'center' }} key={this.state.deckName}>
               {this.state.deckName}
             </Card.Header.Title>
@@ -59,7 +59,7 @@ class MonsterAbilityCard extends Component {
             {body}
           </Card.Content>
           <Card.Footer>
-            <Tag style={{ borderRadius: 0 }}>{this.state.card_number}</Tag>
+            <Tag className="card-number" style={{ borderRadius: 0 }}>{this.state.card_number}</Tag>
           </Card.Footer>
         </Card>
       )
