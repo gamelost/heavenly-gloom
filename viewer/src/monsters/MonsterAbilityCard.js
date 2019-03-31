@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MonsterAbilityMacroImage from './MonsterAbilityMacroImage';
 import Card from 'react-bulma-components/lib/components/card';
 import Tag from 'react-bulma-components/lib/components/tag';
+import './MonsterAbilityCard.css';
 
 class MonsterAbilityCard extends Component {
   constructor(props) {
@@ -12,67 +13,83 @@ class MonsterAbilityCard extends Component {
     this.state = { deckId, deckName, card_number, shuffle, initiative, attacks, image, macros };
   }
 
-  // TODO simplify MonsterAbilityMacroImage
   // TODO proper sections
   // TODO multiple arrays for lines
 
-  render() {
-    const body = this.state.attacks.map(({ block }) => {
-      return block.map(({ type, line }, index) => {
-        let output;
-        switch(type) {
-        case 'description':
-          output = line;
-          break;
-        case 'action':
-          {
-            const [macro, modifier] = line;
-            output = <span style={{ display: 'flex' }}>
-                       <MonsterAbilityMacroImage key={macro} macro={this.state.macros[macro]}/>
-                       {modifier > 0 ? `+ ${modifier}` : `- ${Math.abs(modifier)}`}
-                     </span>;
-          }
-          break;
-        case 'effect':
-          {
-            let macro = line;
-            output = <MonsterAbilityMacroImage key={macro} macro={this.state.macros[macro]}/>;
-          }
-          break;
-        case 'setElement':
-          {
-            let [macro] = line;
-            output = <MonsterAbilityMacroImage key={macro} macro={this.state.macros[macro]}/>;
-          }
-          break;
-        case 'useElement':
-          {
-            let [macro1, macro2] = line;
-            output = <MonsterAbilityMacroImage style={{ position: 'relative' }} key={macro1} macro={this.state.macros[macro1]} overlay={this.state.macros[macro2]}/>;
-          }
-          break;
-        case 'target':
-          {
-            let [macro, target] = line;
-            output = <span style={{ display: 'flex' }}>
-                       <MonsterAbilityMacroImage key={macro} macro={this.state.macros[macro]}/>
-                       {target}
-                     </span>;
-          }
-          break;
-        default:
-          console.warn('unknown type', type); break;
-        }
+  getMacroImage(macro, overlay) {
+    return <MonsterAbilityMacroImage
+             key={macro}
+             macro={this.state.macros[macro]}
+             overlay={overlay ? this.state.macros[overlay] : null}
+           />;
+  }
 
-        return <div className="ability-entry" style={{ display: 'flex', margin: '0 0 0.5em 0', justifyContent: 'center' }} key={index}>{output}</div>;
+  processAbilityLine(type, line) {
+    switch(type) {
+    case 'description':
+      return line;
+    case 'action':
+      {
+        const [macro, modifier] = line;
+        const macroImage = this.getMacroImage(macro);
+        return <span
+                 style={{ display: 'flex' }}>
+                 {macroImage}
+                 {modifier > 0 ? `+ ${modifier}` : `- ${Math.abs(modifier)}`}
+               </span>;
+      }
+    case 'effect':
+      return this.getMacroImage(line);
+    case 'setElement':
+      {
+        const [macro] = line;
+        return this.getMacroImage(macro);
+      }
+    case 'useElement':
+      {
+        let [macro1, macro2] = line;
+        return this.getMacroImage(macro1, macro2);
+      }
+    case 'target':
+      {
+        const [macro, target] = line;
+        const macroImage = this.getMacroImage(macro);
+        return <span
+                 style={{ display: 'flex' }}>
+                 {macroImage}
+                 {target}
+               </span>;
+      }
+    default:
+      console.warn('unknown type', type);
+      return null;
+    }
+  }
+
+  render() {
+    const body = this.state.attacks.map(({ block }, index) => {
+      const blockOutput = block.map(({ type, line }, index) => {
+        const output = this.processAbilityLine(type, line);
+        return <div
+                 className='ability-entry'
+                 key={index}>
+                 {output}
+               </div>;
       });
+      return <div
+               className='ability-block'
+               key={index}>
+               {blockOutput}
+             </div>;
     });
 
     return (
-      <Card style={{ color: 'white', background: 'black', borderRadius: '0.75em', overflow: 'hidden' }}>
-        <Card.Header style={{ background: '#666' }}>
-          <Tag className="card-initiative" style={{ borderRadius: 0 }}>{this.state.initiative}</Tag>
-          <Card.Header.Title style={{ fontWeight: 'bold', color: 'white', justifyContent: 'center' }} key={this.state.deckName}>
+      <Card className='ability-card'>
+        <Card.Header className='ability-card-header'>
+          <Tag className='no-border-radius'>
+            {this.state.initiative}
+          </Tag>
+          <Card.Header.Title className='ability-title' key={this.state.deckName}>
             {this.state.deckName}
           </Card.Header.Title>
         </Card.Header>
@@ -80,7 +97,9 @@ class MonsterAbilityCard extends Component {
           {body}
         </Card.Content>
         <Card.Footer>
-          <Tag className="card-number" style={{ borderRadius: 0 }}>{this.state.card_number}</Tag>
+          <Tag className='no-border-radius'>
+            {this.state.card_number}
+          </Tag>
         </Card.Footer>
       </Card>
     );
