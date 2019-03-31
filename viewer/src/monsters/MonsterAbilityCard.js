@@ -48,8 +48,16 @@ class MonsterAbilityCard extends Component {
         case 'useElement':
           {
             let [macro1, macro2] = line;
-            output = <MonsterAbilityMacroImage key={macro1} macro={this.state.macros[macro1]}/>;
-            output = <MonsterAbilityMacroImage key={macro2} macro={this.state.macros[macro2]}/>;
+            output = <MonsterAbilityMacroImage style={{ position: 'relative' }} key={macro1} macro={this.state.macros[macro1]} overlay={this.state.macros[macro2]}/>;
+          }
+          break;
+        case 'target':
+          {
+            let [macro, target] = line;
+            output = <span style={{ display: 'flex' }}>
+                       <MonsterAbilityMacroImage key={macro} macro={this.state.macros[macro]}/>
+                       {target}
+                     </span>;
           }
           break;
         default:

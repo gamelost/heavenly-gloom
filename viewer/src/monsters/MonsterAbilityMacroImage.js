@@ -4,19 +4,29 @@ import Image from 'react-bulma-components/lib/components/image';
 class MonsterAbilityMacroImage extends Component {
   constructor(props) {
     super(props);
-    const macro = props.macro;
-    this.state = { macro };
+    const { macro, overlay } = props;
+    this.state = { macro, overlay };
+  }
+
+  createImage(macro, position = 'relative') {
+    return <Image
+             style={{ margin: '0 0.5em', width: macro.aoe ? 48 : 16, position }}
+             src={'/' + macro.path}>
+           </Image>;
   }
 
   render() {
-    return <span className={"macro macro-"+this.state.macro.description} style={{display: 'flex'}}>
-             <span className="macro-description">
+    let macro = this.createImage(this.state.macro);
+    let overlay = this.state.overlay ? this.createImage(this.state.overlay, 'absolute') : null;
+    return <span
+             className={`macro macro-${this.state.macro.description}`}
+             style={{display: 'flex'}}>
+             <span
+               className="macro-description">
                {this.state.macro.description}
              </span>
-             <Image
-               style={{ margin: '0 0.5em', width: this.state.macro.aoe ? 48 : 16 }}
-               src={'/' + this.state.macro.path}>
-             </Image>
+             {macro}
+             {overlay}
            </span>;
   }
 }
