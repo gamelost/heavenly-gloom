@@ -34,12 +34,16 @@ class GloomhavenDatabase {
   }
 
   async getScenarioRoutes() {
-    const query = `SELECT sr.id, source.number, source.name, target.number, target.name, sr.type
-                   FROM scenario_route sr
-                   JOIN scenario source ON sr.scenario_source = source.number
-                   JOIN scenario target ON sr.scenario_target = target.number
-                   LIMIT 10`;
-    const [results] = await db.exec(query)
+    const query = `SELECT sr.id, sr.scenario_source, sr.scenario_target, sr.type
+                   FROM scenario_route sr`;
+    const [results] = await db.exec(query);
+    return results.values;
+  }
+
+  async getScenarioNames() {
+    const query = `SELECT s.number, s.name
+    FROM scenario s`
+    const [results] = await db.exec(query);
     return results.values;
   }
 
