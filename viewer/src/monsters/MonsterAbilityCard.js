@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MonsterAbilityMacroImage from './MonsterAbilityMacroImage';
 import Card from 'react-bulma-components/lib/components/card';
+import Tag from 'react-bulma-components/lib/components/tag';
 
 class MonsterAbilityCard extends Component {
   constructor(props) {
@@ -49,6 +50,7 @@ class MonsterAbilityCard extends Component {
       return (
         <Card style={{ color: 'white', background: 'black', borderRadius: '0.75em', overflow: 'hidden' }}>
           <Card.Header style={{ background: '#666' }}>
+            <Tag style={{ borderRadius: 0 }}>{this.state.initiative}</Tag>
             <Card.Header.Title style={{ fontWeight: 'bold', color: 'white', justifyContent: 'center' }} key={this.state.deckName}>
               {this.state.deckName}
             </Card.Header.Title>
@@ -56,7 +58,9 @@ class MonsterAbilityCard extends Component {
           <Card.Content>
             {body}
           </Card.Content>
-          <Card.Footer></Card.Footer>
+          <Card.Footer>
+            <Tag style={{ borderRadius: 0 }}>{this.state.card_number}</Tag>
+          </Card.Footer>
         </Card>
       )
     }
