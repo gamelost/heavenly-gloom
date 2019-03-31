@@ -32,7 +32,7 @@ class MonsterAbilityList extends Component {
                      </td>
                      <td><Heading>{initiative}</Heading></td>
                      <td>{card_number}</td>
-                     <td style={{ color: 'white', background: 'black' }}>
+                     <td>
                        <MonsterAbilityCard deckName={this.state.deckName} deckId={this.state.deckId} ability={ability} macros={this.state.macros} />
                      </td>
                      <td>{shuffle}</td>

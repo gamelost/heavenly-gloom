@@ -10,7 +10,7 @@ class MonsterAbilityMacroImage extends Component {
 
   render() {
     return <span className={"macro macro-"+this.state.macro.description} style={{display: 'flex'}}>
-             <span className="macro-description" style={{ display: 'flex' }}>
+             <span className="macro-description">
                {this.state.macro.description}
              </span>
              <Image
