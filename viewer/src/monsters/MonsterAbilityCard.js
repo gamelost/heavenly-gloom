@@ -35,7 +35,7 @@ class MonsterAbilityCard extends Component {
         return <span
                  style={{ display: 'flex' }}>
                  {macroImage}
-                 {modifier > 0 ? `+ ${modifier}` : `- ${Math.abs(modifier)}`}
+                 {modifier >= 0 ? `+ ${modifier}` : `- ${Math.abs(modifier)}`}
                </span>;
       }
     case 'effect':
@@ -82,7 +82,7 @@ class MonsterAbilityCard extends Component {
                {blockOutput}
              </div>;
     });
-
+    const shuffleTag = this.state.shuffle ? <Tag className='no-border-radius'>Shuffle</Tag> : null;
     return (
       <Card className='ability-card'>
         <Card.Header className='ability-card-header'>
@@ -96,10 +96,11 @@ class MonsterAbilityCard extends Component {
         <Card.Content>
           {body}
         </Card.Content>
-        <Card.Footer>
+        <Card.Footer className='ability-footer'>
           <Tag className='no-border-radius'>
             {this.state.card_number}
           </Tag>
+          {shuffleTag}
         </Card.Footer>
       </Card>
     );

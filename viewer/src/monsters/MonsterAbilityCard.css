@@ -4,6 +4,7 @@
   border-radius: 0.75em;
   overflow: hidden;
   width: 256px;
+  box-shadow: 4px 2px #eee;
 }
 
 .ability-card-header {
@@ -33,4 +34,8 @@
 
 .no-border-radius {
   border-radius: 0 !important;
+}
+
+.ability-footer {
+  justify-content: space-between;
 }

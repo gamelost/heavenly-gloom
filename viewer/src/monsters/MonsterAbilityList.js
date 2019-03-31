@@ -25,7 +25,7 @@ class MonsterAbilityList extends Component {
     const monsters = this
           .state
           .abilities.map((ability) => {
-            const [card_number, shuffle] = ability;
+            const [card_number] = ability;
             return <tr key={card_number}>
                      <td>
                        <MonsterAbilityImage deckName={this.state.deckName} deckId={this.state.deckId} ability={ability} />
@@ -33,7 +33,6 @@ class MonsterAbilityList extends Component {
                      <td>
                        <MonsterAbilityCard deckName={this.state.deckName} deckId={this.state.deckId} ability={ability} macros={this.state.macros} />
                      </td>
-                     <td>{shuffle}</td>
                    </tr>;
           });
     return <div>
@@ -45,7 +44,7 @@ class MonsterAbilityList extends Component {
              </Box>
              <Table>
                <thead>
-                 <tr><th>Image</th><th>Facsimile</th><th>Shuffle</th></tr>
+                 <tr><th>Image</th><th>Facsimile</th></tr>
                </thead>
                <tbody>
                  {monsters}
