@@ -16,11 +16,8 @@ class ScenarioGraph extends Component {
 
   async componentDidMount() {
     // Load data and construct nodes and links
-    let db = await new GloomhavenDatabase().getInstance();
-    let scenarioRoutes = await db.getScenarioRoutes();
-    let scenarioNames = await db.getScenarioNames();
-    this.sqlToJson(this.state.links, scenarioRoutes, ['id', 'source', 'target', 'type']);
-    this.sqlToJson(this.state.nodes, scenarioNames, ['id', 'name']);
+    this.setScenarioLinks();
+    this.setScenarioNodes();
     console.log(this.state);
     this.drawGraph();
   }
@@ -71,11 +68,29 @@ class ScenarioGraph extends Component {
       .text(function(d) { return d.name; });
   }
 
-  async sqlToJson(stateObject, records, headers) {
-    records.forEach(function(record) {
+  async setScenarioNodes() {
+    let db = await new GloomhavenDatabase().getInstance();
+    let scenarioRoutes = await db.getScenarioRoutes();
+
+    const routeKeys = ['id', 'source', 'target', 'type'];
+    let links = this.state.links;
+    scenarioRoutes.forEach(function(record) {
       let obj = {};
-      headers.forEach((key, i) => obj[key] = record[i]);
-      stateObject.push(obj);
+      routeKeys.forEach((key, i) => obj[key] = record[i]);
+      links.push(obj);
+    });
+  }
+
+  async setScenarioLinks() {
+    let db = await new GloomhavenDatabase().getInstance();
+    let scenarioNames = await db.getScenarioNames();
+
+    const nameKeys = ['id', 'name'];
+    let nodes = this.state.nodes;
+    scenarioNames.forEach(function(record) {
+      let obj = {};
+      nameKeys.forEach((key, i) => obj[key] = record[i]);
+      nodes.push(obj);
     });
   }
 
