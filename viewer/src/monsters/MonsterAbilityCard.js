@@ -28,6 +28,8 @@ class MonsterAbilityCard extends Component {
     switch(type) {
     case 'description':
       return line;
+    case 'special':
+      return <span className='special-line'>{line}</span>;
     case 'action':
       {
         const [macro, modifier] = line;

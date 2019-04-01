@@ -39,3 +39,8 @@
 .ability-footer {
   justify-content: space-between;
 }
+
+.special-line {
+  font-size: 0.75em;
+  text-align: center;
+}
