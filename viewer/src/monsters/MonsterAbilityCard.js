@@ -87,7 +87,9 @@ class MonsterAbilityCard extends Component {
                </div>;
       }
     case 'aoe':
-      return this.getMacroImage(line);
+      {
+        return this.getMacroImage(line);
+      }
     case 'setElement':
       {
         const [macro] = line;
@@ -116,16 +118,26 @@ class MonsterAbilityCard extends Component {
 
   render() {
     const body = this.state.attacks.map(({ block }, index) => {
+      let row = false;
       const blockOutput = block.map(({ type, line }, index) => {
         const output = this.processAbilityLine(type, line);
+        let classNames = 'ability-entry';
+        if (type === 'aoe') {
+          classNames += ' ability-entry-aoe';
+          row = true;
+        }
+        if (type === 'useElement') {
+          classNames += ' ability-entry-use-element';
+          row = true;
+        }
         return <div
-                 className='ability-entry'
+                 className={classNames}
                  key={index}>
                  {output}
                </div>;
       });
       return <div
-               className='ability-block'
+               className={'ability-block' + (row ? '-row' : '-column') }
                key={index}>
                {blockOutput}
              </div>;

@@ -27,6 +27,26 @@
 
 .ability-block {
   border: 1px white dotted;
+  display: flex;
+  margin: 0.25em;
+}
+
+.ability-block-column {
+  flex-direction: column;
+}
+
+.ability-block-row {
+  flex-direction: row;
+}
+
+.ability-entry-aoe {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ability-entry-use-element {
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .ability-block .ability-entry:nth-child(n+2) {
