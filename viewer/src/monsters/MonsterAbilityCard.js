@@ -24,6 +24,10 @@ class MonsterAbilityCard extends Component {
            />;
   }
 
+  formatModifier(modifier) {
+    return modifier >= 0 ? `+ ${modifier}` : `- ${Math.abs(modifier)}`;
+  }
+
   processAbilityLine(type, line) {
     switch(type) {
     case 'description':
@@ -37,10 +41,24 @@ class MonsterAbilityCard extends Component {
         return <span
                  style={{ display: 'flex' }}>
                  {macroImage}
-                 {modifier >= 0 ? `+ ${modifier}` : `- ${Math.abs(modifier)}`}
+                 {this.formatModifier(modifier)}
                </span>;
       }
+    case 'setEffect':
+      return this.getMacroImage(line);
     case 'effect':
+      {
+        const [description, macro, modifier] = line;
+        const macroImage = macro ? this.getMacroImage(macro) : null;
+        const modifierLine = modifier ? this.formatModifier(modifier) : null;
+        return <div
+                 style={{ display: 'flex' }}>
+                 {description}
+                 {macroImage}
+                 {modifierLine}
+               </div>;
+      }
+    case 'aoe':
       return this.getMacroImage(line);
     case 'setElement':
       {
