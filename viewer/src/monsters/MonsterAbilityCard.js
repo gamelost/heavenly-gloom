@@ -45,7 +45,10 @@ class MonsterAbilityCard extends Component {
                </span>;
       }
     case 'setEffect':
-      return this.getMacroImage(line);
+      {
+        const [macro] = line;
+        return this.getMacroImage(macro);
+      }
     case 'effect':
       {
         const [description, macro, modifier] = line;
