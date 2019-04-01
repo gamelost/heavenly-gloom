@@ -137,7 +137,7 @@ class MonsterAbilityCard extends Component {
                </div>;
       });
       return <div
-               className={'ability-block' + (row ? '-row' : '-column') }
+               className={'ability-block ability-block' + (row ? '-row' : '-column') }
                key={index}>
                {blockOutput}
              </div>;
@@ -146,9 +146,9 @@ class MonsterAbilityCard extends Component {
     return (
       <Card className='ability-card'>
         <Card.Header className='ability-card-header'>
-          <Tag className='no-border-radius'>
+          <h1 className='ability-initiative no-border-radius'>
             {this.state.initiative}
-          </Tag>
+          </h1>
           <Card.Header.Title className='ability-title' key={this.state.deckName}>
             {this.state.deckName}
           </Card.Header.Title>
