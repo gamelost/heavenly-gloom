@@ -212,25 +212,25 @@ INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, a
 INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 597, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-1.png');
 -- Cave Bear
 INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(596, (SELECT id FROM monster_deck where class = 'Cave Bear'), 0, 13, '[{"block":[{"type":"action","line":["%move%",1]}]},{"block":[{"type":"action","line":["%attack%",-1]}]}]');
-INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 596, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-2.png');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 596, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-7.png');
 -- Cave Bear
 INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(598, (SELECT id FROM monster_deck where class = 'Cave Bear'), 1, 34, '[{"block":[{"type":"action","line":["%attack%",1]},{"type":"setEffect","line":["%wound%"]}]}]');
-INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 598, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-3.png');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 598, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-2.png');
 -- Cave Bear
 INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(599, (SELECT id FROM monster_deck where class = 'Cave Bear'), 0, 41, '[{"block":[{"type":"action","line":["%move%",0]}]},{"block":[{"type":"action","line":["%attack%",0]}]}]');
-INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 599, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-4.png');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 599, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-8.png');
 -- Cave Bear
 INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(600, (SELECT id FROM monster_deck where class = 'Cave Bear'), 0, 60, '[{"block":[{"type":"action","line":["%move%",-1]}]},{"block":[{"type":"action","line":["%attack%",1]}]}]');
-INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 600, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-5.png');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 600, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-3.png');
 -- Cave Bear
 INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(601, (SELECT id FROM monster_deck where class = 'Cave Bear'), 1, 80, '[{"block":[{"type":"action","line":["%attack%",-1]}]},{"block":[{"type":"action","line":["%move%",-2]}]},{"block":[{"type":"action","line":["%attack%",-1]},{"type":"setEffect","line":["%wound%"]}]}]');
-INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 601, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-6.png');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 601, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-4.png');
 -- Cave Bear
 INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(602, (SELECT id FROM monster_deck where class = 'Cave Bear'), 0, 61, '[{"block":[{"type":"action","line":["%move%",0]}]},{"block":[{"type":"action","line":["%attack%",-1]},{"type":"action","line":["%target%",2]}]}]');
-INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 602, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-7.png');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 602, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-5.png');
 -- Cave Bear
 INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(603, (SELECT id FROM monster_deck where class = 'Cave Bear'), 0, 3, '[{"block":[{"type":"action","line":["%shield%",1]}]},{"block":[{"type":"action","line":["%retaliate%",2]}]},{"block":[{"type":"action","line":["%heal%",2]},{"type":"description","line":"Self"}]}]');
-INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 603, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-8.png');
+INSERT INTO monster_ability_card(monster_deck_id, monster_ability_id, image_path) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 603, 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-6.png');
 INSERT INTO monster_ability_card(monster_deck_id, image_path, image_back) VALUES((SELECT id FROM monster_deck where class = 'Cave Bear'), 'gloomhaven-images/images/monster-ability-cards/cave-bear/ma-cb-back.png', 1);
 -- Cultist
 INSERT INTO monster_ability(card_number, monster_deck_id, shuffle, initiative, attacks) VALUES(604, (SELECT id FROM monster_deck where class = 'Cultist'), 0, 10, '[{"block":[{"type":"action","line":["%move%",-1]}]},{"block":[{"type":"action","line":["%attack%",-1]}]},{"block":[{"type":"description","line":"On Death:"},{"type":"action","line":["%attack%",2]},{"type":"aoe","line":"%aoe-circle-with-middle-black%"}]}]');
