@@ -44,6 +44,17 @@ class MonsterAbilityCard extends Component {
                  {this.formatModifier(modifier)}
                </span>;
       }
+    case 'substituteAction':
+      {
+        const [macro, modifier] = line;
+        const macroImage = this.getMacroImage(macro);
+        return <span
+                 style={{ display: 'flex' }}>
+                 {macroImage}
+                 {this.formatModifier(modifier)}
+                 instead
+               </span>;
+      }
     case 'action2x':
       {
         const [macro1, modifier1, macro2, modifier2] = line;
