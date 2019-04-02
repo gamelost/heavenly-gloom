@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MonsterAbilityMacroImage from './MonsterAbilityMacroImage';
 import Card from 'react-bulma-components/lib/components/card';
+import Image from 'react-bulma-components/lib/components/image';
 import Tag from 'react-bulma-components/lib/components/tag';
 import './MonsterAbilityCard.css';
 
@@ -12,9 +13,6 @@ class MonsterAbilityCard extends Component {
     const attacks = JSON.parse(attacksRaw);
     this.state = { deckId, deckName, card_number, shuffle, initiative, attacks, image, macros };
   }
-
-  // TODO proper sections
-  // TODO multiple arrays for lines
 
   getMacroImage(macro, overlay) {
     return <MonsterAbilityMacroImage
@@ -142,7 +140,10 @@ class MonsterAbilityCard extends Component {
                {blockOutput}
              </div>;
     });
-    const shuffleTag = this.state.shuffle ? <Tag className='no-border-radius'>Shuffle</Tag> : null;
+    const shuffleImage = this.state.shuffle ? <Tag className='no-border-radius'>
+                                                <Image src='/shuffle.png' style={{ margin: 0 }} size={16}>
+                                                </Image>
+                                              </Tag> : null;
     return (
       <Card className='ability-card'>
         <Card.Header className='ability-card-header'>
@@ -160,7 +161,7 @@ class MonsterAbilityCard extends Component {
           <Tag className='no-border-radius'>
             {this.state.card_number}
           </Tag>
-          {shuffleTag}
+          {shuffleImage}
         </Card.Footer>
       </Card>
     );

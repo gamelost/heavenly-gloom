@@ -30,7 +30,7 @@ class ScenarioMap extends Component {
     return (
       <div>
         <Image
-          style={{ position: 'relative' }}
+          style={{ position: 'relative', width: 1000 }}
           key={0}
           src={'/' + this.state.worldmap}>
         </Image>
