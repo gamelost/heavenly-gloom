@@ -868,10 +868,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 2, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-0.png', 0);
 -- Ancient Artillery normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 1, 'normal', '6', '2', 0, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 3, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 3, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-0.png', 270);
 -- Ancient Artillery elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 1, 'elite', '9', '3', 0, 5, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 4, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 4, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-0.png', 270);
 -- Ancient Artillery normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 2, 'normal', '7', '2', 0, 5, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 5, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-0.png', 180);
@@ -880,10 +880,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 6, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-0.png', 180);
 -- Ancient Artillery normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 3, 'normal', '8', '3', 0, 5, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 7, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 7, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-0.png', 90);
 -- Ancient Artillery elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 3, 'elite', '13', '4', 0, 6, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 8, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 8, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-0.png', 90);
 -- Ancient Artillery normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 4, 'normal', '9', '4', 0, 5, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 9, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-4.png', 0);
@@ -892,10 +892,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 10, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-4.png', 0);
 -- Ancient Artillery normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 5, 'normal', '11', '4', 0, 6, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 11, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 11, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-4.png', 270);
 -- Ancient Artillery elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 5, 'elite', '15', '4', 0, 7, '["%target% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 12, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 12, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-4.png', 270);
 -- Ancient Artillery normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 6, 'normal', '14', '4', 0, 6, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 13, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-4.png', 180);
@@ -904,10 +904,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 14, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-4.png', 180);
 -- Ancient Artillery normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 7, 'normal', '16', '4', 0, 7, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 15, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 15, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-4.png', 90);
 -- Ancient Artillery elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 7, 'elite', '20', '5', 0, 7, '["%target% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 16, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ancient Artillery'), 16, 'gloomhaven-images/images/monster-stat-cards/ancient-artillery-4.png', 90);
 -- Bandit Archer normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 0, 'normal', '4', '2', 2, 3, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 17, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-0.png', 0);
@@ -916,10 +916,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 18, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-0.png', 0);
 -- Bandit Archer normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 1, 'normal', '5', '2', 2, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 19, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 19, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-0.png', 270);
 -- Bandit Archer elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 1, 'elite', '7', '3', 2, 5, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 20, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 20, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-0.png', 270);
 -- Bandit Archer normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 2, 'normal', '6', '2', 3, 4, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 21, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-0.png', 180);
@@ -928,10 +928,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 22, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-0.png', 180);
 -- Bandit Archer normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 3, 'normal', '6', '3', 3, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 23, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 23, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-0.png', 90);
 -- Bandit Archer elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 3, 'elite', '10', '4', 3, 5, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 24, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 24, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-0.png', 90);
 -- Bandit Archer normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 4, 'normal', '8', '3', 3, 4, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 25, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-4.png', 0);
@@ -940,10 +940,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 26, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-4.png', 0);
 -- Bandit Archer normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 5, 'normal', '10', '3', 3, 5, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 27, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 27, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-4.png', 270);
 -- Bandit Archer elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 5, 'elite', '12', '4', 4, 6, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 28, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 28, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-4.png', 270);
 -- Bandit Archer normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 6, 'normal', '10', '4', 3, 5, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 29, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-4.png', 180);
@@ -952,10 +952,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 30, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-4.png', 180);
 -- Bandit Archer normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 7, 'normal', '13', '4', 3, 5, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 31, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 31, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-4.png', 90);
 -- Bandit Archer elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 7, 'elite', '17', '5', 4, 6, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 32, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Archer'), 32, 'gloomhaven-images/images/monster-stat-cards/bandit-archer-4.png', 90);
 -- Bandit Commander boss 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, boss_special1, boss_special2, boss_immunities) VALUES((SELECT id FROM monster where name = 'Bandit Commander'), 0, 'boss', '8xC', '3', 3, 0, '["Move to next door and reveal room"]', '["Summon Living Bones"]', '["%stun%","%immobilize%","%curse%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Commander'), 33, 'gloomhaven-images/images/monster-stat-cards/bandit-commander-0.png', 0);
@@ -988,10 +988,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 42, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-0.png', 0);
 -- Bandit Guard normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 1, 'normal', '6', '2', 3, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 43, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 43, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-0.png', 270);
 -- Bandit Guard elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 1, 'elite', '9', '3', 2, 0, '["%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 44, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 44, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-0.png', 270);
 -- Bandit Guard normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 2, 'normal', '6', '3', 3, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 45, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-0.png', 180);
@@ -1000,10 +1000,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 46, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-0.png', 180);
 -- Bandit Guard normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 3, 'normal', '9', '3', 3, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 47, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 47, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-0.png', 90);
 -- Bandit Guard elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 3, 'elite', '10', '4', 3, 0, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 48, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 48, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-0.png', 90);
 -- Bandit Guard normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 4, 'normal', '10', '3', 4, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 49, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-4.png', 0);
@@ -1012,10 +1012,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 50, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-4.png', 0);
 -- Bandit Guard normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 5, 'normal', '11', '4', 4, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 51, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 51, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-4.png', 270);
 -- Bandit Guard elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 5, 'elite', '12', '5', 3, 0, '["%muddle%","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 52, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 52, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-4.png', 270);
 -- Bandit Guard normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 6, 'normal', '14', '4', 4, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 53, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-4.png', 180);
@@ -1024,10 +1024,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 54, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-4.png', 180);
 -- Bandit Guard normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 7, 'normal', '16', '4', 5, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 55, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 55, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-4.png', 90);
 -- Bandit Guard elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 7, 'elite', '14', '5', 3, 0, '["%muddle%","%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 56, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Bandit Guard'), 56, 'gloomhaven-images/images/monster-stat-cards/bandit-guard-4.png', 90);
 -- Black Imp normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Black Imp'), 0, 'normal', '3', '1', 1, 3, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 57, 'gloomhaven-images/images/monster-stat-cards/black-imp-0.png', 0);
@@ -1036,10 +1036,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 58, 'gloomhaven-images/images/monster-stat-cards/black-imp-0.png', 0);
 -- Black Imp normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Black Imp'), 1, 'normal', '4', '1', 1, 3, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 59, 'gloomhaven-images/images/monster-stat-cards/black-imp-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 59, 'gloomhaven-images/images/monster-stat-cards/black-imp-0.png', 270);
 -- Black Imp elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Black Imp'), 1, 'elite', '6', '2', 1, 3, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 60, 'gloomhaven-images/images/monster-stat-cards/black-imp-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 60, 'gloomhaven-images/images/monster-stat-cards/black-imp-0.png', 270);
 -- Black Imp normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Black Imp'), 2, 'normal', '5', '1', 1, 4, '["%poison%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 61, 'gloomhaven-images/images/monster-stat-cards/black-imp-0.png', 180);
@@ -1048,10 +1048,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 62, 'gloomhaven-images/images/monster-stat-cards/black-imp-0.png', 180);
 -- Black Imp normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Black Imp'), 3, 'normal', '5', '2', 1, 4, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 63, 'gloomhaven-images/images/monster-stat-cards/black-imp-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 63, 'gloomhaven-images/images/monster-stat-cards/black-imp-0.png', 90);
 -- Black Imp elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Black Imp'), 3, 'elite', '8', '3', 1, 4, '["Attackers gain Disadvantage","%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 64, 'gloomhaven-images/images/monster-stat-cards/black-imp-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 64, 'gloomhaven-images/images/monster-stat-cards/black-imp-0.png', 90);
 -- Black Imp normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Black Imp'), 4, 'normal', '7', '2', 1, 4, '["%poison%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 65, 'gloomhaven-images/images/monster-stat-cards/black-imp-4.png', 0);
@@ -1060,10 +1060,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 66, 'gloomhaven-images/images/monster-stat-cards/black-imp-4.png', 0);
 -- Black Imp normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Black Imp'), 5, 'normal', '9', '2', 1, 4, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 67, 'gloomhaven-images/images/monster-stat-cards/black-imp-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 67, 'gloomhaven-images/images/monster-stat-cards/black-imp-4.png', 270);
 -- Black Imp elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Black Imp'), 5, 'elite', '12', '3', 1, 5, '["Attackers gain Disadvantage","%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 68, 'gloomhaven-images/images/monster-stat-cards/black-imp-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 68, 'gloomhaven-images/images/monster-stat-cards/black-imp-4.png', 270);
 -- Black Imp normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Black Imp'), 6, 'normal', '10', '3', 1, 4, '["%poison%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 69, 'gloomhaven-images/images/monster-stat-cards/black-imp-4.png', 180);
@@ -1072,10 +1072,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 70, 'gloomhaven-images/images/monster-stat-cards/black-imp-4.png', 180);
 -- Black Imp normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Black Imp'), 7, 'normal', '12', '3', 1, 4, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 71, 'gloomhaven-images/images/monster-stat-cards/black-imp-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 71, 'gloomhaven-images/images/monster-stat-cards/black-imp-4.png', 90);
 -- Black Imp elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Black Imp'), 7, 'elite', '17', '4', 1, 5, '["Attackers gain Disadvantage","%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 72, 'gloomhaven-images/images/monster-stat-cards/black-imp-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Black Imp'), 72, 'gloomhaven-images/images/monster-stat-cards/black-imp-4.png', 90);
 -- Captain of the Guard boss 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, boss_special1, boss_special2, boss_immunities) VALUES((SELECT id FROM monster where name = 'Captain of the Guard'), 0, 'boss', '7xC', '3', 2, 0, '["%heal% 2, Affect self","and all allies"]', '["All allies add +1 Attack to all attacks this round","%attack% + 1"]', '["%disarm%","%wound%","%muddle%","%stun%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Captain of the Guard'), 73, 'gloomhaven-images/images/monster-stat-cards/captain-of-the-guard-0.png', 0);
@@ -1108,10 +1108,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 82, 'gloomhaven-images/images/monster-stat-cards/cave-bear-0.png', 0);
 -- Cave Bear normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 1, 'normal', '9', '3', 3, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 83, 'gloomhaven-images/images/monster-stat-cards/cave-bear-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 83, 'gloomhaven-images/images/monster-stat-cards/cave-bear-0.png', 270);
 -- Cave Bear elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 1, 'elite', '14', '4', 3, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 84, 'gloomhaven-images/images/monster-stat-cards/cave-bear-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 84, 'gloomhaven-images/images/monster-stat-cards/cave-bear-0.png', 270);
 -- Cave Bear normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 2, 'normal', '11', '3', 4, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 85, 'gloomhaven-images/images/monster-stat-cards/cave-bear-0.png', 180);
@@ -1120,10 +1120,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 86, 'gloomhaven-images/images/monster-stat-cards/cave-bear-0.png', 180);
 -- Cave Bear normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 3, 'normal', '13', '4', 4, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 87, 'gloomhaven-images/images/monster-stat-cards/cave-bear-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 87, 'gloomhaven-images/images/monster-stat-cards/cave-bear-0.png', 90);
 -- Cave Bear elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 3, 'elite', '20', '5', 4, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 88, 'gloomhaven-images/images/monster-stat-cards/cave-bear-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 88, 'gloomhaven-images/images/monster-stat-cards/cave-bear-0.png', 90);
 -- Cave Bear normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 4, 'normal', '16', '4', 4, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 89, 'gloomhaven-images/images/monster-stat-cards/cave-bear-4.png', 0);
@@ -1132,10 +1132,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 90, 'gloomhaven-images/images/monster-stat-cards/cave-bear-4.png', 0);
 -- Cave Bear normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 5, 'normal', '17', '4', 5, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 91, 'gloomhaven-images/images/monster-stat-cards/cave-bear-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 91, 'gloomhaven-images/images/monster-stat-cards/cave-bear-4.png', 270);
 -- Cave Bear elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 5, 'elite', '24', '6', 5, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 92, 'gloomhaven-images/images/monster-stat-cards/cave-bear-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 92, 'gloomhaven-images/images/monster-stat-cards/cave-bear-4.png', 270);
 -- Cave Bear normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 6, 'normal', '19', '5', 5, 0, '["%wound%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 93, 'gloomhaven-images/images/monster-stat-cards/cave-bear-4.png', 180);
@@ -1144,10 +1144,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 94, 'gloomhaven-images/images/monster-stat-cards/cave-bear-4.png', 180);
 -- Cave Bear normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 7, 'normal', '22', '5', 5, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 95, 'gloomhaven-images/images/monster-stat-cards/cave-bear-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 95, 'gloomhaven-images/images/monster-stat-cards/cave-bear-4.png', 90);
 -- Cave Bear elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 7, 'elite', '33', '7', 5, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 96, 'gloomhaven-images/images/monster-stat-cards/cave-bear-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cave Bear'), 96, 'gloomhaven-images/images/monster-stat-cards/cave-bear-4.png', 90);
 -- City Archer normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Archer'), 0, 'normal', '4', '2', 1, 3, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 97, 'gloomhaven-images/images/monster-stat-cards/city-archer-0.png', 0);
@@ -1156,10 +1156,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 98, 'gloomhaven-images/images/monster-stat-cards/city-archer-0.png', 0);
 -- City Archer normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Archer'), 1, 'normal', '5', '2', 1, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 99, 'gloomhaven-images/images/monster-stat-cards/city-archer-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 99, 'gloomhaven-images/images/monster-stat-cards/city-archer-0.png', 270);
 -- City Archer elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Archer'), 1, 'elite', '6', '3', 1, 5, '["%pierce% 1","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 100, 'gloomhaven-images/images/monster-stat-cards/city-archer-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 100, 'gloomhaven-images/images/monster-stat-cards/city-archer-0.png', 270);
 -- City Archer normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Archer'), 2, 'normal', '6', '3', 1, 4, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 101, 'gloomhaven-images/images/monster-stat-cards/city-archer-0.png', 180);
@@ -1168,10 +1168,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 102, 'gloomhaven-images/images/monster-stat-cards/city-archer-0.png', 180);
 -- City Archer normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Archer'), 3, 'normal', '6', '3', 2, 4, '["%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 103, 'gloomhaven-images/images/monster-stat-cards/city-archer-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 103, 'gloomhaven-images/images/monster-stat-cards/city-archer-0.png', 90);
 -- City Archer elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Archer'), 3, 'elite', '8', '4', 2, 5, '["%pierce% 2","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 104, 'gloomhaven-images/images/monster-stat-cards/city-archer-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 104, 'gloomhaven-images/images/monster-stat-cards/city-archer-0.png', 90);
 -- City Archer normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Archer'), 4, 'normal', '8', '3', 2, 5, '["%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 105, 'gloomhaven-images/images/monster-stat-cards/city-archer-4.png', 0);
@@ -1180,10 +1180,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 106, 'gloomhaven-images/images/monster-stat-cards/city-archer-4.png', 0);
 -- City Archer normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Archer'), 5, 'normal', '9', '4', 2, 5, '["%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 107, 'gloomhaven-images/images/monster-stat-cards/city-archer-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 107, 'gloomhaven-images/images/monster-stat-cards/city-archer-4.png', 270);
 -- City Archer elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Archer'), 5, 'elite', '11', '5', 2, 6, '["%pierce% 3","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 108, 'gloomhaven-images/images/monster-stat-cards/city-archer-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 108, 'gloomhaven-images/images/monster-stat-cards/city-archer-4.png', 270);
 -- City Archer normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Archer'), 6, 'normal', '9', '4', 3, 5, '["%shield% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 109, 'gloomhaven-images/images/monster-stat-cards/city-archer-4.png', 180);
@@ -1192,10 +1192,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 110, 'gloomhaven-images/images/monster-stat-cards/city-archer-4.png', 180);
 -- City Archer normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Archer'), 7, 'normal', '10', '4', 3, 6, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 111, 'gloomhaven-images/images/monster-stat-cards/city-archer-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 111, 'gloomhaven-images/images/monster-stat-cards/city-archer-4.png', 90);
 -- City Archer elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Archer'), 7, 'elite', '13', '6', 3, 7, '["%pierce% 3","%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 112, 'gloomhaven-images/images/monster-stat-cards/city-archer-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Archer'), 112, 'gloomhaven-images/images/monster-stat-cards/city-archer-4.png', 90);
 -- City Guard normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Guard'), 0, 'normal', '5', '2', 2, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 113, 'gloomhaven-images/images/monster-stat-cards/city-guard-0.png', 0);
@@ -1204,10 +1204,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 114, 'gloomhaven-images/images/monster-stat-cards/city-guard-0.png', 0);
 -- City Guard normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Guard'), 1, 'normal', '5', '2', 2, 0, '["%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 115, 'gloomhaven-images/images/monster-stat-cards/city-guard-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 115, 'gloomhaven-images/images/monster-stat-cards/city-guard-0.png', 270);
 -- City Guard elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Guard'), 1, 'elite', '6', '3', 2, 0, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 116, 'gloomhaven-images/images/monster-stat-cards/city-guard-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 116, 'gloomhaven-images/images/monster-stat-cards/city-guard-0.png', 270);
 -- City Guard normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Guard'), 2, 'normal', '7', '2', 2, 0, '["%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 117, 'gloomhaven-images/images/monster-stat-cards/city-guard-0.png', 180);
@@ -1216,10 +1216,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 118, 'gloomhaven-images/images/monster-stat-cards/city-guard-0.png', 180);
 -- City Guard normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Guard'), 3, 'normal', '8', '3', 2, 0, '["%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 119, 'gloomhaven-images/images/monster-stat-cards/city-guard-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 119, 'gloomhaven-images/images/monster-stat-cards/city-guard-0.png', 90);
 -- City Guard elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Guard'), 3, 'elite', '9', '4', 2, 0, '["%retaliate% 1","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 120, 'gloomhaven-images/images/monster-stat-cards/city-guard-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 120, 'gloomhaven-images/images/monster-stat-cards/city-guard-0.png', 90);
 -- City Guard normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Guard'), 4, 'normal', '9', '3', 3, 0, '["%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 121, 'gloomhaven-images/images/monster-stat-cards/city-guard-4.png', 0);
@@ -1228,10 +1228,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 122, 'gloomhaven-images/images/monster-stat-cards/city-guard-4.png', 0);
 -- City Guard normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Guard'), 5, 'normal', '10', '3', 3, 0, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 123, 'gloomhaven-images/images/monster-stat-cards/city-guard-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 123, 'gloomhaven-images/images/monster-stat-cards/city-guard-4.png', 270);
 -- City Guard elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Guard'), 5, 'elite', '12', '4', 3, 0, '["%retaliate% 2","%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 124, 'gloomhaven-images/images/monster-stat-cards/city-guard-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 124, 'gloomhaven-images/images/monster-stat-cards/city-guard-4.png', 270);
 -- City Guard normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Guard'), 6, 'normal', '11', '4', 3, 0, '["%shield% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 125, 'gloomhaven-images/images/monster-stat-cards/city-guard-4.png', 180);
@@ -1240,10 +1240,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 126, 'gloomhaven-images/images/monster-stat-cards/city-guard-4.png', 180);
 -- City Guard normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Guard'), 7, 'normal', '13', '4', 3, 0, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 127, 'gloomhaven-images/images/monster-stat-cards/city-guard-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 127, 'gloomhaven-images/images/monster-stat-cards/city-guard-4.png', 90);
 -- City Guard elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'City Guard'), 7, 'elite', '14', '6', 3, 0, '["%retaliate% 3","%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 128, 'gloomhaven-images/images/monster-stat-cards/city-guard-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'City Guard'), 128, 'gloomhaven-images/images/monster-stat-cards/city-guard-4.png', 90);
 -- Cultist normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cultist'), 0, 'normal', '4', '1', 2, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 129, 'gloomhaven-images/images/monster-stat-cards/cultist-0.png', 0);
@@ -1252,10 +1252,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 130, 'gloomhaven-images/images/monster-stat-cards/cultist-0.png', 0);
 -- Cultist normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cultist'), 1, 'normal', '5', '1', 2, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 131, 'gloomhaven-images/images/monster-stat-cards/cultist-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 131, 'gloomhaven-images/images/monster-stat-cards/cultist-0.png', 270);
 -- Cultist elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cultist'), 1, 'elite', '9', '2', 2, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 132, 'gloomhaven-images/images/monster-stat-cards/cultist-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 132, 'gloomhaven-images/images/monster-stat-cards/cultist-0.png', 270);
 -- Cultist normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cultist'), 2, 'normal', '7', '1', 2, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 133, 'gloomhaven-images/images/monster-stat-cards/cultist-0.png', 180);
@@ -1264,10 +1264,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 134, 'gloomhaven-images/images/monster-stat-cards/cultist-0.png', 180);
 -- Cultist normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cultist'), 3, 'normal', '9', '1', 3, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 135, 'gloomhaven-images/images/monster-stat-cards/cultist-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 135, 'gloomhaven-images/images/monster-stat-cards/cultist-0.png', 90);
 -- Cultist elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cultist'), 3, 'elite', '13', '2', 3, 0, '["%curse%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 136, 'gloomhaven-images/images/monster-stat-cards/cultist-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 136, 'gloomhaven-images/images/monster-stat-cards/cultist-0.png', 90);
 -- Cultist normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cultist'), 4, 'normal', '10', '2', 3, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 137, 'gloomhaven-images/images/monster-stat-cards/cultist-4.png', 0);
@@ -1276,10 +1276,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 138, 'gloomhaven-images/images/monster-stat-cards/cultist-4.png', 0);
 -- Cultist normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cultist'), 5, 'normal', '11', '2', 3, 0, '["%curse%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 139, 'gloomhaven-images/images/monster-stat-cards/cultist-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 139, 'gloomhaven-images/images/monster-stat-cards/cultist-4.png', 270);
 -- Cultist elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cultist'), 5, 'elite', '18', '3', 3, 0, '["%curse%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 140, 'gloomhaven-images/images/monster-stat-cards/cultist-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 140, 'gloomhaven-images/images/monster-stat-cards/cultist-4.png', 270);
 -- Cultist normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cultist'), 6, 'normal', '14', '2', 3, 0, '["%curse%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 141, 'gloomhaven-images/images/monster-stat-cards/cultist-4.png', 180);
@@ -1288,10 +1288,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 142, 'gloomhaven-images/images/monster-stat-cards/cultist-4.png', 180);
 -- Cultist normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cultist'), 7, 'normal', '15', '3', 3, 0, '["%curse%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 143, 'gloomhaven-images/images/monster-stat-cards/cultist-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 143, 'gloomhaven-images/images/monster-stat-cards/cultist-4.png', 90);
 -- Cultist elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Cultist'), 7, 'elite', '25', '4', 3, 0, '["%curse%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 144, 'gloomhaven-images/images/monster-stat-cards/cultist-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Cultist'), 144, 'gloomhaven-images/images/monster-stat-cards/cultist-4.png', 90);
 -- Dark Rider boss 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, boss_special1, boss_special2, boss_immunities) VALUES((SELECT id FROM monster where name = 'Dark Rider'), 0, 'boss', '9xC', '3+X', 2, 0, '["%move% + 2","%attack% + 0"]', '["%move% + 0","Summon Imp","%attack% - 1"]', '["%immobilize%","%poison%","%stun%","%disarm%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Dark Rider'), 145, 'gloomhaven-images/images/monster-stat-cards/dark-rider-0.png', 0);
@@ -1324,10 +1324,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 154, 'gloomhaven-images/images/monster-stat-cards/deep-terror-0.png', 0);
 -- Deep Terror normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 1, 'normal', '4', '2', 0, 0, '["%retaliate% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 155, 'gloomhaven-images/images/monster-stat-cards/deep-terror-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 155, 'gloomhaven-images/images/monster-stat-cards/deep-terror-0.png', 270);
 -- Deep Terror elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 1, 'elite', '6', '3', 0, 0, '["%retaliate% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 156, 'gloomhaven-images/images/monster-stat-cards/deep-terror-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 156, 'gloomhaven-images/images/monster-stat-cards/deep-terror-0.png', 270);
 -- Deep Terror normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 2, 'normal', '4', '3', 0, 0, '["%retaliate% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 157, 'gloomhaven-images/images/monster-stat-cards/deep-terror-0.png', 180);
@@ -1336,10 +1336,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 158, 'gloomhaven-images/images/monster-stat-cards/deep-terror-0.png', 180);
 -- Deep Terror normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 3, 'normal', '5', '3', 0, 0, '["%retaliate% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 159, 'gloomhaven-images/images/monster-stat-cards/deep-terror-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 159, 'gloomhaven-images/images/monster-stat-cards/deep-terror-0.png', 90);
 -- Deep Terror elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 3, 'elite', '8', '4', 0, 0, '["%retaliate% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 160, 'gloomhaven-images/images/monster-stat-cards/deep-terror-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 160, 'gloomhaven-images/images/monster-stat-cards/deep-terror-0.png', 90);
 -- Deep Terror normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 4, 'normal', '6', '4', 0, 0, '["%retaliate% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 161, 'gloomhaven-images/images/monster-stat-cards/deep-terror-4.png', 0);
@@ -1348,10 +1348,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 162, 'gloomhaven-images/images/monster-stat-cards/deep-terror-4.png', 0);
 -- Deep Terror normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 5, 'normal', '7', '4', 0, 0, '["%retaliate% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 163, 'gloomhaven-images/images/monster-stat-cards/deep-terror-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 163, 'gloomhaven-images/images/monster-stat-cards/deep-terror-4.png', 270);
 -- Deep Terror elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 5, 'elite', '11', '5', 0, 0, '["%retaliate% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 164, 'gloomhaven-images/images/monster-stat-cards/deep-terror-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 164, 'gloomhaven-images/images/monster-stat-cards/deep-terror-4.png', 270);
 -- Deep Terror normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 6, 'normal', '8', '5', 0, 0, '["%retaliate% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 165, 'gloomhaven-images/images/monster-stat-cards/deep-terror-4.png', 180);
@@ -1360,10 +1360,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 166, 'gloomhaven-images/images/monster-stat-cards/deep-terror-4.png', 180);
 -- Deep Terror normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 7, 'normal', '9', '5', 0, 0, '["%retaliate% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 167, 'gloomhaven-images/images/monster-stat-cards/deep-terror-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 167, 'gloomhaven-images/images/monster-stat-cards/deep-terror-4.png', 90);
 -- Deep Terror elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 7, 'elite', '15', '6', 0, 0, '["%retaliate% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 168, 'gloomhaven-images/images/monster-stat-cards/deep-terror-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Deep Terror'), 168, 'gloomhaven-images/images/monster-stat-cards/deep-terror-4.png', 90);
 -- Earth Demon normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 0, 'normal', '7', '3', 1, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 169, 'gloomhaven-images/images/monster-stat-cards/earth-demon-0.png', 0);
@@ -1372,10 +1372,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 170, 'gloomhaven-images/images/monster-stat-cards/earth-demon-0.png', 0);
 -- Earth Demon normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 1, 'normal', '9', '3', 1, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 171, 'gloomhaven-images/images/monster-stat-cards/earth-demon-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 171, 'gloomhaven-images/images/monster-stat-cards/earth-demon-0.png', 270);
 -- Earth Demon elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 1, 'elite', '13', '4', 2, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 172, 'gloomhaven-images/images/monster-stat-cards/earth-demon-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 172, 'gloomhaven-images/images/monster-stat-cards/earth-demon-0.png', 270);
 -- Earth Demon normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 2, 'normal', '12', '3', 1, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 173, 'gloomhaven-images/images/monster-stat-cards/earth-demon-0.png', 180);
@@ -1384,10 +1384,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 174, 'gloomhaven-images/images/monster-stat-cards/earth-demon-0.png', 180);
 -- Earth Demon normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 3, 'normal', '13', '3', 2, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 175, 'gloomhaven-images/images/monster-stat-cards/earth-demon-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 175, 'gloomhaven-images/images/monster-stat-cards/earth-demon-0.png', 90);
 -- Earth Demon elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 3, 'elite', '20', '4', 2, 0, '["%immobilize%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 176, 'gloomhaven-images/images/monster-stat-cards/earth-demon-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 176, 'gloomhaven-images/images/monster-stat-cards/earth-demon-0.png', 90);
 -- Earth Demon normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 4, 'normal', '15', '4', 2, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 177, 'gloomhaven-images/images/monster-stat-cards/earth-demon-4.png', 0);
@@ -1396,10 +1396,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 178, 'gloomhaven-images/images/monster-stat-cards/earth-demon-4.png', 0);
 -- Earth Demon normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 5, 'normal', '17', '4', 2, 0, '["%immobilize%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 179, 'gloomhaven-images/images/monster-stat-cards/earth-demon-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 179, 'gloomhaven-images/images/monster-stat-cards/earth-demon-4.png', 270);
 -- Earth Demon elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 5, 'elite', '25', '5', 3, 0, '["%immobilize%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 180, 'gloomhaven-images/images/monster-stat-cards/earth-demon-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 180, 'gloomhaven-images/images/monster-stat-cards/earth-demon-4.png', 270);
 -- Earth Demon normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 6, 'normal', '20', '4', 2, 0, '["%immobilize%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 181, 'gloomhaven-images/images/monster-stat-cards/earth-demon-4.png', 180);
@@ -1408,10 +1408,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 182, 'gloomhaven-images/images/monster-stat-cards/earth-demon-4.png', 180);
 -- Earth Demon normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 7, 'normal', '22', '4', 3, 0, '["%immobilize%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 183, 'gloomhaven-images/images/monster-stat-cards/earth-demon-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 183, 'gloomhaven-images/images/monster-stat-cards/earth-demon-4.png', 90);
 -- Earth Demon elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 7, 'elite', '32', '6', 3, 0, '["%immobilize%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 184, 'gloomhaven-images/images/monster-stat-cards/earth-demon-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Earth Demon'), 184, 'gloomhaven-images/images/monster-stat-cards/earth-demon-4.png', 90);
 -- Elder Drake boss 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, boss_special1, boss_special2, boss_immunities) VALUES((SELECT id FROM monster where name = 'Elder Drake'), 0, 'boss', '11xC', '3', 0, 0, '["%attack% + 0 %boss-aoe-elder-drake-sp1%"]', '["%move% and","summon 2 Zephyrs"]', '["%wound%","%poison%","%disarm%","%immobilize%","%stun%","%pull%","%push%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Elder Drake'), 185, 'gloomhaven-images/images/monster-stat-cards/elder-drake-0.png', 0);
@@ -1444,10 +1444,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 194, 'gloomhaven-images/images/monster-stat-cards/flame-demon-0.png', 0);
 -- Flame Demon normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 1, 'normal', '2', '2', 3, 3, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 195, 'gloomhaven-images/images/monster-stat-cards/flame-demon-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 195, 'gloomhaven-images/images/monster-stat-cards/flame-demon-0.png', 270);
 -- Flame Demon elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 1, 'elite', '3', '2', 3, 4, '["%retaliate% 2","*%range% 2","%shield% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 196, 'gloomhaven-images/images/monster-stat-cards/flame-demon-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 196, 'gloomhaven-images/images/monster-stat-cards/flame-demon-0.png', 270);
 -- Flame Demon normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 2, 'normal', '3', '3', 3, 3, '["%shield% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 197, 'gloomhaven-images/images/monster-stat-cards/flame-demon-0.png', 180);
@@ -1456,10 +1456,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 198, 'gloomhaven-images/images/monster-stat-cards/flame-demon-0.png', 180);
 -- Flame Demon normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 3, 'normal', '3', '3', 3, 4, '["%retaliate% 2","*%range% 2","%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 199, 'gloomhaven-images/images/monster-stat-cards/flame-demon-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 199, 'gloomhaven-images/images/monster-stat-cards/flame-demon-0.png', 90);
 -- Flame Demon elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 3, 'elite', '5', '3', 3, 5, '["%retaliate% 3","*%range% 3","%shield% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 200, 'gloomhaven-images/images/monster-stat-cards/flame-demon-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 200, 'gloomhaven-images/images/monster-stat-cards/flame-demon-0.png', 90);
 -- Flame Demon normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 4, 'normal', '3', '3', 4, 4, '["%retaliate% 3","*%range% 2","%shield% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 201, 'gloomhaven-images/images/monster-stat-cards/flame-demon-4.png', 0);
@@ -1468,10 +1468,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 202, 'gloomhaven-images/images/monster-stat-cards/flame-demon-4.png', 0);
 -- Flame Demon normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 5, 'normal', '4', '3', 4, 4, '["%retaliate% 3","*%range% 2","%shield% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 203, 'gloomhaven-images/images/monster-stat-cards/flame-demon-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 203, 'gloomhaven-images/images/monster-stat-cards/flame-demon-4.png', 270);
 -- Flame Demon elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 5, 'elite', '6', '4', 4, 5, '["%retaliate% 4","*%range% 3","%shield% 5"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 204, 'gloomhaven-images/images/monster-stat-cards/flame-demon-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 204, 'gloomhaven-images/images/monster-stat-cards/flame-demon-4.png', 270);
 -- Flame Demon normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 6, 'normal', '4', '4', 4, 4, '["%retaliate% 4","*%range% 2","%shield% 4"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 205, 'gloomhaven-images/images/monster-stat-cards/flame-demon-4.png', 180);
@@ -1480,10 +1480,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 206, 'gloomhaven-images/images/monster-stat-cards/flame-demon-4.png', 180);
 -- Flame Demon normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 7, 'normal', '5', '4', 4, 5, '["%retaliate% 4","*%range% 3","%shield% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 207, 'gloomhaven-images/images/monster-stat-cards/flame-demon-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 207, 'gloomhaven-images/images/monster-stat-cards/flame-demon-4.png', 90);
 -- Flame Demon elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 7, 'elite', '8', '5', 4, 6, '["%retaliate% 5","*%range% 4","%shield% 5"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 208, 'gloomhaven-images/images/monster-stat-cards/flame-demon-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Flame Demon'), 208, 'gloomhaven-images/images/monster-stat-cards/flame-demon-4.png', 90);
 -- Forest Imp normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 0, 'normal', '1', '1', 3, 3, '["%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 209, 'gloomhaven-images/images/monster-stat-cards/forest-imp-0.png', 0);
@@ -1492,10 +1492,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 210, 'gloomhaven-images/images/monster-stat-cards/forest-imp-0.png', 0);
 -- Forest Imp normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 1, 'normal', '2', '1', 3, 3, '["%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 211, 'gloomhaven-images/images/monster-stat-cards/forest-imp-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 211, 'gloomhaven-images/images/monster-stat-cards/forest-imp-0.png', 270);
 -- Forest Imp elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 1, 'elite', '5', '2', 3, 3, '["%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 212, 'gloomhaven-images/images/monster-stat-cards/forest-imp-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 212, 'gloomhaven-images/images/monster-stat-cards/forest-imp-0.png', 270);
 -- Forest Imp normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 2, 'normal', '2', '2', 3, 3, '["%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 213, 'gloomhaven-images/images/monster-stat-cards/forest-imp-0.png', 180);
@@ -1504,10 +1504,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 214, 'gloomhaven-images/images/monster-stat-cards/forest-imp-0.png', 180);
 -- Forest Imp normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 3, 'normal', '3', '2', 4, 4, '["%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 215, 'gloomhaven-images/images/monster-stat-cards/forest-imp-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 215, 'gloomhaven-images/images/monster-stat-cards/forest-imp-0.png', 90);
 -- Forest Imp elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 3, 'elite', '7', '2', 4, 4, '["%curse%","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 216, 'gloomhaven-images/images/monster-stat-cards/forest-imp-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 216, 'gloomhaven-images/images/monster-stat-cards/forest-imp-0.png', 90);
 -- Forest Imp normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 4, 'normal', '3', '2', 4, 4, '["%shield% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 217, 'gloomhaven-images/images/monster-stat-cards/forest-imp-4.png', 0);
@@ -1516,10 +1516,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 218, 'gloomhaven-images/images/monster-stat-cards/forest-imp-4.png', 0);
 -- Forest Imp normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 5, 'normal', '4', '2', 4, 4, '["%curse%","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 219, 'gloomhaven-images/images/monster-stat-cards/forest-imp-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 219, 'gloomhaven-images/images/monster-stat-cards/forest-imp-4.png', 270);
 -- Forest Imp elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 5, 'elite', '8', '3', 4, 4, '["%curse%","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 220, 'gloomhaven-images/images/monster-stat-cards/forest-imp-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 220, 'gloomhaven-images/images/monster-stat-cards/forest-imp-4.png', 270);
 -- Forest Imp normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 6, 'normal', '4', '3', 4, 4, '["%curse%","%shield% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 221, 'gloomhaven-images/images/monster-stat-cards/forest-imp-4.png', 180);
@@ -1528,10 +1528,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 222, 'gloomhaven-images/images/monster-stat-cards/forest-imp-4.png', 180);
 -- Forest Imp normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 7, 'normal', '6', '3', 4, 4, '["%curse%","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 223, 'gloomhaven-images/images/monster-stat-cards/forest-imp-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 223, 'gloomhaven-images/images/monster-stat-cards/forest-imp-4.png', 90);
 -- Forest Imp elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 7, 'elite', '11', '4', 4, 4, '["%curse%","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 224, 'gloomhaven-images/images/monster-stat-cards/forest-imp-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Forest Imp'), 224, 'gloomhaven-images/images/monster-stat-cards/forest-imp-4.png', 90);
 -- Frost Demon normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 0, 'normal', '5', '3', 2, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 225, 'gloomhaven-images/images/monster-stat-cards/frost-demon-0.png', 0);
@@ -1540,10 +1540,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 226, 'gloomhaven-images/images/monster-stat-cards/frost-demon-0.png', 0);
 -- Frost Demon normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 1, 'normal', '6', '3', 2, 0, '["%retaliate% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 227, 'gloomhaven-images/images/monster-stat-cards/frost-demon-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 227, 'gloomhaven-images/images/monster-stat-cards/frost-demon-0.png', 270);
 -- Frost Demon elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 1, 'elite', '10', '3', 3, 0, '["%retaliate% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 228, 'gloomhaven-images/images/monster-stat-cards/frost-demon-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 228, 'gloomhaven-images/images/monster-stat-cards/frost-demon-0.png', 270);
 -- Frost Demon normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 2, 'normal', '7', '3', 3, 0, '["%retaliate% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 229, 'gloomhaven-images/images/monster-stat-cards/frost-demon-0.png', 180);
@@ -1552,10 +1552,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 230, 'gloomhaven-images/images/monster-stat-cards/frost-demon-0.png', 180);
 -- Frost Demon normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 3, 'normal', '8', '4', 3, 0, '["%retaliate% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 231, 'gloomhaven-images/images/monster-stat-cards/frost-demon-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 231, 'gloomhaven-images/images/monster-stat-cards/frost-demon-0.png', 90);
 -- Frost Demon elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 3, 'elite', '14', '4', 4, 0, '["%retaliate% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 232, 'gloomhaven-images/images/monster-stat-cards/frost-demon-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 232, 'gloomhaven-images/images/monster-stat-cards/frost-demon-0.png', 90);
 -- Frost Demon normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 4, 'normal', '10', '4', 3, 0, '["%retaliate% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 233, 'gloomhaven-images/images/monster-stat-cards/frost-demon-4.png', 0);
@@ -1564,10 +1564,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 234, 'gloomhaven-images/images/monster-stat-cards/frost-demon-4.png', 0);
 -- Frost Demon normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 5, 'normal', '11', '4', 3, 0, '["%retaliate% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 235, 'gloomhaven-images/images/monster-stat-cards/frost-demon-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 235, 'gloomhaven-images/images/monster-stat-cards/frost-demon-4.png', 270);
 -- Frost Demon elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 5, 'elite', '20', '5', 4, 0, '["%retaliate% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 236, 'gloomhaven-images/images/monster-stat-cards/frost-demon-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 236, 'gloomhaven-images/images/monster-stat-cards/frost-demon-4.png', 270);
 -- Frost Demon normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 6, 'normal', '12', '5', 3, 0, '["%retaliate% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 237, 'gloomhaven-images/images/monster-stat-cards/frost-demon-4.png', 180);
@@ -1576,10 +1576,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 238, 'gloomhaven-images/images/monster-stat-cards/frost-demon-4.png', 180);
 -- Frost Demon normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 7, 'normal', '14', '5', 3, 0, '["%retaliate% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 239, 'gloomhaven-images/images/monster-stat-cards/frost-demon-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 239, 'gloomhaven-images/images/monster-stat-cards/frost-demon-4.png', 90);
 -- Frost Demon elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 7, 'elite', '25', '5', 4, 0, '["%retaliate% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 240, 'gloomhaven-images/images/monster-stat-cards/frost-demon-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Frost Demon'), 240, 'gloomhaven-images/images/monster-stat-cards/frost-demon-4.png', 90);
 -- Giant Viper normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 0, 'normal', '2', '1', 2, 0, '["%poison%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 241, 'gloomhaven-images/images/monster-stat-cards/giant-viper-0.png', 0);
@@ -1588,10 +1588,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 242, 'gloomhaven-images/images/monster-stat-cards/giant-viper-0.png', 0);
 -- Giant Viper normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 1, 'normal', '3', '1', 2, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 243, 'gloomhaven-images/images/monster-stat-cards/giant-viper-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 243, 'gloomhaven-images/images/monster-stat-cards/giant-viper-0.png', 270);
 -- Giant Viper elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 1, 'elite', '5', '2', 2, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 244, 'gloomhaven-images/images/monster-stat-cards/giant-viper-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 244, 'gloomhaven-images/images/monster-stat-cards/giant-viper-0.png', 270);
 -- Giant Viper normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 2, 'normal', '4', '1', 3, 0, '["%poison%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 245, 'gloomhaven-images/images/monster-stat-cards/giant-viper-0.png', 180);
@@ -1600,10 +1600,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 246, 'gloomhaven-images/images/monster-stat-cards/giant-viper-0.png', 180);
 -- Giant Viper normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 3, 'normal', '4', '2', 3, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 247, 'gloomhaven-images/images/monster-stat-cards/giant-viper-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 247, 'gloomhaven-images/images/monster-stat-cards/giant-viper-0.png', 90);
 -- Giant Viper elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 3, 'elite', '8', '3', 3, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 248, 'gloomhaven-images/images/monster-stat-cards/giant-viper-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 248, 'gloomhaven-images/images/monster-stat-cards/giant-viper-0.png', 90);
 -- Giant Viper normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 4, 'normal', '6', '2', 3, 0, '["%poison%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 249, 'gloomhaven-images/images/monster-stat-cards/giant-viper-4.png', 0);
@@ -1612,10 +1612,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 250, 'gloomhaven-images/images/monster-stat-cards/giant-viper-4.png', 0);
 -- Giant Viper normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 5, 'normal', '7', '3', 3, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 251, 'gloomhaven-images/images/monster-stat-cards/giant-viper-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 251, 'gloomhaven-images/images/monster-stat-cards/giant-viper-4.png', 270);
 -- Giant Viper elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 5, 'elite', '13', '3', 4, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 252, 'gloomhaven-images/images/monster-stat-cards/giant-viper-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 252, 'gloomhaven-images/images/monster-stat-cards/giant-viper-4.png', 270);
 -- Giant Viper normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 6, 'normal', '8', '3', 4, 0, '["%poison%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 253, 'gloomhaven-images/images/monster-stat-cards/giant-viper-4.png', 180);
@@ -1624,10 +1624,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 254, 'gloomhaven-images/images/monster-stat-cards/giant-viper-4.png', 180);
 -- Giant Viper normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 7, 'normal', '10', '3', 4, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 255, 'gloomhaven-images/images/monster-stat-cards/giant-viper-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 255, 'gloomhaven-images/images/monster-stat-cards/giant-viper-4.png', 90);
 -- Giant Viper elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 7, 'elite', '17', '4', 4, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 256, 'gloomhaven-images/images/monster-stat-cards/giant-viper-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Giant Viper'), 256, 'gloomhaven-images/images/monster-stat-cards/giant-viper-4.png', 90);
 -- Harrower Infester normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 0, 'normal', '6', '2', 2, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 257, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-0.png', 0);
@@ -1636,10 +1636,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 258, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-0.png', 0);
 -- Harrower Infester normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 1, 'normal', '7', '2', 2, 0, '["%retaliate% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 259, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 259, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-0.png', 270);
 -- Harrower Infester elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 1, 'elite', '12', '2', 3, 0, '["%retaliate% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 260, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 260, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-0.png', 270);
 -- Harrower Infester normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 2, 'normal', '8', '2', 2, 0, '["%retaliate% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 261, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-0.png', 180);
@@ -1648,10 +1648,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 262, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-0.png', 180);
 -- Harrower Infester normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 3, 'normal', '10', '3', 2, 0, '["%retaliate% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 263, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 263, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-0.png', 90);
 -- Harrower Infester elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 3, 'elite', '17', '3', 3, 0, '["%retaliate% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 264, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 264, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-0.png', 90);
 -- Harrower Infester normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 4, 'normal', '12', '3', 3, 0, '["%retaliate% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 265, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-4.png', 0);
@@ -1660,10 +1660,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 266, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-4.png', 0);
 -- Harrower Infester normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 5, 'normal', '12', '4', 3, 0, '["%retaliate% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 267, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 267, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-4.png', 270);
 -- Harrower Infester elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 5, 'elite', '21', '5', 3, 0, '["%retaliate% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 268, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 268, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-4.png', 270);
 -- Harrower Infester normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 6, 'normal', '15', '4', 3, 0, '["%retaliate% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 269, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-4.png', 180);
@@ -1672,10 +1672,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 270, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-4.png', 180);
 -- Harrower Infester normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 7, 'normal', '17', '4', 3, 0, '["%retaliate% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 271, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 271, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-4.png', 90);
 -- Harrower Infester elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 7, 'elite', '26', '5', 4, 0, '["%retaliate% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 272, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Harrower Infester'), 272, 'gloomhaven-images/images/monster-stat-cards/harrower-infester-4.png', 90);
 -- Hound normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Hound'), 0, 'normal', '4', '2', 3, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 273, 'gloomhaven-images/images/monster-stat-cards/hound-0.png', 0);
@@ -1684,10 +1684,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 274, 'gloomhaven-images/images/monster-stat-cards/hound-0.png', 0);
 -- Hound normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Hound'), 1, 'normal', '4', '2', 4, 0, '["%retaliate% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 275, 'gloomhaven-images/images/monster-stat-cards/hound-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 275, 'gloomhaven-images/images/monster-stat-cards/hound-0.png', 270);
 -- Hound elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Hound'), 1, 'elite', '6', '2', 5, 0, '["%retaliate% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 276, 'gloomhaven-images/images/monster-stat-cards/hound-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 276, 'gloomhaven-images/images/monster-stat-cards/hound-0.png', 270);
 -- Hound normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Hound'), 2, 'normal', '6', '2', 4, 0, '["%retaliate% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 277, 'gloomhaven-images/images/monster-stat-cards/hound-0.png', 180);
@@ -1696,10 +1696,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 278, 'gloomhaven-images/images/monster-stat-cards/hound-0.png', 180);
 -- Hound normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Hound'), 3, 'normal', '8', '2', 4, 0, '["%retaliate% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 279, 'gloomhaven-images/images/monster-stat-cards/hound-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 279, 'gloomhaven-images/images/monster-stat-cards/hound-0.png', 90);
 -- Hound elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Hound'), 3, 'elite', '8', '4', 5, 0, '["%retaliate% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 280, 'gloomhaven-images/images/monster-stat-cards/hound-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 280, 'gloomhaven-images/images/monster-stat-cards/hound-0.png', 90);
 -- Hound normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Hound'), 4, 'normal', '8', '3', 4, 0, '["%retaliate% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 281, 'gloomhaven-images/images/monster-stat-cards/hound-4.png', 0);
@@ -1708,10 +1708,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 282, 'gloomhaven-images/images/monster-stat-cards/hound-4.png', 0);
 -- Hound normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Hound'), 5, 'normal', '9', '3', 4, 0, '["%retaliate% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 283, 'gloomhaven-images/images/monster-stat-cards/hound-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 283, 'gloomhaven-images/images/monster-stat-cards/hound-4.png', 270);
 -- Hound elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Hound'), 5, 'elite', '12', '4', 5, 0, '["%retaliate% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 284, 'gloomhaven-images/images/monster-stat-cards/hound-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 284, 'gloomhaven-images/images/monster-stat-cards/hound-4.png', 270);
 -- Hound normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Hound'), 6, 'normal', '11', '3', 5, 0, '["%retaliate% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 285, 'gloomhaven-images/images/monster-stat-cards/hound-4.png', 180);
@@ -1720,10 +1720,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 286, 'gloomhaven-images/images/monster-stat-cards/hound-4.png', 180);
 -- Hound normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Hound'), 7, 'normal', '15', '3', 5, 0, '["%retaliate% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 287, 'gloomhaven-images/images/monster-stat-cards/hound-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 287, 'gloomhaven-images/images/monster-stat-cards/hound-4.png', 90);
 -- Hound elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Hound'), 7, 'elite', '15', '5', 6, 0, '["%retaliate% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 288, 'gloomhaven-images/images/monster-stat-cards/hound-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Hound'), 288, 'gloomhaven-images/images/monster-stat-cards/hound-4.png', 90);
 -- Inox Archer normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 0, 'normal', '5', '2', 2, 2, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 289, 'gloomhaven-images/images/monster-stat-cards/inox-archer-0.png', 0);
@@ -1732,10 +1732,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 290, 'gloomhaven-images/images/monster-stat-cards/inox-archer-0.png', 0);
 -- Inox Archer normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 1, 'normal', '6', '2', 2, 3, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 291, 'gloomhaven-images/images/monster-stat-cards/inox-archer-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 291, 'gloomhaven-images/images/monster-stat-cards/inox-archer-0.png', 270);
 -- Inox Archer elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 1, 'elite', '8', '3', 2, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 292, 'gloomhaven-images/images/monster-stat-cards/inox-archer-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 292, 'gloomhaven-images/images/monster-stat-cards/inox-archer-0.png', 270);
 -- Inox Archer normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 2, 'normal', '8', '2', 2, 3, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 293, 'gloomhaven-images/images/monster-stat-cards/inox-archer-0.png', 180);
@@ -1744,10 +1744,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 294, 'gloomhaven-images/images/monster-stat-cards/inox-archer-0.png', 180);
 -- Inox Archer normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 3, 'normal', '9', '3', 2, 3, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 295, 'gloomhaven-images/images/monster-stat-cards/inox-archer-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 295, 'gloomhaven-images/images/monster-stat-cards/inox-archer-0.png', 90);
 -- Inox Archer elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 3, 'elite', '13', '4', 2, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 296, 'gloomhaven-images/images/monster-stat-cards/inox-archer-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 296, 'gloomhaven-images/images/monster-stat-cards/inox-archer-0.png', 90);
 -- Inox Archer normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 4, 'normal', '10', '3', 3, 3, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 297, 'gloomhaven-images/images/monster-stat-cards/inox-archer-4.png', 0);
@@ -1756,10 +1756,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 298, 'gloomhaven-images/images/monster-stat-cards/inox-archer-4.png', 0);
 -- Inox Archer normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 5, 'normal', '12', '3', 3, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 299, 'gloomhaven-images/images/monster-stat-cards/inox-archer-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 299, 'gloomhaven-images/images/monster-stat-cards/inox-archer-4.png', 270);
 -- Inox Archer elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 5, 'elite', '17', '4', 3, 5, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 300, 'gloomhaven-images/images/monster-stat-cards/inox-archer-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 300, 'gloomhaven-images/images/monster-stat-cards/inox-archer-4.png', 270);
 -- Inox Archer normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 6, 'normal', '12', '4', 3, 4, '["%wound%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 301, 'gloomhaven-images/images/monster-stat-cards/inox-archer-4.png', 180);
@@ -1768,10 +1768,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 302, 'gloomhaven-images/images/monster-stat-cards/inox-archer-4.png', 180);
 -- Inox Archer normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 7, 'normal', '15', '4', 3, 4, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 303, 'gloomhaven-images/images/monster-stat-cards/inox-archer-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 303, 'gloomhaven-images/images/monster-stat-cards/inox-archer-4.png', 90);
 -- Inox Archer elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 7, 'elite', '23', '5', 3, 5, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 304, 'gloomhaven-images/images/monster-stat-cards/inox-archer-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Archer'), 304, 'gloomhaven-images/images/monster-stat-cards/inox-archer-4.png', 90);
 -- Inox Bodyguard boss 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, boss_special1, boss_special2, boss_immunities) VALUES((SELECT id FROM monster where name = 'Inox Bodyguard'), 0, 'boss', '6xC', 'C', 2, 0, '["%move% - 1","%attack% - 1 %boss-aoe-inox-bodyguard-sp1%"]', '["%move% + 0","%attack% + 0","%retaliate% + 3"]', '["%disarm%","%poison%","%muddle%","%stun%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Bodyguard'), 305, 'gloomhaven-images/images/monster-stat-cards/inox-bodyguard-0.png', 0);
@@ -1804,10 +1804,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 314, 'gloomhaven-images/images/monster-stat-cards/inox-guard-0.png', 0);
 -- Inox Guard normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 1, 'normal', '8', '2', 2, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 315, 'gloomhaven-images/images/monster-stat-cards/inox-guard-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 315, 'gloomhaven-images/images/monster-stat-cards/inox-guard-0.png', 270);
 -- Inox Guard elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 1, 'elite', '10', '3', 2, 0, '["%retaliate% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 316, 'gloomhaven-images/images/monster-stat-cards/inox-guard-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 316, 'gloomhaven-images/images/monster-stat-cards/inox-guard-0.png', 270);
 -- Inox Guard normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 2, 'normal', '9', '3', 2, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 317, 'gloomhaven-images/images/monster-stat-cards/inox-guard-0.png', 180);
@@ -1816,10 +1816,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 318, 'gloomhaven-images/images/monster-stat-cards/inox-guard-0.png', 180);
 -- Inox Guard normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 3, 'normal', '11', '3', 3, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 319, 'gloomhaven-images/images/monster-stat-cards/inox-guard-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 319, 'gloomhaven-images/images/monster-stat-cards/inox-guard-0.png', 90);
 -- Inox Guard elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 3, 'elite', '15', '4', 2, 0, '["%retaliate% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 320, 'gloomhaven-images/images/monster-stat-cards/inox-guard-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 320, 'gloomhaven-images/images/monster-stat-cards/inox-guard-0.png', 90);
 -- Inox Guard normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 4, 'normal', '12', '3', 3, 0, '["%retaliate% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 321, 'gloomhaven-images/images/monster-stat-cards/inox-guard-4.png', 0);
@@ -1828,10 +1828,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 322, 'gloomhaven-images/images/monster-stat-cards/inox-guard-4.png', 0);
 -- Inox Guard normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 5, 'normal', '13', '4', 3, 0, '["%retaliate% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 323, 'gloomhaven-images/images/monster-stat-cards/inox-guard-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 323, 'gloomhaven-images/images/monster-stat-cards/inox-guard-4.png', 270);
 -- Inox Guard elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 5, 'elite', '19', '5', 2, 0, '["%retaliate% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 324, 'gloomhaven-images/images/monster-stat-cards/inox-guard-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 324, 'gloomhaven-images/images/monster-stat-cards/inox-guard-4.png', 270);
 -- Inox Guard normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 6, 'normal', '16', '4', 3, 0, '["%retaliate% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 325, 'gloomhaven-images/images/monster-stat-cards/inox-guard-4.png', 180);
@@ -1840,10 +1840,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 326, 'gloomhaven-images/images/monster-stat-cards/inox-guard-4.png', 180);
 -- Inox Guard normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 7, 'normal', '19', '4', 3, 0, '["%retaliate% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 327, 'gloomhaven-images/images/monster-stat-cards/inox-guard-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 327, 'gloomhaven-images/images/monster-stat-cards/inox-guard-4.png', 90);
 -- Inox Guard elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 7, 'elite', '23', '6', 3, 0, '["%retaliate% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 328, 'gloomhaven-images/images/monster-stat-cards/inox-guard-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Guard'), 328, 'gloomhaven-images/images/monster-stat-cards/inox-guard-4.png', 90);
 -- Inox Shaman normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 0, 'normal', '4', '2', 1, 3, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 329, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-0.png', 0);
@@ -1852,10 +1852,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 330, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-0.png', 0);
 -- Inox Shaman normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 1, 'normal', '6', '2', 1, 3, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 331, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 331, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-0.png', 270);
 -- Inox Shaman elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 1, 'elite', '9', '3', 2, 3, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 332, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 332, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-0.png', 270);
 -- Inox Shaman normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 2, 'normal', '7', '2', 2, 3, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 333, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-0.png', 180);
@@ -1864,10 +1864,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 334, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-0.png', 180);
 -- Inox Shaman normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 3, 'normal', '9', '2', 2, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 335, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 335, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-0.png', 90);
 -- Inox Shaman elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 3, 'elite', '14', '3', 3, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 336, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 336, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-0.png', 90);
 -- Inox Shaman normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 4, 'normal', '10', '3', 2, 4, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 337, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-4.png', 0);
@@ -1876,10 +1876,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 338, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-4.png', 0);
 -- Inox Shaman normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 5, 'normal', '13', '3', 2, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 339, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 339, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-4.png', 270);
 -- Inox Shaman elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 5, 'elite', '20', '4', 3, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 340, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 340, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-4.png', 270);
 -- Inox Shaman normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 6, 'normal', '15', '3', 3, 4, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 341, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-4.png', 180);
@@ -1888,10 +1888,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 342, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-4.png', 180);
 -- Inox Shaman normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 7, 'normal', '16', '4', 3, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 343, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 343, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-4.png', 90);
 -- Inox Shaman elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 7, 'elite', '27', '5', 4, 4, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 344, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Inox Shaman'), 344, 'gloomhaven-images/images/monster-stat-cards/inox-shaman-4.png', 90);
 -- Jekserah boss 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, boss_special1, boss_special2, boss_immunities) VALUES((SELECT id FROM monster where name = 'Jekserah'), 0, 'boss', '6xC', '2', 2, 0, '["Summon Living Bones","%attack% - 1, Target all","adjacent enemies"]', '["Summon Living Corpse","%move% - 1","%attack% + 2"]', '["%disarm%","%wound%","%curse%","%stun%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Jekserah'), 345, 'gloomhaven-images/images/monster-stat-cards/jekserah-0.png', 0);
@@ -1924,10 +1924,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 354, 'gloomhaven-images/images/monster-stat-cards/living-bones-0.png', 0);
 -- Living Bones normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Bones'), 1, 'normal', '5', '1', 3, 0, '["%target% 2","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 355, 'gloomhaven-images/images/monster-stat-cards/living-bones-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 355, 'gloomhaven-images/images/monster-stat-cards/living-bones-0.png', 270);
 -- Living Bones elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Bones'), 1, 'elite', '6', '2', 4, 0, '["%target% 3","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 356, 'gloomhaven-images/images/monster-stat-cards/living-bones-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 356, 'gloomhaven-images/images/monster-stat-cards/living-bones-0.png', 270);
 -- Living Bones normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Bones'), 2, 'normal', '5', '2', 3, 0, '["%target% 2","%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 357, 'gloomhaven-images/images/monster-stat-cards/living-bones-0.png', 180);
@@ -1936,10 +1936,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 358, 'gloomhaven-images/images/monster-stat-cards/living-bones-0.png', 180);
 -- Living Bones normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Bones'), 3, 'normal', '7', '2', 3, 0, '["%target% 2","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 359, 'gloomhaven-images/images/monster-stat-cards/living-bones-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 359, 'gloomhaven-images/images/monster-stat-cards/living-bones-0.png', 90);
 -- Living Bones elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Bones'), 3, 'elite', '10', '3', 4, 0, '["%target% 3","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 360, 'gloomhaven-images/images/monster-stat-cards/living-bones-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 360, 'gloomhaven-images/images/monster-stat-cards/living-bones-0.png', 90);
 -- Living Bones normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Bones'), 4, 'normal', '7', '3', 3, 0, '["%target% 2","%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 361, 'gloomhaven-images/images/monster-stat-cards/living-bones-4.png', 0);
@@ -1948,10 +1948,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 362, 'gloomhaven-images/images/monster-stat-cards/living-bones-4.png', 0);
 -- Living Bones normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Bones'), 5, 'normal', '9', '3', 3, 0, '["%target% 2","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 363, 'gloomhaven-images/images/monster-stat-cards/living-bones-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 363, 'gloomhaven-images/images/monster-stat-cards/living-bones-4.png', 270);
 -- Living Bones elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Bones'), 5, 'elite', '11', '4', 4, 0, '["%target% 3","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 364, 'gloomhaven-images/images/monster-stat-cards/living-bones-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 364, 'gloomhaven-images/images/monster-stat-cards/living-bones-4.png', 270);
 -- Living Bones normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Bones'), 6, 'normal', '10', '3', 4, 0, '["%target% 2","%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 365, 'gloomhaven-images/images/monster-stat-cards/living-bones-4.png', 180);
@@ -1960,10 +1960,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 366, 'gloomhaven-images/images/monster-stat-cards/living-bones-4.png', 180);
 -- Living Bones normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Bones'), 7, 'normal', '13', '3', 4, 0, '["%target% 2","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 367, 'gloomhaven-images/images/monster-stat-cards/living-bones-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 367, 'gloomhaven-images/images/monster-stat-cards/living-bones-4.png', 90);
 -- Living Bones elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Bones'), 7, 'elite', '14', '4', 6, 0, '["%target% 3","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 368, 'gloomhaven-images/images/monster-stat-cards/living-bones-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Bones'), 368, 'gloomhaven-images/images/monster-stat-cards/living-bones-4.png', 90);
 -- Living Corpse normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 0, 'normal', '5', '3', 1, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 369, 'gloomhaven-images/images/monster-stat-cards/living-corpse-0.png', 0);
@@ -1972,10 +1972,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 370, 'gloomhaven-images/images/monster-stat-cards/living-corpse-0.png', 0);
 -- Living Corpse normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 1, 'normal', '7', '3', 1, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 371, 'gloomhaven-images/images/monster-stat-cards/living-corpse-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 371, 'gloomhaven-images/images/monster-stat-cards/living-corpse-0.png', 270);
 -- Living Corpse elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 1, 'elite', '10', '4', 1, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 372, 'gloomhaven-images/images/monster-stat-cards/living-corpse-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 372, 'gloomhaven-images/images/monster-stat-cards/living-corpse-0.png', 270);
 -- Living Corpse normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 2, 'normal', '9', '3', 1, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 373, 'gloomhaven-images/images/monster-stat-cards/living-corpse-0.png', 180);
@@ -1984,10 +1984,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 374, 'gloomhaven-images/images/monster-stat-cards/living-corpse-0.png', 180);
 -- Living Corpse normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 3, 'normal', '10', '4', 1, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 375, 'gloomhaven-images/images/monster-stat-cards/living-corpse-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 375, 'gloomhaven-images/images/monster-stat-cards/living-corpse-0.png', 90);
 -- Living Corpse elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 3, 'elite', '13', '5', 2, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 376, 'gloomhaven-images/images/monster-stat-cards/living-corpse-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 376, 'gloomhaven-images/images/monster-stat-cards/living-corpse-0.png', 90);
 -- Living Corpse normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 4, 'normal', '11', '4', 2, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 377, 'gloomhaven-images/images/monster-stat-cards/living-corpse-4.png', 0);
@@ -1996,10 +1996,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 378, 'gloomhaven-images/images/monster-stat-cards/living-corpse-4.png', 0);
 -- Living Corpse normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 5, 'normal', '13', '4', 2, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 379, 'gloomhaven-images/images/monster-stat-cards/living-corpse-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 379, 'gloomhaven-images/images/monster-stat-cards/living-corpse-4.png', 270);
 -- Living Corpse elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 5, 'elite', '17', '6', 2, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 380, 'gloomhaven-images/images/monster-stat-cards/living-corpse-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 380, 'gloomhaven-images/images/monster-stat-cards/living-corpse-4.png', 270);
 -- Living Corpse normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 6, 'normal', '14', '4', 2, 0, '["%poison%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 381, 'gloomhaven-images/images/monster-stat-cards/living-corpse-4.png', 180);
@@ -2008,10 +2008,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 382, 'gloomhaven-images/images/monster-stat-cards/living-corpse-4.png', 180);
 -- Living Corpse normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 7, 'normal', '15', '5', 2, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 383, 'gloomhaven-images/images/monster-stat-cards/living-corpse-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 383, 'gloomhaven-images/images/monster-stat-cards/living-corpse-4.png', 90);
 -- Living Corpse elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 7, 'elite', '25', '6', 2, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 384, 'gloomhaven-images/images/monster-stat-cards/living-corpse-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Corpse'), 384, 'gloomhaven-images/images/monster-stat-cards/living-corpse-4.png', 90);
 -- Living Spirit normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 0, 'normal', '2', '2', 2, 2, '["%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 385, 'gloomhaven-images/images/monster-stat-cards/living-spirit-0.png', 0);
@@ -2020,10 +2020,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 386, 'gloomhaven-images/images/monster-stat-cards/living-spirit-0.png', 0);
 -- Living Spirit normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 1, 'normal', '2', '2', 2, 2, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 387, 'gloomhaven-images/images/monster-stat-cards/living-spirit-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 387, 'gloomhaven-images/images/monster-stat-cards/living-spirit-0.png', 270);
 -- Living Spirit elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 1, 'elite', '3', '3', 3, 3, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 388, 'gloomhaven-images/images/monster-stat-cards/living-spirit-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 388, 'gloomhaven-images/images/monster-stat-cards/living-spirit-0.png', 270);
 -- Living Spirit normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 2, 'normal', '2', '2', 3, 3, '["%shield% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 389, 'gloomhaven-images/images/monster-stat-cards/living-spirit-0.png', 180);
@@ -2032,10 +2032,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 390, 'gloomhaven-images/images/monster-stat-cards/living-spirit-0.png', 180);
 -- Living Spirit normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 3, 'normal', '3', '3', 3, 3, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 391, 'gloomhaven-images/images/monster-stat-cards/living-spirit-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 391, 'gloomhaven-images/images/monster-stat-cards/living-spirit-0.png', 90);
 -- Living Spirit elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 3, 'elite', '4', '4', 4, 4, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 392, 'gloomhaven-images/images/monster-stat-cards/living-spirit-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 392, 'gloomhaven-images/images/monster-stat-cards/living-spirit-0.png', 90);
 -- Living Spirit normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 4, 'normal', '3', '3', 3, 3, '["%shield% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 393, 'gloomhaven-images/images/monster-stat-cards/living-spirit-4.png', 0);
@@ -2044,10 +2044,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 394, 'gloomhaven-images/images/monster-stat-cards/living-spirit-4.png', 0);
 -- Living Spirit normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 5, 'normal', '4', '3', 3, 4, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 395, 'gloomhaven-images/images/monster-stat-cards/living-spirit-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 395, 'gloomhaven-images/images/monster-stat-cards/living-spirit-4.png', 270);
 -- Living Spirit elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 5, 'elite', '6', '4', 4, 4, '["%shield% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 396, 'gloomhaven-images/images/monster-stat-cards/living-spirit-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 396, 'gloomhaven-images/images/monster-stat-cards/living-spirit-4.png', 270);
 -- Living Spirit normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 6, 'normal', '4', '4', 3, 4, '["%shield% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 397, 'gloomhaven-images/images/monster-stat-cards/living-spirit-4.png', 180);
@@ -2056,10 +2056,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 398, 'gloomhaven-images/images/monster-stat-cards/living-spirit-4.png', 180);
 -- Living Spirit normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 7, 'normal', '6', '4', 3, 4, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 399, 'gloomhaven-images/images/monster-stat-cards/living-spirit-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 399, 'gloomhaven-images/images/monster-stat-cards/living-spirit-4.png', 90);
 -- Living Spirit elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 7, 'elite', '9', '5', 4, 5, '["%shield% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 400, 'gloomhaven-images/images/monster-stat-cards/living-spirit-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Living Spirit'), 400, 'gloomhaven-images/images/monster-stat-cards/living-spirit-4.png', 90);
 -- Lurker normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Lurker'), 0, 'normal', '5', '2', 2, 0, '["%target% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 401, 'gloomhaven-images/images/monster-stat-cards/lurker-0.png', 0);
@@ -2068,10 +2068,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 402, 'gloomhaven-images/images/monster-stat-cards/lurker-0.png', 0);
 -- Lurker normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Lurker'), 1, 'normal', '7', '2', 2, 0, '["%target% 2","%pierce% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 403, 'gloomhaven-images/images/monster-stat-cards/lurker-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 403, 'gloomhaven-images/images/monster-stat-cards/lurker-0.png', 270);
 -- Lurker elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Lurker'), 1, 'elite', '9', '3', 2, 0, '["%target% 2","%pierce% 1","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 404, 'gloomhaven-images/images/monster-stat-cards/lurker-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 404, 'gloomhaven-images/images/monster-stat-cards/lurker-0.png', 270);
 -- Lurker normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Lurker'), 2, 'normal', '9', '2', 3, 0, '["%target% 2","%pierce% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 405, 'gloomhaven-images/images/monster-stat-cards/lurker-0.png', 180);
@@ -2080,10 +2080,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 406, 'gloomhaven-images/images/monster-stat-cards/lurker-0.png', 180);
 -- Lurker normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Lurker'), 3, 'normal', '10', '3', 3, 0, '["%target% 2","%pierce% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 407, 'gloomhaven-images/images/monster-stat-cards/lurker-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 407, 'gloomhaven-images/images/monster-stat-cards/lurker-0.png', 90);
 -- Lurker elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Lurker'), 3, 'elite', '14', '4', 3, 0, '["%target% 2","%pierce% 2","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 408, 'gloomhaven-images/images/monster-stat-cards/lurker-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 408, 'gloomhaven-images/images/monster-stat-cards/lurker-0.png', 90);
 -- Lurker normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Lurker'), 4, 'normal', '10', '3', 3, 0, '["%target% 2","%pierce% 2","%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 409, 'gloomhaven-images/images/monster-stat-cards/lurker-4.png', 0);
@@ -2092,10 +2092,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 410, 'gloomhaven-images/images/monster-stat-cards/lurker-4.png', 0);
 -- Lurker normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Lurker'), 5, 'normal', '11', '4', 3, 0, '["%target% 2","%pierce% 2","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 411, 'gloomhaven-images/images/monster-stat-cards/lurker-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 411, 'gloomhaven-images/images/monster-stat-cards/lurker-4.png', 270);
 -- Lurker elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Lurker'), 5, 'elite', '15', '5', 3, 0, '["%target% 2","%pierce% 3","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 412, 'gloomhaven-images/images/monster-stat-cards/lurker-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 412, 'gloomhaven-images/images/monster-stat-cards/lurker-4.png', 270);
 -- Lurker normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Lurker'), 6, 'normal', '12', '4', 4, 0, '["%target% 2","%pierce% 3","%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 413, 'gloomhaven-images/images/monster-stat-cards/lurker-4.png', 180);
@@ -2104,10 +2104,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 414, 'gloomhaven-images/images/monster-stat-cards/lurker-4.png', 180);
 -- Lurker normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Lurker'), 7, 'normal', '14', '4', 4, 0, '["%target% 2","%pierce% 3","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 415, 'gloomhaven-images/images/monster-stat-cards/lurker-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 415, 'gloomhaven-images/images/monster-stat-cards/lurker-4.png', 90);
 -- Lurker elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Lurker'), 7, 'elite', '18', '5', 4, 0, '["%target% 2","%pierce% 4","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 416, 'gloomhaven-images/images/monster-stat-cards/lurker-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Lurker'), 416, 'gloomhaven-images/images/monster-stat-cards/lurker-4.png', 90);
 -- Merciless Overseer boss 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, boss_special1, boss_special2, boss_immunities) VALUES((SELECT id FROM monster where name = 'Merciless Overseer'), 0, 'boss', '6xC', 'V', 2, 0, '["All Scouts act again"]', '["Summon Vermling Scout"]', '["%disarm%","%wound%","%curse%","%stun%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Merciless Overseer'), 417, 'gloomhaven-images/images/monster-stat-cards/merciless-overseer-0.png', 0);
@@ -2140,10 +2140,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 426, 'gloomhaven-images/images/monster-stat-cards/night-demon-0.png', 0);
 -- Night Demon normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Night Demon'), 1, 'normal', '5', '3', 3, 0, '["Attackers gain Disadvantage"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 427, 'gloomhaven-images/images/monster-stat-cards/night-demon-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 427, 'gloomhaven-images/images/monster-stat-cards/night-demon-0.png', 270);
 -- Night Demon elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Night Demon'), 1, 'elite', '8', '4', 4, 0, '["Attackers gain Disadvantage"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 428, 'gloomhaven-images/images/monster-stat-cards/night-demon-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 428, 'gloomhaven-images/images/monster-stat-cards/night-demon-0.png', 270);
 -- Night Demon normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Night Demon'), 2, 'normal', '6', '4', 3, 0, '["Attackers gain Disadvantage"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 429, 'gloomhaven-images/images/monster-stat-cards/night-demon-0.png', 180);
@@ -2152,10 +2152,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 430, 'gloomhaven-images/images/monster-stat-cards/night-demon-0.png', 180);
 -- Night Demon normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Night Demon'), 3, 'normal', '7', '4', 4, 0, '["Attackers gain Disadvantage"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 431, 'gloomhaven-images/images/monster-stat-cards/night-demon-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 431, 'gloomhaven-images/images/monster-stat-cards/night-demon-0.png', 90);
 -- Night Demon elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Night Demon'), 3, 'elite', '13', '5', 4, 0, '["Attackers gain Disadvantage"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 432, 'gloomhaven-images/images/monster-stat-cards/night-demon-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 432, 'gloomhaven-images/images/monster-stat-cards/night-demon-0.png', 90);
 -- Night Demon normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Night Demon'), 4, 'normal', '8', '5', 4, 0, '["Attackers gain Disadvantage"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 433, 'gloomhaven-images/images/monster-stat-cards/night-demon-4.png', 0);
@@ -2164,10 +2164,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 434, 'gloomhaven-images/images/monster-stat-cards/night-demon-4.png', 0);
 -- Night Demon normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Night Demon'), 5, 'normal', '11', '5', 4, 0, '["Attackers gain Disadvantage"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 435, 'gloomhaven-images/images/monster-stat-cards/night-demon-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 435, 'gloomhaven-images/images/monster-stat-cards/night-demon-4.png', 270);
 -- Night Demon elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Night Demon'), 5, 'elite', '17', '6', 5, 0, '["Attackers gain Disadvantage"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 436, 'gloomhaven-images/images/monster-stat-cards/night-demon-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 436, 'gloomhaven-images/images/monster-stat-cards/night-demon-4.png', 270);
 -- Night Demon normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Night Demon'), 6, 'normal', '14', '5', 4, 0, '["Attackers gain Disadvantage"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 437, 'gloomhaven-images/images/monster-stat-cards/night-demon-4.png', 180);
@@ -2176,10 +2176,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 438, 'gloomhaven-images/images/monster-stat-cards/night-demon-4.png', 180);
 -- Night Demon normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Night Demon'), 7, 'normal', '15', '6', 4, 0, '["Attackers gain Disadvantage"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 439, 'gloomhaven-images/images/monster-stat-cards/night-demon-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 439, 'gloomhaven-images/images/monster-stat-cards/night-demon-4.png', 90);
 -- Night Demon elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Night Demon'), 7, 'elite', '21', '8', 5, 0, '["Attackers gain Disadvantage"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 440, 'gloomhaven-images/images/monster-stat-cards/night-demon-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Night Demon'), 440, 'gloomhaven-images/images/monster-stat-cards/night-demon-4.png', 90);
 -- Ooze normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ooze'), 0, 'normal', '4', '2', 1, 2, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 441, 'gloomhaven-images/images/monster-stat-cards/ooze-0.png', 0);
@@ -2188,10 +2188,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 442, 'gloomhaven-images/images/monster-stat-cards/ooze-0.png', 0);
 -- Ooze normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ooze'), 1, 'normal', '5', '2', 1, 2, '["%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 443, 'gloomhaven-images/images/monster-stat-cards/ooze-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 443, 'gloomhaven-images/images/monster-stat-cards/ooze-0.png', 270);
 -- Ooze elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ooze'), 1, 'elite', '9', '2', 1, 3, '["%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 444, 'gloomhaven-images/images/monster-stat-cards/ooze-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 444, 'gloomhaven-images/images/monster-stat-cards/ooze-0.png', 270);
 -- Ooze normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ooze'), 2, 'normal', '7', '2', 1, 3, '["%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 445, 'gloomhaven-images/images/monster-stat-cards/ooze-0.png', 180);
@@ -2200,10 +2200,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 446, 'gloomhaven-images/images/monster-stat-cards/ooze-0.png', 180);
 -- Ooze normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ooze'), 3, 'normal', '8', '3', 1, 3, '["%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 447, 'gloomhaven-images/images/monster-stat-cards/ooze-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 447, 'gloomhaven-images/images/monster-stat-cards/ooze-0.png', 90);
 -- Ooze elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ooze'), 3, 'elite', '11', '3', 2, 4, '["%poison%","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 448, 'gloomhaven-images/images/monster-stat-cards/ooze-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 448, 'gloomhaven-images/images/monster-stat-cards/ooze-0.png', 90);
 -- Ooze normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ooze'), 4, 'normal', '9', '3', 2, 3, '["%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 449, 'gloomhaven-images/images/monster-stat-cards/ooze-4.png', 0);
@@ -2212,10 +2212,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 450, 'gloomhaven-images/images/monster-stat-cards/ooze-4.png', 0);
 -- Ooze normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ooze'), 5, 'normal', '10', '3', 2, 3, '["%poison%","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 451, 'gloomhaven-images/images/monster-stat-cards/ooze-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 451, 'gloomhaven-images/images/monster-stat-cards/ooze-4.png', 270);
 -- Ooze elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ooze'), 5, 'elite', '15', '4', 3, 4, '["%poison%","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 452, 'gloomhaven-images/images/monster-stat-cards/ooze-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 452, 'gloomhaven-images/images/monster-stat-cards/ooze-4.png', 270);
 -- Ooze normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ooze'), 6, 'normal', '12', '4', 2, 3, '["%poison%","%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 453, 'gloomhaven-images/images/monster-stat-cards/ooze-4.png', 180);
@@ -2224,10 +2224,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 454, 'gloomhaven-images/images/monster-stat-cards/ooze-4.png', 180);
 -- Ooze normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ooze'), 7, 'normal', '14', '4', 2, 3, '["%poison%","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 455, 'gloomhaven-images/images/monster-stat-cards/ooze-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 455, 'gloomhaven-images/images/monster-stat-cards/ooze-4.png', 90);
 -- Ooze elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Ooze'), 7, 'elite', '18', '5', 3, 4, '["%poison%","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 456, 'gloomhaven-images/images/monster-stat-cards/ooze-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Ooze'), 456, 'gloomhaven-images/images/monster-stat-cards/ooze-4.png', 90);
 -- Prime Demon boss 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, boss_special1, boss_special2, boss_immunities) VALUES((SELECT id FROM monster where name = 'Prime Demon'), 0, 'boss', '8xC', '4', 3, 0, '["Throne moves","Summon Demon","%move% + 2","%attack% - 1"]', '["Throne moves","Summon Demon","%move% + 2","%attack% - 1"]', '["%wound%","%poison%","%disarm%","%immobilize%","%muddle%","%stun%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Prime Demon'), 457, 'gloomhaven-images/images/monster-stat-cards/prime-demon-0.png', 0);
@@ -2260,10 +2260,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 466, 'gloomhaven-images/images/monster-stat-cards/rending-drake-0.png', 0);
 -- Rending Drake normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 1, 'normal', '6', '3', 3, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 467, 'gloomhaven-images/images/monster-stat-cards/rending-drake-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 467, 'gloomhaven-images/images/monster-stat-cards/rending-drake-0.png', 270);
 -- Rending Drake elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 1, 'elite', '7', '5', 4, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 468, 'gloomhaven-images/images/monster-stat-cards/rending-drake-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 468, 'gloomhaven-images/images/monster-stat-cards/rending-drake-0.png', 270);
 -- Rending Drake normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 2, 'normal', '7', '3', 4, 0, '["%wound%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 469, 'gloomhaven-images/images/monster-stat-cards/rending-drake-0.png', 180);
@@ -2272,10 +2272,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 470, 'gloomhaven-images/images/monster-stat-cards/rending-drake-0.png', 180);
 -- Rending Drake normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 3, 'normal', '7', '4', 4, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 471, 'gloomhaven-images/images/monster-stat-cards/rending-drake-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 471, 'gloomhaven-images/images/monster-stat-cards/rending-drake-0.png', 90);
 -- Rending Drake elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 3, 'elite', '10', '6', 5, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 472, 'gloomhaven-images/images/monster-stat-cards/rending-drake-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 472, 'gloomhaven-images/images/monster-stat-cards/rending-drake-0.png', 90);
 -- Rending Drake normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 4, 'normal', '9', '4', 4, 0, '["%wound%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 473, 'gloomhaven-images/images/monster-stat-cards/rending-drake-4.png', 0);
@@ -2284,10 +2284,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 474, 'gloomhaven-images/images/monster-stat-cards/rending-drake-4.png', 0);
 -- Rending Drake normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 5, 'normal', '10', '5', 4, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 475, 'gloomhaven-images/images/monster-stat-cards/rending-drake-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 475, 'gloomhaven-images/images/monster-stat-cards/rending-drake-4.png', 270);
 -- Rending Drake elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 5, 'elite', '14', '6', 6, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 476, 'gloomhaven-images/images/monster-stat-cards/rending-drake-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 476, 'gloomhaven-images/images/monster-stat-cards/rending-drake-4.png', 270);
 -- Rending Drake normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 6, 'normal', '11', '5', 5, 0, '["%wound%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 477, 'gloomhaven-images/images/monster-stat-cards/rending-drake-4.png', 180);
@@ -2296,10 +2296,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 478, 'gloomhaven-images/images/monster-stat-cards/rending-drake-4.png', 180);
 -- Rending Drake normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 7, 'normal', '14', '5', 5, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 479, 'gloomhaven-images/images/monster-stat-cards/rending-drake-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 479, 'gloomhaven-images/images/monster-stat-cards/rending-drake-4.png', 90);
 -- Rending Drake elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 7, 'elite', '18', '7', 6, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 480, 'gloomhaven-images/images/monster-stat-cards/rending-drake-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Rending Drake'), 480, 'gloomhaven-images/images/monster-stat-cards/rending-drake-4.png', 90);
 -- Savvas Icestorm normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 0, 'normal', '7', '2', 2, 3, '["%pierce% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 481, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-0.png', 0);
@@ -2308,10 +2308,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 482, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-0.png', 0);
 -- Savvas Icestorm normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 1, 'normal', '10', '2', 2, 4, '["%pierce% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 483, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 483, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-0.png', 270);
 -- Savvas Icestorm elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 1, 'elite', '12', '3', 2, 5, '["%pierce% 3","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 484, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 484, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-0.png', 270);
 -- Savvas Icestorm normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 2, 'normal', '12', '2', 3, 4, '["%pierce% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 485, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-0.png', 180);
@@ -2320,10 +2320,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 486, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-0.png', 180);
 -- Savvas Icestorm normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 3, 'normal', '12', '3', 3, 4, '["%pierce% 3","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 487, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 487, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-0.png', 90);
 -- Savvas Icestorm elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 3, 'elite', '18', '4', 3, 6, '["%pierce% 3","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 488, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 488, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-0.png', 90);
 -- Savvas Icestorm normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 4, 'normal', '14', '3', 3, 5, '["%pierce% 3","%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 489, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-4.png', 0);
@@ -2332,10 +2332,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 490, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-4.png', 0);
 -- Savvas Icestorm normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 5, 'normal', '16', '4', 3, 5, '["%pierce% 3","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 491, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 491, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-4.png', 270);
 -- Savvas Icestorm elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 5, 'elite', '21', '5', 4, 6, '["%pierce% 3","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 492, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 492, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-4.png', 270);
 -- Savvas Icestorm normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 6, 'normal', '16', '4', 3, 5, '["%pierce% 3","%shield% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 493, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-4.png', 180);
@@ -2344,10 +2344,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 494, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-4.png', 180);
 -- Savvas Icestorm normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 7, 'normal', '17', '4', 4, 6, '["%pierce% 3","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 495, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 495, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-4.png', 90);
 -- Savvas Icestorm elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 7, 'elite', '24', '6', 4, 6, '["%pierce% 4","%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 496, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Icestorm'), 496, 'gloomhaven-images/images/monster-stat-cards/savvas-icestorm-4.png', 90);
 -- Savvas Lavaflow normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 0, 'normal', '8', '2', 3, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 497, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-0.png', 0);
@@ -2356,10 +2356,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 498, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-0.png', 0);
 -- Savvas Lavaflow normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 1, 'normal', '9', '2', 3, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 499, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 499, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-0.png', 270);
 -- Savvas Lavaflow elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 1, 'elite', '15', '3', 3, 0, '["%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 500, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 500, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-0.png', 270);
 -- Savvas Lavaflow normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 2, 'normal', '11', '3', 3, 0, '["%poison%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 501, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-0.png', 180);
@@ -2368,10 +2368,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 502, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-0.png', 180);
 -- Savvas Lavaflow normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 3, 'normal', '14', '3', 3, 0, '["%poison%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 503, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 503, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-0.png', 90);
 -- Savvas Lavaflow elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 3, 'elite', '21', '4', 3, 0, '["%poison%","%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 504, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 504, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-0.png', 90);
 -- Savvas Lavaflow normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 4, 'normal', '16', '4', 3, 0, '["%poison%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 505, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-4.png', 0);
@@ -2380,10 +2380,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 506, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-4.png', 0);
 -- Savvas Lavaflow normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 5, 'normal', '18', '4', 3, 0, '["%poison%","%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 507, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 507, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-4.png', 270);
 -- Savvas Lavaflow elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 5, 'elite', '27', '5', 4, 0, '["%poison%","%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 508, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 508, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-4.png', 270);
 -- Savvas Lavaflow normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 6, 'normal', '20', '4', 4, 0, '["%poison%","%wound%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 509, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-4.png', 180);
@@ -2392,10 +2392,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 510, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-4.png', 180);
 -- Savvas Lavaflow normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 7, 'normal', '24', '4', 4, 0, '["%poison%","%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 511, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 511, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-4.png', 90);
 -- Savvas Lavaflow elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 7, 'elite', '35', '6', 4, 0, '["%poison%","%wound%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 512, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Savvas Lavaflow'), 512, 'gloomhaven-images/images/monster-stat-cards/savvas-lavaflow-4.png', 90);
 -- Spitting Drake normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 0, 'normal', '5', '3', 3, 3, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 513, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-0.png', 0);
@@ -2404,10 +2404,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 514, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-0.png', 0);
 -- Spitting Drake normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 1, 'normal', '6', '3', 3, 3, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 515, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 515, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-0.png', 270);
 -- Spitting Drake elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 1, 'elite', '9', '4', 3, 4, '["%muddle%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 516, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 516, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-0.png', 270);
 -- Spitting Drake normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 2, 'normal', '8', '3', 3, 3, '["%muddle%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 517, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-0.png', 180);
@@ -2416,10 +2416,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 518, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-0.png', 180);
 -- Spitting Drake normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 3, 'normal', '8', '4', 3, 4, '["%muddle%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 519, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 519, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-0.png', 90);
 -- Spitting Drake elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 3, 'elite', '12', '5', 3, 5, '["%muddle%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 520, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 520, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-0.png', 90);
 -- Spitting Drake normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 4, 'normal', '9', '4', 4, 4, '["%muddle%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 521, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-4.png', 0);
@@ -2428,10 +2428,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 522, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-4.png', 0);
 -- Spitting Drake normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 5, 'normal', '12', '4', 4, 4, '["%muddle%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 523, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 523, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-4.png', 270);
 -- Spitting Drake elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 5, 'elite', '16', '6', 4, 5, '["%muddle%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 524, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 524, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-4.png', 270);
 -- Spitting Drake normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 6, 'normal', '13', '5', 4, 4, '["%muddle%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 525, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-4.png', 180);
@@ -2440,10 +2440,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 526, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-4.png', 180);
 -- Spitting Drake normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 7, 'normal', '16', '5', 4, 4, '["%muddle%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 527, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 527, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-4.png', 90);
 -- Spitting Drake elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 7, 'elite', '21', '7', 4, 5, '["%muddle%"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 528, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Spitting Drake'), 528, 'gloomhaven-images/images/monster-stat-cards/spitting-drake-4.png', 90);
 -- Stone Golem normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 0, 'normal', '10', '3', 1, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 529, 'gloomhaven-images/images/monster-stat-cards/stone-golem-0.png', 0);
@@ -2452,10 +2452,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 530, 'gloomhaven-images/images/monster-stat-cards/stone-golem-0.png', 0);
 -- Stone Golem normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 1, 'normal', '10', '3', 1, 0, '["%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 531, 'gloomhaven-images/images/monster-stat-cards/stone-golem-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 531, 'gloomhaven-images/images/monster-stat-cards/stone-golem-0.png', 270);
 -- Stone Golem elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 1, 'elite', '11', '4', 2, 0, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 532, 'gloomhaven-images/images/monster-stat-cards/stone-golem-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 532, 'gloomhaven-images/images/monster-stat-cards/stone-golem-0.png', 270);
 -- Stone Golem normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 2, 'normal', '11', '4', 1, 0, '["%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 533, 'gloomhaven-images/images/monster-stat-cards/stone-golem-0.png', 180);
@@ -2464,10 +2464,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 534, 'gloomhaven-images/images/monster-stat-cards/stone-golem-0.png', 180);
 -- Stone Golem normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 3, 'normal', '11', '4', 1, 0, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 535, 'gloomhaven-images/images/monster-stat-cards/stone-golem-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 535, 'gloomhaven-images/images/monster-stat-cards/stone-golem-0.png', 90);
 -- Stone Golem elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 3, 'elite', '15', '5', 2, 0, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 536, 'gloomhaven-images/images/monster-stat-cards/stone-golem-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 536, 'gloomhaven-images/images/monster-stat-cards/stone-golem-0.png', 90);
 -- Stone Golem normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 4, 'normal', '12', '4', 2, 0, '["%shield% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 537, 'gloomhaven-images/images/monster-stat-cards/stone-golem-4.png', 0);
@@ -2476,10 +2476,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 538, 'gloomhaven-images/images/monster-stat-cards/stone-golem-4.png', 0);
 -- Stone Golem normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 5, 'normal', '13', '5', 2, 0, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 539, 'gloomhaven-images/images/monster-stat-cards/stone-golem-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 539, 'gloomhaven-images/images/monster-stat-cards/stone-golem-4.png', 270);
 -- Stone Golem elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 5, 'elite', '19', '6', 3, 0, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 540, 'gloomhaven-images/images/monster-stat-cards/stone-golem-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 540, 'gloomhaven-images/images/monster-stat-cards/stone-golem-4.png', 270);
 -- Stone Golem normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 6, 'normal', '16', '5', 2, 0, '["%shield% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 541, 'gloomhaven-images/images/monster-stat-cards/stone-golem-4.png', 180);
@@ -2488,10 +2488,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 542, 'gloomhaven-images/images/monster-stat-cards/stone-golem-4.png', 180);
 -- Stone Golem normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 7, 'normal', '16', '5', 2, 0, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 543, 'gloomhaven-images/images/monster-stat-cards/stone-golem-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 543, 'gloomhaven-images/images/monster-stat-cards/stone-golem-4.png', 90);
 -- Stone Golem elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 7, 'elite', '21', '7', 3, 0, '["%shield% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 544, 'gloomhaven-images/images/monster-stat-cards/stone-golem-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Stone Golem'), 544, 'gloomhaven-images/images/monster-stat-cards/stone-golem-4.png', 90);
 -- Sun Demon normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 0, 'normal', '5', '2', 2, 0, '["Advantage","%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 545, 'gloomhaven-images/images/monster-stat-cards/sun-demon-0.png', 0);
@@ -2500,10 +2500,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 546, 'gloomhaven-images/images/monster-stat-cards/sun-demon-0.png', 0);
 -- Sun Demon normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 1, 'normal', '7', '2', 2, 0, '["Advantage","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 547, 'gloomhaven-images/images/monster-stat-cards/sun-demon-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 547, 'gloomhaven-images/images/monster-stat-cards/sun-demon-0.png', 270);
 -- Sun Demon elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 1, 'elite', '12', '3', 2, 0, '["Advantage","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 548, 'gloomhaven-images/images/monster-stat-cards/sun-demon-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 548, 'gloomhaven-images/images/monster-stat-cards/sun-demon-0.png', 270);
 -- Sun Demon normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 2, 'normal', '9', '2', 2, 0, '["Advantage","%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 549, 'gloomhaven-images/images/monster-stat-cards/sun-demon-0.png', 180);
@@ -2512,10 +2512,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 550, 'gloomhaven-images/images/monster-stat-cards/sun-demon-0.png', 180);
 -- Sun Demon normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 3, 'normal', '10', '3', 2, 0, '["Advantage","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 551, 'gloomhaven-images/images/monster-stat-cards/sun-demon-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 551, 'gloomhaven-images/images/monster-stat-cards/sun-demon-0.png', 90);
 -- Sun Demon elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 3, 'elite', '15', '4', 3, 0, '["Advantage","%shield% 1"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 552, 'gloomhaven-images/images/monster-stat-cards/sun-demon-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 552, 'gloomhaven-images/images/monster-stat-cards/sun-demon-0.png', 90);
 -- Sun Demon normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 4, 'normal', '11', '3', 3, 0, '["Advantage","%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 553, 'gloomhaven-images/images/monster-stat-cards/sun-demon-4.png', 0);
@@ -2524,10 +2524,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 554, 'gloomhaven-images/images/monster-stat-cards/sun-demon-4.png', 0);
 -- Sun Demon normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 5, 'normal', '11', '3', 3, 0, '["Advantage","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 555, 'gloomhaven-images/images/monster-stat-cards/sun-demon-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 555, 'gloomhaven-images/images/monster-stat-cards/sun-demon-4.png', 270);
 -- Sun Demon elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 5, 'elite', '16', '5', 3, 0, '["Advantage","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 556, 'gloomhaven-images/images/monster-stat-cards/sun-demon-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 556, 'gloomhaven-images/images/monster-stat-cards/sun-demon-4.png', 270);
 -- Sun Demon normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 6, 'normal', '12', '4', 3, 0, '["Advantage","%shield% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 557, 'gloomhaven-images/images/monster-stat-cards/sun-demon-4.png', 180);
@@ -2536,10 +2536,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 558, 'gloomhaven-images/images/monster-stat-cards/sun-demon-4.png', 180);
 -- Sun Demon normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 7, 'normal', '15', '4', 3, 0, '["Advantage","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 559, 'gloomhaven-images/images/monster-stat-cards/sun-demon-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 559, 'gloomhaven-images/images/monster-stat-cards/sun-demon-4.png', 90);
 -- Sun Demon elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 7, 'elite', '22', '5', 4, 0, '["Advantage","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 560, 'gloomhaven-images/images/monster-stat-cards/sun-demon-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Sun Demon'), 560, 'gloomhaven-images/images/monster-stat-cards/sun-demon-4.png', 90);
 -- The Betrayer boss 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, boss_special1, boss_special2, boss_immunities) VALUES((SELECT id FROM monster where name = 'The Betrayer'), 0, 'boss', '10xC', '4', 3, 3, '["Summon Giant Viper and Fear"]', '["Mind Control"]', '["%wound%","%poison%","%stun%","%disarm%","%curse%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'The Betrayer'), 561, 'gloomhaven-images/images/monster-stat-cards/the-betrayer-0.png', 0);
@@ -2644,10 +2644,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 594, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-0.png', 0);
 -- Vermling Scout normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 1, 'normal', '3', '1', 3, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 595, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 595, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-0.png', 270);
 -- Vermling Scout elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 1, 'elite', '5', '2', 3, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 596, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 596, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-0.png', 270);
 -- Vermling Scout normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 2, 'normal', '3', '2', 3, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 597, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-0.png', 180);
@@ -2656,10 +2656,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 598, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-0.png', 180);
 -- Vermling Scout normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 3, 'normal', '5', '2', 3, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 599, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 599, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-0.png', 90);
 -- Vermling Scout elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 3, 'elite', '7', '3', 4, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 600, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 600, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-0.png', 90);
 -- Vermling Scout normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 4, 'normal', '6', '3', 3, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 601, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-4.png', 0);
@@ -2668,10 +2668,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 602, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-4.png', 0);
 -- Vermling Scout normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 5, 'normal', '8', '3', 3, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 603, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 603, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-4.png', 270);
 -- Vermling Scout elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 5, 'elite', '11', '4', 4, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 604, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 604, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-4.png', 270);
 -- Vermling Scout normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 6, 'normal', '9', '3', 4, 0, null);
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 605, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-4.png', 180);
@@ -2680,10 +2680,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 606, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-4.png', 180);
 -- Vermling Scout normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 7, 'normal', '11', '3', 4, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 607, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 607, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-4.png', 90);
 -- Vermling Scout elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 7, 'elite', '15', '4', 5, 0, null);
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 608, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Scout'), 608, 'gloomhaven-images/images/monster-stat-cards/vermling-scout-4.png', 90);
 -- Vermling Shaman normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 0, 'normal', '2', '1', 2, 3, '["%shield% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 609, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-0.png', 0);
@@ -2692,10 +2692,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 610, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-0.png', 0);
 -- Vermling Shaman normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 1, 'normal', '2', '1', 2, 3, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 611, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 611, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-0.png', 270);
 -- Vermling Shaman elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 1, 'elite', '3', '2', 3, 3, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 612, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 612, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-0.png', 270);
 -- Vermling Shaman normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 2, 'normal', '3', '1', 2, 4, '["%shield% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 613, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-0.png', 180);
@@ -2704,10 +2704,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 614, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-0.png', 180);
 -- Vermling Shaman normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 3, 'normal', '3', '2', 2, 4, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 615, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 615, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-0.png', 90);
 -- Vermling Shaman elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 3, 'elite', '5', '3', 3, 4, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 616, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 616, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-0.png', 90);
 -- Vermling Shaman normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 4, 'normal', '3', '2', 3, 4, '["%muddle%","%shield% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 617, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-4.png', 0);
@@ -2716,10 +2716,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 618, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-4.png', 0);
 -- Vermling Shaman normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 5, 'normal', '4', '3', 3, 4, '["%muddle%","%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 619, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 619, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-4.png', 270);
 -- Vermling Shaman elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 5, 'elite', '6', '4', 3, 4, '["%muddle%","%shield% 4"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 620, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 620, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-4.png', 270);
 -- Vermling Shaman normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 6, 'normal', '5', '4', 3, 4, '["%muddle%","%shield% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 621, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-4.png', 180);
@@ -2728,10 +2728,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 622, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-4.png', 180);
 -- Vermling Shaman normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 7, 'normal', '7', '4', 3, 4, '["%muddle%","%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 623, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 623, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-4.png', 90);
 -- Vermling Shaman elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 7, 'elite', '8', '4', 3, 4, '["%muddle%","%shield% 5"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 624, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Vermling Shaman'), 624, 'gloomhaven-images/images/monster-stat-cards/vermling-shaman-4.png', 90);
 -- Wind Demon normal 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 0, 'normal', '3', '2', 3, 3, '["%shield% 1"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 625, 'gloomhaven-images/images/monster-stat-cards/wind-demon-0.png', 0);
@@ -2740,10 +2740,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 626, 'gloomhaven-images/images/monster-stat-cards/wind-demon-0.png', 0);
 -- Wind Demon normal 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 1, 'normal', '3', '2', 3, 3, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 627, 'gloomhaven-images/images/monster-stat-cards/wind-demon-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 627, 'gloomhaven-images/images/monster-stat-cards/wind-demon-0.png', 270);
 -- Wind Demon elite 1
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 1, 'elite', '5', '3', 4, 4, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 628, 'gloomhaven-images/images/monster-stat-cards/wind-demon-0.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 628, 'gloomhaven-images/images/monster-stat-cards/wind-demon-0.png', 270);
 -- Wind Demon normal 2
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 2, 'normal', '4', '2', 4, 3, '["%shield% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 629, 'gloomhaven-images/images/monster-stat-cards/wind-demon-0.png', 180);
@@ -2752,10 +2752,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 630, 'gloomhaven-images/images/monster-stat-cards/wind-demon-0.png', 180);
 -- Wind Demon normal 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 3, 'normal', '5', '3', 4, 3, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 631, 'gloomhaven-images/images/monster-stat-cards/wind-demon-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 631, 'gloomhaven-images/images/monster-stat-cards/wind-demon-0.png', 90);
 -- Wind Demon elite 3
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 3, 'elite', '8', '4', 5, 4, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 632, 'gloomhaven-images/images/monster-stat-cards/wind-demon-0.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 632, 'gloomhaven-images/images/monster-stat-cards/wind-demon-0.png', 90);
 -- Wind Demon normal 4
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 4, 'normal', '7', '3', 4, 3, '["%shield% 2"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 633, 'gloomhaven-images/images/monster-stat-cards/wind-demon-4.png', 0);
@@ -2764,10 +2764,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 634, 'gloomhaven-images/images/monster-stat-cards/wind-demon-4.png', 0);
 -- Wind Demon normal 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 5, 'normal', '9', '3', 4, 4, '["%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 635, 'gloomhaven-images/images/monster-stat-cards/wind-demon-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 635, 'gloomhaven-images/images/monster-stat-cards/wind-demon-4.png', 270);
 -- Wind Demon elite 5
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 5, 'elite', '11', '4', 5, 4, '["%disarm%","%shield% 2"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 636, 'gloomhaven-images/images/monster-stat-cards/wind-demon-4.png', 90);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 636, 'gloomhaven-images/images/monster-stat-cards/wind-demon-4.png', 270);
 -- Wind Demon normal 6
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 6, 'normal', '10', '3', 4, 4, '["%shield% 3"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 637, 'gloomhaven-images/images/monster-stat-cards/wind-demon-4.png', 180);
@@ -2776,10 +2776,10 @@ INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, m
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 638, 'gloomhaven-images/images/monster-stat-cards/wind-demon-4.png', 180);
 -- Wind Demon normal 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 7, 'normal', '11', '4', 4, 4, '["%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 639, 'gloomhaven-images/images/monster-stat-cards/wind-demon-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 639, 'gloomhaven-images/images/monster-stat-cards/wind-demon-4.png', 90);
 -- Wind Demon elite 7
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, monster_attributes) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 7, 'elite', '13', '5', 5, 4, '["%disarm%","%shield% 3"]');
-INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 640, 'gloomhaven-images/images/monster-stat-cards/wind-demon-4.png', 270);
+INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Wind Demon'), 640, 'gloomhaven-images/images/monster-stat-cards/wind-demon-4.png', 90);
 -- Winged Horror boss 0
 INSERT INTO monster_stat(monster_id, level, type, health, attack, move, range, boss_special1, boss_special2, boss_immunities) VALUES((SELECT id FROM monster where name = 'Winged Horror'), 0, 'boss', '6xC', '3', 3, 0, '["%attack% - 1, Target all","adjacent enemies","%attack% + 0, %range% 3","Hatch eggs"]', '["Summon C eggs","%move% - 1","%attack% + 0"]', '["%disarm%","%poison%","%muddle%","%stun%","%curse%"]');
 INSERT INTO monster_stat_card(monster_id, monster_stat_id, image_path, image_rotation) VALUES((SELECT id FROM monster where name = 'Winged Horror'), 641, 'gloomhaven-images/images/monster-stat-cards/winged-horror-0.png', 0);

@@ -1,0 +1,16 @@
+.stat {
+  width: 200px;
+  height: 200px;
+}
+
+.stat-rotation-90 {
+  transform: rotate(90deg);
+}
+
+.stat-rotation-180 {
+  transform: rotate(180deg);
+}
+
+.stat-rotation-270 {
+  transform: rotate(270deg);
+}

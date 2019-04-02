@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import GloomhavenDatabase from '../GloomhavenDatabase';
 import Tabs from 'react-bulma-components/lib/components/tabs';
 import Table from 'react-bulma-components/lib/components/table';
+import Image from 'react-bulma-components/lib/components/image';
+import './MonsterStat.css';
 
 class MonsterAbilityList extends Component {
   constructor(props) {
@@ -34,21 +36,26 @@ class MonsterAbilityList extends Component {
           .map((stats, index) => {
             const [level, , health, attack, move, range, monster_attributes, image_path, image_rotation] = stats;
             return <tr key={index}>
-               <td>{level}</td>
-               <td>{health}</td>
-               <td>{attack}</td>
-               <td>{move}</td>
-               <td>{range}</td>
-               <td>{monster_attributes}</td>
-               <td>{image_path} {image_rotation}</td>
-             </tr>;
+                     <td>{level}</td>
+                     <td>{health}</td>
+                     <td>{move ? move : '-'}</td>
+                     <td>{attack}</td>
+                     <td>{range}</td>
+                     <td>{monster_attributes}</td>
+                     <td>
+                       <Image
+                         className={'stat stat-rotation-' + image_rotation}
+                         src={'/' + image_path}>
+                       </Image>
+                     </td>
+                   </tr>;
           });
     return <div>
              <h1>{this.state.name}</h1>
              {tabs}
              <Table>
                <thead>
-                 <tr><th>Level</th><th>Health</th><th>Attack</th><th>Move</th><th>Range</th><th>Attributes</th><th>Image</th></tr>
+                 <tr><th>Level</th><th>Health</th><th>Move</th><th>Attack</th><th>Range</th><th>Attributes</th><th>Image</th></tr>
                </thead>
                <tbody>
                  {stats}
