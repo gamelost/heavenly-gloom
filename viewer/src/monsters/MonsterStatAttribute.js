@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import MonsterAbilityMacroImage from './MonsterAbilityMacroImage';
 import Tag from 'react-bulma-components/lib/components/tag';
+import { getMacroImage, formatModifier } from './util';
 
 class MonsterStatAttribute extends Component {
   constructor(props) {
@@ -9,26 +9,14 @@ class MonsterStatAttribute extends Component {
     this.state = { attributes, macros };
   }
 
-  getMacroImage(macro, overlay) {
-    return <MonsterAbilityMacroImage
-             key={macro}
-             macro={this.state.macros[macro]}
-             overlay={overlay ? this.state.macros[overlay] : null}
-           />;
-  }
-
-  formatModifier(modifier) {
-    return modifier >= 0 ? `+ ${modifier}` : `- ${Math.abs(modifier)}`;
-  }
-
   parseAttribute(attribute) {
     if (attribute === 'Advantage' || attribute === 'Attackers gain Disadvantage') {
       return <p key={attribute}>{attribute}</p>;
     }
     let [macro] = attribute.match(/%[^%]+%/);
     let rest = attribute.replace(macro, '').replace('*', '');
-    let modifier = rest ? this.formatModifier(+rest) : null;
-    let macroImage = this.getMacroImage(macro);
+    let modifier = rest ? formatModifier(+rest) : null;
+    let macroImage = getMacroImage(this.state.macros, macro);
     return <Tag
              key={macro}
              style={{ display: 'flex', background: '#330000', color: '#fff' }}>
