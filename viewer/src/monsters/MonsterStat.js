@@ -43,10 +43,12 @@ class MonsterAbilityList extends Component {
                      <td>{range}</td>
                      <td>{monster_attributes}</td>
                      <td>
-                       <Image
-                         className={'stat stat-rotation-' + image_rotation}
-                         src={'/' + image_path}>
-                       </Image>
+                       <div className='stat-mask'>
+                         <Image
+                           className={'stat stat-rotation-' + image_rotation}
+                           src={'/' + image_path}>
+                         </Image>
+                       </div>
                      </td>
                    </tr>;
           });

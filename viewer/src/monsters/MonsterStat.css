@@ -1,4 +1,15 @@
+.stat-mask {
+  -webkit-mask-image: url("/stat-mask.png");
+  -webkit-mask-size: 200px 200px;
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url("/stat-mask.png");
+  mask-size: 200px 200px;
+  mask-repeat: no-repeat;
+  height: 100px;
+}
+
 .stat {
+  margin: 0;
   width: 200px;
   height: 200px;
 }
