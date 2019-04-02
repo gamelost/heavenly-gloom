@@ -32,7 +32,7 @@ class MonsterAbilityList extends Component {
     const stats = this.state.stats
           .filter(([, type]) => this.state.chosen === type)
           .map((stats, index) => {
-            const [level, type, health, attack, move, range, monster_attributes, image_path, image_rotation] = stats;
+            const [level, , health, attack, move, range, monster_attributes, image_path, image_rotation] = stats;
             return <tr key={index}>
                <td>{level}</td>
                <td>{health}</td>
