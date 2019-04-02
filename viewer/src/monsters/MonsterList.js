@@ -37,7 +37,10 @@ class MonsterList extends Component {
                      </td>
                      <td>
                        <a href={`/monsters/${id}/stat`}>
-                         Stats
+                         <Image style={{ margin: 0 }}
+                                src={'/monster-ability-back.png'}
+                                size={128}>
+                         </Image>
                        </a>
                      </td>
                    </tr>;
