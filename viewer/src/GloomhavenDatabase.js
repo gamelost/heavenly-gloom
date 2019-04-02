@@ -59,6 +59,13 @@ class GloomhavenDatabase {
     return results.values;
   }
 
+  async getMonsterName(monsterId) {
+    const [results] = await db.exec('SELECT m.name ' +
+                                    'FROM monster m ' +
+                                    `WHERE m.id = ${monsterId}`);
+    return results.values;
+  }
+
   async getMonsterAbility(deckId) {
     const [results] = await db.exec('SELECT ma.card_number, ma.shuffle, ma.initiative, ma.attacks, mac.image_path ' +
                                     'FROM monster_ability ma ' +
@@ -69,10 +76,12 @@ class GloomhavenDatabase {
   }
 
 
-  async getMonsterStat(deckId) {
+  async getMonsterStat(monsterId) {
     const [results] = await db.exec('SELECT ms.level, ms.type, ms.health, ms.attack, ms.move, ms.range, ms.monster_attributes, msc.image_path, msc.image_rotation ' +
                                     'FROM monster_stat ms ' +
                                     'JOIN monster_stat_card msc ON ms.monster_id = msc.monster_stat_id ' +
+                                    `WHERE ms.monster_id = ${monsterId} ` +
+                                    'GROUP BY ms.id ' +
                                     'ORDER BY ms.id');
     return results.values;
   }

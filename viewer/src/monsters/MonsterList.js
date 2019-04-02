@@ -36,7 +36,7 @@ class MonsterList extends Component {
                        </a>
                      </td>
                      <td>
-                       <a href={`/monsters/${deck_id}/stat`}>
+                       <a href={`/monsters/${id}/stat`}>
                          Stats
                        </a>
                      </td>

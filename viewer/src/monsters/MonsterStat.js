@@ -1,40 +1,60 @@
 import React, { Component } from 'react';
 import GloomhavenDatabase from '../GloomhavenDatabase';
+import Tabs from 'react-bulma-components/lib/components/tabs';
 import Table from 'react-bulma-components/lib/components/table';
-import Heading from 'react-bulma-components/lib/components/heading';
-import Box from 'react-bulma-components/lib/components/box';
-import MonsterAbilityImage from './MonsterAbilityImage';
-import MonsterAbilityCard from './MonsterAbilityCard';
 
 class MonsterAbilityList extends Component {
   constructor(props) {
     super(props);
     const monsterId = props.match.params.id;
-    this.state = { monsterId, stats: [] };
+    this.state = { monsterId, stats: [], types: [], chosen: null };
   }
 
   async componentDidMount() {
     const db = await new GloomhavenDatabase().getInstance();
+    const name = await db.getMonsterName(this.state.monsterId);
     const stats = await db.getMonsterStat(this.state.monsterId);
-    this.setState({ stats });
+    const types = [...new Set(stats.map(([, type]) => type))];
+    const [chosen] = types;
+    this.setState({ name, stats, types, chosen });
   }
 
   render() {
-    const stats = this.state.stats.map((stats, index) => {
-      const [level, type, health, attack, move, range, monster_attributes, image_path, image_rotation] = stats;
-      return <div key={index}>
-               <p>{level}</p>
-               <p>{type}</p>
-               <p>{health}</p>
-               <p>{attack}</p>
-               <p>{move}</p>
-               <p>{range}</p>
-               <p>{monster_attributes}</p>
-               <p>{image_path}</p>
-               <p>{image_rotation}</p>
-             </div>;
+    const typeTabs = this.state.types.map((type, index) => {
+      return <Tabs.Tab
+               onClick={() => this.setState(() => ({ chosen: type }))}
+               active={type === this.state.chosen}
+               key={index}>{type}
+             </Tabs.Tab>;
     });
-    return <div>{stats}</div>;
+    const tabs = <Tabs className='is-toggle'>{typeTabs}</Tabs>;
+
+    const stats = this.state.stats
+          .filter(([, type]) => this.state.chosen === type)
+          .map((stats, index) => {
+            const [level, type, health, attack, move, range, monster_attributes, image_path, image_rotation] = stats;
+            return <tr key={index}>
+               <td>{level}</td>
+               <td>{health}</td>
+               <td>{attack}</td>
+               <td>{move}</td>
+               <td>{range}</td>
+               <td>{monster_attributes}</td>
+               <td>{image_path} {image_rotation}</td>
+             </tr>;
+          });
+    return <div>
+             <h1>{this.state.name}</h1>
+             {tabs}
+             <Table>
+               <thead>
+                 <tr><th>Level</th><th>Health</th><th>Attack</th><th>Move</th><th>Range</th><th>Attributes</th><th>Image</th></tr>
+               </thead>
+               <tbody>
+                 {stats}
+               </tbody>
+             </Table>
+           </div>;
   }
 }
 
