@@ -3,6 +3,7 @@ import GloomhavenDatabase from '../GloomhavenDatabase';
 import Tabs from 'react-bulma-components/lib/components/tabs';
 import Table from 'react-bulma-components/lib/components/table';
 import Image from 'react-bulma-components/lib/components/image';
+import MonsterStatAttribute from './MonsterStatAttribute';
 import './MonsterStat.css';
 
 class MonsterAbilityList extends Component {
@@ -16,9 +17,10 @@ class MonsterAbilityList extends Component {
     const db = await new GloomhavenDatabase().getInstance();
     const name = await db.getMonsterName(this.state.monsterId);
     const stats = await db.getMonsterStat(this.state.monsterId);
+    const macros = await db.getMacros();
     const types = [...new Set(stats.map(([, type]) => type))];
     const [chosen] = types;
-    this.setState({ name, stats, types, chosen });
+    this.setState({ name, stats, types, chosen, macros });
   }
 
   render() {
@@ -31,17 +33,20 @@ class MonsterAbilityList extends Component {
     });
     const tabs = <Tabs className='is-toggle'>{typeTabs}</Tabs>;
 
-    const stats = this.state.stats
+    let stats = this.state.stats
           .filter(([, type]) => this.state.chosen === type)
           .map((stats, index) => {
             const [level, , health, attack, move, range, monster_attributes, image_path, image_rotation] = stats;
+            const attributes = monster_attributes ?
+                  <MonsterStatAttribute attributes={JSON.parse(monster_attributes)}
+                                        macros={this.state.macros} /> : null;
             return <tr key={index}>
                      <td>{level}</td>
                      <td>{health}</td>
                      <td>{move ? move : '-'}</td>
                      <td>{attack}</td>
-                     <td>{range}</td>
-                     <td>{monster_attributes}</td>
+                     <td>{range ? range : '-'}</td>
+                     <td>{attributes}</td>
                      <td>
                        <div className='stat-mask'>
                          <Image
@@ -52,6 +57,7 @@ class MonsterAbilityList extends Component {
                      </td>
                    </tr>;
           });
+
     return <div>
              <h1>{this.state.name}</h1>
              {tabs}
