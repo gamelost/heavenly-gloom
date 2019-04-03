@@ -55,7 +55,7 @@ class MonsterAbilityList extends Component {
                      <td>
                        <div className='stat-mask'>
                          <Image
-                           className={'stat stat-rotation-' + image_rotation}
+                           className={'stat stat-rotation-' + (360 - image_rotation) % 360}
                            src={'/' + image_path}>
                          </Image>
                        </div>
