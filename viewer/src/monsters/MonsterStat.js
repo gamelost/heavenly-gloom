@@ -4,7 +4,7 @@ import Tabs from 'react-bulma-components/lib/components/tabs';
 import Table from 'react-bulma-components/lib/components/table';
 import Image from 'react-bulma-components/lib/components/image';
 import MonsterStatAttribute from './MonsterStatAttribute';
-import { getMacroImage } from './util';
+import { getMacroImage, processAbilities } from './util';
 import './MonsterStat.css';
 
 class MonsterAbilityList extends Component {
@@ -39,8 +39,8 @@ class MonsterAbilityList extends Component {
         .map((stats, index) => {
           const [level, , health, attack, move, range, monster_attributes, image_path, image_rotation, boss_special1, boss_special2, boss_immunities] = stats;
           if (isBoss) {
-            const special1 = JSON.parse(boss_special1).map((special, index) => <span key={index}>{special}</span>);
-            const special2 = JSON.parse(boss_special2).map((special, index) => <span key={index}>{special}</span>);
+            const special1 = processAbilities(this.state.macros, JSON.parse(boss_special1));
+            const special2 = processAbilities(this.state.macros, JSON.parse(boss_special2));
             const immunities = JSON.parse(boss_immunities).map(immunity => getMacroImage(this.state.macros, immunity));
 
             return <tr key={index}>
@@ -49,8 +49,8 @@ class MonsterAbilityList extends Component {
                      <td>{move ? move : '-'}</td>
                      <td>{attack}</td>
                      <td>{range ? range : '-'}</td>
-                     <td>{special1}</td>
-                     <td>{special2}</td>
+                     <td style={{ background: '#aaa' }}>{special1}</td>
+                     <td style={{ background: '#aaa' }}>{special2}</td>
                      <td>{immunities}</td>
                      <td>
                        <div className='stat-mask'>
