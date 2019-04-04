@@ -1,17 +1,12 @@
 #![feature(decl_macro, proc_macro_hygiene)]
 
-extern crate juniper;
-extern crate juniper_rocket;
-#[macro_use]
-extern crate rocket;
-
 mod model;
 mod schema;
 
 use crate::model::Database;
 use juniper::{EmptyMutation, RootNode};
 use rocket::response::content;
-use rocket::State;
+use rocket::{get, post, routes, State};
 
 type Schema = RootNode<'static, Database, EmptyMutation<Database>>;
 
@@ -39,10 +34,11 @@ fn post_graphql_handler(
 }
 
 fn main() {
+    let database = Database::new();
     rocket::ignite()
-        .manage(Database::new())
+        .manage(database.clone())
         .manage(Schema::new(
-            Database::new(),
+            database.clone(),
             EmptyMutation::<Database>::new(),
         ))
         .mount(

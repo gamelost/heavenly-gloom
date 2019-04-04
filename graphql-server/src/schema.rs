@@ -1,5 +1,5 @@
 use crate::model::{Character, Database, Droid, Episode, Human};
-use juniper::*;
+use juniper::{graphql_interface, graphql_object, Context};
 
 impl Context for Database {}
 

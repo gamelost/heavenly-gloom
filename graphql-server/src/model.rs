@@ -1,5 +1,3 @@
-#![allow(missing_docs)]
-
 use std::collections::HashMap;
 
 #[derive(juniper::GraphQLEnum, Copy, Clone, Eq, PartialEq, Debug)]
@@ -27,6 +25,7 @@ pub trait Droid: Character {
     fn primary_function(&self) -> &Option<String>;
 }
 
+#[derive(Clone, Debug)]
 struct HumanData {
     id: String,
     name: String,
@@ -36,6 +35,7 @@ struct HumanData {
     home_planet: Option<String>,
 }
 
+#[derive(Clone, Debug)]
 struct DroidData {
     id: String,
     name: String,
@@ -99,6 +99,7 @@ impl Droid for DroidData {
     }
 }
 
+#[derive(Clone, Debug)]
 pub struct Database {
     humans: HashMap<String, HumanData>,
     droids: HashMap<String, DroidData>,
