@@ -2,6 +2,10 @@
 
 mod model;
 mod schema;
+mod models {
+    pub mod monster;
+    pub mod monster_deck;
+}
 
 use crate::model::Database;
 use juniper::{EmptyMutation, RootNode};
