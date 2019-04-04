@@ -11,6 +11,8 @@ use crate::model::Database;
 use juniper::{EmptyMutation, RootNode};
 use rocket::response::content;
 use rocket::{get, post, routes, State};
+use rusqlite::Connection;
+use std::path::Path;
 
 type Schema = RootNode<'static, Database, EmptyMutation<Database>>;
 
@@ -37,8 +39,9 @@ fn post_graphql_handler(
     request.execute(&schema, &context)
 }
 
-fn main() {
-    let database = Database::new();
+fn main() -> Result<(), rusqlite::Error> {
+    let conn = Connection::open(Path::new("./db/db.sqlite"))?;
+    let database = Database::new(&conn);
     rocket::ignite()
         .manage(database.clone())
         .manage(Schema::new(
@@ -50,4 +53,5 @@ fn main() {
             routes![graphiql, get_graphql_handler, post_graphql_handler],
         )
         .launch();
+    Ok(())
 }
