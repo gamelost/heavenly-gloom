@@ -35,7 +35,7 @@ impl Database {
         let all_monsters = self.monsters.values();
         match deck_id {
             Some(id) => all_monsters
-                .filter(|monster| monster.monster_deck_id == id)
+                .filter(|monster| monster.deck_id == id)
                 .collect(),
             _ => all_monsters.collect(),
         }

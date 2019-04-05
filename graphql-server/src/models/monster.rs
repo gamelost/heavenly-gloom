@@ -8,35 +8,34 @@ use std::collections::HashMap;
 pub struct Monster {
     id: i32,
     name: String,
-    pub monster_deck_id: i32,
+    pub deck_id: i32,
     number: i32,
 }
 
 impl Monster {
-    pub fn new(id: i32, name: &str, monster_deck_id: i32, number: i32) -> Monster {
+    pub fn new(id: i32, name: &str, deck_id: i32, number: i32) -> Monster {
         let name = name.to_string();
         Monster {
             id,
             name,
-            monster_deck_id,
+            deck_id,
             number,
         }
     }
 
     fn sql(conn: &Connection) -> Result<Vec<(i32, Monster)>> {
-        let mut statement =
-            conn.prepare("SELECT id, name, monster_deck_id, number FROM monster")?;
+        let mut statement = conn.prepare("SELECT id, name, deck_id, number FROM monster")?;
         let rows = statement.query_map(params![], |row| {
             let id = row.get(0)?;
             let name = row.get(1)?;
-            let monster_deck_id = row.get(2)?;
+            let deck_id = row.get(2)?;
             let number = row.get(3)?;
             Ok((
                 id,
                 Monster {
                     id,
                     name,
-                    monster_deck_id,
+                    deck_id,
                     number,
                 },
             ))
@@ -54,7 +53,7 @@ impl Monster {
 }
 
 graphql_object!(Monster: Database as "Monster" |&self| {
-    description: "A mechanical creature in the Star Wars universe."
+    description: "A Gloomhaven monster."
 
     field id() -> i32 as "Monster id" {
         self.id
@@ -65,7 +64,7 @@ graphql_object!(Monster: Database as "Monster" |&self| {
     }
 
     field deck(&executor) -> Option<&MonsterDeck> as "The associated monster deck" {
-        executor.context().get_deck(self.monster_deck_id)
+        executor.context().get_deck(self.deck_id)
     }
 
     field number() -> i32 as "Number of available monster tokens" {

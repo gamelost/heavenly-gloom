@@ -8,6 +8,7 @@ mod models {
 
 use crate::database::Database;
 use juniper::{EmptyMutation, RootNode};
+use juniper_rocket::{GraphQLRequest, GraphQLResponse};
 use rocket::response::content;
 use rocket::{get, post, routes, State};
 use rusqlite::Connection;
@@ -23,18 +24,18 @@ fn graphiql() -> content::Html<String> {
 #[get("/graphql?<request>")]
 fn get_graphql_handler(
     context: State<Database>,
-    request: juniper_rocket::GraphQLRequest,
+    request: GraphQLRequest,
     schema: State<Schema>,
-) -> juniper_rocket::GraphQLResponse {
+) -> GraphQLResponse {
     request.execute(&schema, &context)
 }
 
 #[post("/graphql", data = "<request>")]
 fn post_graphql_handler(
     context: State<Database>,
-    request: juniper_rocket::GraphQLRequest,
+    request: GraphQLRequest,
     schema: State<Schema>,
-) -> juniper_rocket::GraphQLResponse {
+) -> GraphQLResponse {
     request.execute(&schema, &context)
 }
 
