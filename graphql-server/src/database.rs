@@ -31,8 +31,14 @@ impl Database {
         self.monsters.get(&id).map(|d| d as &Monster)
     }
 
-    pub fn get_monsters(&self) -> Vec<&Monster> {
-        self.monsters.values().collect()
+    pub fn get_monsters(&self, deck_id: Option<i32>) -> Vec<&Monster> {
+        let all_monsters = self.monsters.values();
+        match deck_id {
+            Some(id) => all_monsters
+                .filter(|monster| monster.monster_deck_id == id)
+                .collect(),
+            _ => all_monsters.collect(),
+        }
     }
 }
 
@@ -48,7 +54,7 @@ graphql_object!(Database: Database as "Query" |&self| {
     }
 
     field monsters() -> Vec<&Monster> {
-        self.get_monsters()
+        self.get_monsters(None)
     }
 
     field monster(id: i32 as "monster id") -> Option<&Monster> {

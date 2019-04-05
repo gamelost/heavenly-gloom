@@ -8,7 +8,7 @@ use std::collections::HashMap;
 pub struct Monster {
     id: i32,
     name: String,
-    monster_deck_id: i32,
+    pub monster_deck_id: i32,
     number: i32,
 }
 

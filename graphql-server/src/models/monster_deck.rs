@@ -1,3 +1,5 @@
+use crate::database::Database;
+use crate::models::monster::Monster;
 use juniper::graphql_object;
 use rusqlite::{params, Connection, Result};
 use std::collections::HashMap;
@@ -34,7 +36,7 @@ impl MonsterDeck {
     }
 }
 
-graphql_object!(MonsterDeck: () |&self| {
+graphql_object!(MonsterDeck: Database as "MonsterDeck" |&self| {
     description: "Gloomhaven monster deck."
 
     field id() -> i32 as "The deck id" {
@@ -43,5 +45,9 @@ graphql_object!(MonsterDeck: () |&self| {
 
     field class() -> &str as "The deck class" {
         self.class.as_str()
+    }
+
+    field monsters(&executor) -> Vec<&Monster> as "Monsters in this deck" {
+        executor.context().get_monsters(Some(self.id))
     }
 });
