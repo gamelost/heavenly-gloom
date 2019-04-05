@@ -1,125 +1,74 @@
-use crate::model::{Character, Database, Episode};
+use crate::database::Database;
+use crate::models::monster_deck::MonsterDeck;
 use juniper::graphql_object;
+use rusqlite::{params, Connection, Result};
 use std::collections::HashMap;
 
-pub trait Droid: Character {
-    fn primary_function(&self) -> &Option<String>;
-}
-
 #[derive(Clone, Debug)]
-pub struct DroidData {
-    id: String,
+pub struct Monster {
+    id: i32,
     name: String,
-    friend_ids: Vec<String>,
-    appears_in: Vec<Episode>,
-    secret_backstory: Option<String>,
-    primary_function: Option<String>,
+    monster_deck_id: i32,
+    number: i32,
 }
 
-impl DroidData {
-    pub fn new(
-        id: &str,
-        name: &str,
-        friend_ids: &[&str],
-        appears_in: &[Episode],
-        secret_backstory: Option<&str>,
-        primary_function: Option<&str>,
-    ) -> DroidData {
-        DroidData {
-            id: id.to_owned(),
-            name: name.to_owned(),
-            friend_ids: friend_ids
-                .to_owned()
-                .into_iter()
-                .map(|f| f.to_owned())
-                .collect(),
-            appears_in: appears_in.iter().cloned().collect(),
-            secret_backstory: secret_backstory.map(|b| b.to_owned()),
-            primary_function: primary_function.map(|p| p.to_owned()),
+impl Monster {
+    pub fn new(id: i32, name: &str, monster_deck_id: i32, number: i32) -> Monster {
+        let name = name.to_string();
+        Monster {
+            id,
+            name,
+            monster_deck_id,
+            number,
         }
     }
 
-    pub fn generate() -> HashMap<String, DroidData> {
-        let mut droids = HashMap::new();
+    fn sql(conn: &Connection) -> Result<Vec<(i32, Monster)>> {
+        let mut statement =
+            conn.prepare("SELECT id, name, monster_deck_id, number FROM monster")?;
+        let rows = statement.query_map(params![], |row| {
+            let id = row.get(0)?;
+            let name = row.get(1)?;
+            let monster_deck_id = row.get(2)?;
+            let number = row.get(3)?;
+            Ok((
+                id,
+                Monster {
+                    id,
+                    name,
+                    monster_deck_id,
+                    number,
+                },
+            ))
+        })?;
+        let mut deck = Vec::new();
+        for result in rows {
+            deck.push(result?);
+        }
+        Ok(deck)
+    }
 
-        droids.insert(
-            "2000".to_owned(),
-            DroidData::new(
-                "2000",
-                "C-3PO",
-                &["1000", "1002", "1003", "2001"],
-                &[Episode::NewHope, Episode::Empire, Episode::Jedi],
-                None,
-                Some("Protocol"),
-            ),
-        );
-
-        droids.insert(
-            "2001".to_owned(),
-            DroidData::new(
-                "2001",
-                "R2-D2",
-                &["1000", "1002", "1003"],
-                &[Episode::NewHope, Episode::Empire, Episode::Jedi],
-                None,
-                Some("Astromech"),
-            ),
-        );
-
-        droids
+    pub fn generate(conn: &Connection) -> HashMap<i32, Monster> {
+        Monster::sql(conn).unwrap().into_iter().collect()
     }
 }
 
-impl Character for DroidData {
-    fn id(&self) -> &str {
-        &self.id
-    }
-    fn name(&self) -> &str {
-        &self.name
-    }
-    fn friend_ids(&self) -> &[String] {
-        &self.friend_ids
-    }
-    fn appears_in(&self) -> &[Episode] {
-        &self.appears_in
-    }
-    fn secret_backstory(&self) -> &Option<String> {
-        &self.secret_backstory
-    }
-    fn as_character(&self) -> &Character {
-        self
-    }
-}
-
-impl Droid for DroidData {
-    fn primary_function(&self) -> &Option<String> {
-        &self.primary_function
-    }
-}
-
-graphql_object!(<'a> &'a Droid: Database as "Droid" |&self| {
+graphql_object!(Monster: Database as "Monster" |&self| {
     description: "A mechanical creature in the Star Wars universe."
 
-    interfaces: [&Character]
-
-    field id() -> &str as "The id of the droid" {
-        self.id()
+    field id() -> i32 as "Monster id" {
+        self.id
     }
 
-    field name() -> Option<&str> as "The name of the droid" {
-        Some(self.name())
+    field name() -> &str as "Monster name" {
+        self.name.as_str()
     }
 
-    field friends(&executor) -> Vec<&Character>
-    as "The friends of the droid" {
-        executor.context().get_friends(self.as_character())
+    field deck(&executor) -> Option<&MonsterDeck> as "The associated monster deck" {
+        executor.context().get_deck(self.monster_deck_id)
     }
 
-    field appears_in() -> &[Episode] as "Which movies they appear in" {
-        self.appears_in()
-    }
-
-    field primary_function() -> &Option<String> as "The primary function of the droid" {
-        self.primary_function()
+    field number() -> i32 as "Number of available monster tokens" {
+        self.number
     }
 });

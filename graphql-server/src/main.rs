@@ -1,13 +1,12 @@
 #![feature(decl_macro, proc_macro_hygiene)]
 
-mod model;
-mod schema;
+mod database;
 mod models {
     pub mod monster;
     pub mod monster_deck;
 }
 
-use crate::model::Database;
+use crate::database::Database;
 use juniper::{EmptyMutation, RootNode};
 use rocket::response::content;
 use rocket::{get, post, routes, State};

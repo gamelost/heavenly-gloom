@@ -11,19 +11,16 @@ pub struct MonsterDeck {
 
 impl MonsterDeck {
     pub fn new(id: i32, class: &str) -> MonsterDeck {
-        MonsterDeck {
-            id,
-            class: class.to_string(),
-        }
+        let class = class.to_string();
+        MonsterDeck { id, class }
     }
 
-    fn sql(conn: &Connection) -> Result<Vec<MonsterDeck>> {
+    fn sql(conn: &Connection) -> Result<Vec<(i32, MonsterDeck)>> {
         let mut statement = conn.prepare("SELECT id, class FROM monster_deck")?;
         let rows = statement.query_map(params![], |row| {
-            Ok(MonsterDeck {
-                id: row.get(0)?,
-                class: row.get(1)?,
-            })
+            let id = row.get(0)?;
+            let class = row.get(1)?;
+            Ok((id, MonsterDeck { id, class }))
         })?;
         let mut deck = Vec::new();
         for result in rows {
@@ -33,12 +30,7 @@ impl MonsterDeck {
     }
 
     pub fn generate(conn: &Connection) -> HashMap<i32, MonsterDeck> {
-        let monster_deck = MonsterDeck::sql(conn).unwrap();
-        let mut deck: HashMap<i32, MonsterDeck> = HashMap::new();
-        monster_deck.into_iter().for_each(|kind| {
-            deck.insert(kind.id, kind);
-        });
-        deck
+        MonsterDeck::sql(conn).unwrap().into_iter().collect()
     }
 }
 
