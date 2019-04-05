@@ -39,7 +39,7 @@ fn post_graphql_handler(
 }
 
 fn main() -> Result<(), rusqlite::Error> {
-    let conn = Connection::open(Path::new("./db/db.sqlite"))?;
+    let conn = Connection::open(Path::new("../db/db.sqlite"))?;
     let database = Database::new(&conn);
     rocket::ignite()
         .manage(database.clone())
