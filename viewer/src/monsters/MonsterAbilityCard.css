@@ -1,0 +1,79 @@
+.ability-card {
+  color: #fff;
+  background: #330000;
+  border-radius: 0.75em;
+  overflow: hidden;
+  width: 256px;
+  box-shadow: 4px 2px #eee;
+}
+
+.ability-card-header {
+  background: #666;
+}
+
+.ability-title {
+  font-weight: bold;
+  color: #fff;
+  justify-content: center;
+}
+
+.ability-initiative {
+  display: flex;
+  margin: 0;
+  padding: 0 0.5em;
+  align-items: center;
+  background: #333;
+}
+
+.ability-entry {
+  display: flex;
+  margin: '0 0 0.5em 0';
+  justify-content: center;
+  padding: 0.25em;
+  text-align: center;
+}
+
+.ability-block {
+  border: 1px white dotted;
+  display: flex;
+  margin: 0.25em;
+}
+
+.ability-block-column {
+  flex-direction: column;
+}
+
+.ability-block-row {
+  flex-direction: row;
+}
+
+.ability-entry-aoe {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ability-entry-use-element {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ability-block .ability-entry:nth-child(n+2) {
+  font-size: 0.75em;
+}
+
+.no-border-radius {
+  border-radius: 0 !important;
+}
+
+.ability-footer {
+  justify-content: space-between;
+}
+
+.special-line {
+  font-size: 0.75em;
+  text-align: center;
+}
+
+div span.macro {
+  padding-left: 0.25em;
+}
