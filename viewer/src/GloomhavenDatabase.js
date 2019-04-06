@@ -35,14 +35,20 @@ class GloomhavenDatabase {
 
   async getScenarioRoutes() {
     const query = `SELECT sr.id, sr.scenario_source, sr.scenario_target, sr.type
-                   FROM scenario_route sr`;
+        FROM scenario_route sr`;
     const [results] = await db.exec(query);
     return results.values;
   }
 
   async getScenarioNames() {
     const query = `SELECT s.number, s.name
-    FROM scenario s`
+        FROM scenario s
+        JOIN scenario_route sr ON sr.scenario_source = s.number
+        UNION
+        SELECT s.number, s.name
+        FROM scenario s
+        JOIN scenario_route sr ON sr.scenario_target = s.number
+    `;
     const [results] = await db.exec(query);
     return results.values;
   }

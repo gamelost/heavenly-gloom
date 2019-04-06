@@ -34,20 +34,20 @@ class ScenarioGraph extends Component {
     let link = svg.selectAll('.link'),
         node = svg.selectAll('.node');
 
-    const simulation = d3.forceSimulation()
-          .force('charge', d3.forceManyBody().strength(-200))
-          .force('link', d3.forceLink(this.state.links).id(d => d.id).distance(40))
-          .force('x', d3.forceX(this.state.width / 2))
-          .force('y', d3.forceY(this.state.height / 2))
-          .on('tick', () => {
-            link.attr('x1', d => d.source.x)
-              .attr('y1', d => d.source.y)
-              .attr('x2', d => d.target.x)
-              .attr('y2', d => d.target.y);
-            node.attr('transform', d => `translate(${d.x}, ${d.y})`);
-          });
-
+    const simulation = d3.forceSimulation();
     simulation.nodes(this.state.nodes);
+    simulation.force('charge', d3.forceManyBody().strength(-200))
+              .force('link', d3.forceLink(this.state.links).id(d => d.id).distance(40))
+              .force('x', d3.forceX(this.state.width / 2))
+              .force('y', d3.forceY(this.state.height / 2))
+              .on('tick', () => {
+                link.attr('x1', d => d.source.x)
+                  .attr('y1', d => d.source.y)
+                  .attr('x2', d => d.target.x)
+                  .attr('y2', d => d.target.y);
+                node.attr('transform', d => `translate(${d.x}, ${d.y})`);
+              });
+
     simulation.force('link').links(this.state.links);
 
     link = link
