@@ -13,11 +13,14 @@ class ScenarioGraph extends Component {
 
   // edge annotations
   // ('unlocks','links to','blocks','required by')
-
   async componentDidMount() {
+    const db = await new GloomhavenDatabase().getInstance();
+    const scenarioRoutes = await db.getScenarioRoutes();
+    const scenarioNames = await db.getScenarioNames();
+
     // Load data and construct nodes and links
-    this.setScenarioLinks();
-    this.setScenarioNodes();
+    this.setScenarioNodes(scenarioNames);
+    this.setScenarioLinks(scenarioRoutes);
     console.log(this.state);
     this.drawGraph();
   }
@@ -33,15 +36,15 @@ class ScenarioGraph extends Component {
 
     const simulation = d3.forceSimulation()
           .force('charge', d3.forceManyBody().strength(-200))
-          .force('link', d3.forceLink().id(function(d) { return d.id; }).distance(40))
+          .force('link', d3.forceLink(this.state.links).id(d => d.id).distance(40))
           .force('x', d3.forceX(this.state.width / 2))
           .force('y', d3.forceY(this.state.height / 2))
           .on('tick', () => {
-            link.attr('x1', function(d) { return d.source.x; })
-              .attr('y1', function(d) { return d.source.y; })
-              .attr('x2', function(d) { return d.target.x; })
-              .attr('y2', function(d) { return d.target.y; });
-            node.attr('transform', function(d) { return `translate(${d.x}, ${d.y})`; });
+            link.attr('x1', d => d.source.x)
+              .attr('y1', d => d.source.y)
+              .attr('x2', d => d.target.x)
+              .attr('y2', d => d.target.y);
+            node.attr('transform', d => `translate(${d.x}, ${d.y})`);
           });
 
     simulation.nodes(this.state.nodes);
@@ -68,28 +71,28 @@ class ScenarioGraph extends Component {
       .text(function(d) { return d.name; });
   }
 
-  async setScenarioNodes() {
-    let db = await new GloomhavenDatabase().getInstance();
-    let scenarioRoutes = await db.getScenarioRoutes();
-
-    const routeKeys = ['id', 'source', 'target', 'type'];
+  async setScenarioLinks(scenarioRoutes) {
+    // const routeKeys = ['id', 'source', 'target', 'type'];
     let links = this.state.links;
     scenarioRoutes.forEach(function(record) {
-      let obj = {};
-      routeKeys.forEach((key, i) => obj[key] = record[i]);
+      let obj = {
+        id: record[0],
+        source: `node_${record[1]}`,
+        target: `node_${record[2]}`,
+        type: record[3],
+      };
       links.push(obj);
     });
   }
 
-  async setScenarioLinks() {
-    let db = await new GloomhavenDatabase().getInstance();
-    let scenarioNames = await db.getScenarioNames();
-
-    const nameKeys = ['id', 'name'];
+  async setScenarioNodes(scenarioNames) {
+    // ['number', 'name']
     let nodes = this.state.nodes;
     scenarioNames.forEach(function(record) {
-      let obj = {};
-      nameKeys.forEach((key, i) => obj[key] = record[i]);
+      const obj = {
+        id: `node_${record[0]}`,
+        name: record[1],
+      };
       nodes.push(obj);
     });
   }
