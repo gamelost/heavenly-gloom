@@ -6,8 +6,8 @@ import './ScenarioGraph.css';
 class ScenarioGraph extends Component {
   constructor(props) {
     super(props);
-    const width  = 800,
-          height = 600;
+    const width  = 1000,
+          height = 800;
     this.state = {nodes: [], links: [], width, height};
   }
 
@@ -21,7 +21,6 @@ class ScenarioGraph extends Component {
     // Load data and construct nodes and links
     this.setScenarioNodes(scenarioNames);
     this.setScenarioLinks(scenarioRoutes);
-    console.log(this.state);
     this.drawGraph();
   }
 
@@ -34,10 +33,18 @@ class ScenarioGraph extends Component {
     let link = svg.selectAll('.link'),
         node = svg.selectAll('.node');
 
+    const typeToNumber = {
+      'unlocks':     d3.hsl("green"),
+      'links to':    d3.hsl("lightsalmon"),
+      'blocks':      d3.hsl("crimson"),
+      'required by': d3.hsl("sandybrown")
+    };
     const simulation = d3.forceSimulation();
+
     simulation.nodes(this.state.nodes);
+
     simulation.force('charge', d3.forceManyBody().strength(-200))
-              .force('link', d3.forceLink(this.state.links).id(d => d.id).distance(40))
+              .force('link', d3.forceLink(this.state.links).id(d => d.id))
               .force('x', d3.forceX(this.state.width / 2))
               .force('y', d3.forceY(this.state.height / 2))
               .on('tick', () => {
@@ -53,7 +60,8 @@ class ScenarioGraph extends Component {
     link = link
       .data(this.state.links)
       .enter().append('line')
-      .attr('class', 'link');
+      .attr('class', 'link')
+      .style("stroke", d => typeToNumber[d.type]);
 
     node = node
       .data(this.state.nodes)

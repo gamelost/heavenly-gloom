@@ -47,8 +47,7 @@ class GloomhavenDatabase {
         UNION
         SELECT s.number, s.name
         FROM scenario s
-        JOIN scenario_route sr ON sr.scenario_target = s.number
-    `;
+        JOIN scenario_route sr ON sr.scenario_target = s.number`;
     const [results] = await db.exec(query);
     return results.values;
   }
