@@ -32,13 +32,14 @@ class ScenarioGraph extends Component {
           .attr('viewBox', `0 0 ${this.state.width} ${this.state.height}`);
 
 
-    let link = svg.selectAll('.link'),
-        node = svg.selectAll('.node');
+    let g = svg.append('g'),
+        link = g.selectAll('.link'),
+        node = g.selectAll('.node');
 
     const typeToNumber = {
-      'unlocks':     d3.hsl("chartreuse"),
-      'links to':    d3.hsl("lightsalmon"),
-      'blocks':      d3.hsl("crimson"),
+      'unlocks': d3.hsl("chartreuse"),
+      'links to': d3.hsl("lightsalmon"),
+      'blocks': d3.hsl("crimson"),
       'required by': d3.hsl("brown")
     };
     const simulation = d3.forceSimulation();
@@ -137,14 +138,25 @@ class ScenarioGraph extends Component {
       .attr('class', 'node');
 
     node.append('circle')
-      .attr('r', 4)
-      .style('color', 'black')
+      .attr('r', 2)
+      .attr('stroke-width', '0')
+      .style('stroke', '#333')
       .style('fill', '#333');
 
     node.append('text')
       .attr('dx', 12)
       .attr('dy', '.35em')
-      .text(function(d) { return d.name; });
+      .attr('font-size', '12')
+      .text(d => d.name);
+
+    svg.append('rect')
+      .attr('fill', 'none')
+      .attr('pointer-events', 'all')
+      .attr('width', this.state.width)
+      .attr('height', this.state.height)
+      .call(d3.zoom()
+        .scaleExtent([1,8])
+        .on('zoom', () => g.attr('transform', d3.event.transform)));
   }
 
   async testData() {
