@@ -27,8 +27,8 @@ class ScenarioGraph extends Component {
   async drawGraph() {
     const svg = d3.select('.d3-graph')
           .append('svg')
-          .attr('width', this.state.width)
-          .attr('height', this.state.height)
+          // .attr('width', this.state.width)
+          // .attr('height', this.state.height);
           .attr('viewBox', `0 0 ${this.state.width} ${this.state.height}`);
 
     let g = svg.append('g'),
@@ -64,63 +64,61 @@ class ScenarioGraph extends Component {
 
     defs.append('marker')
         .attr('id','links-to')
-        .attr('markerUnits', 'strokeWidth')
-        .attr('markerWidth', '6')
-        .attr('markerHeight', '6')
-        .attr('viewBox', '-5 -5 20 20')
-        .attr('refX', '-20')
+        .attr('refX', '-15')
         .attr('refY', '3')
+        .attr('markerUnits', 'strokeWidth')
+        .attr('markerWidth', 14)
+        .attr('markerHeight', 14)
         .attr('stroke', 'lightsalmon')
-        .attr('stroke-width', '5')
+        .attr('stroke-width', '0')
         .attr('orient', 'auto')
+        .attr('fill', 'lightsalmon')
         .append('path')
-        .attr('d', 'M0,0 L0,6 L9,3 z');
+        .attr('d', 'M0,0 L0,6 L10,3 z');
 
     defs.append('marker')
         .attr('id','blocks')
+        .attr('refX', '-10')
+        .attr('refY', '3')
         .attr('markerUnits', 'strokeWidth')
-        .attr('markerWidth', '6')
-        .attr('markerHeight', '6')
-        .attr('viewBox', '-5 -5 20 20')
-        .attr('refX', '-20')
-        .attr('refY', '6')
+        .attr('markerWidth', 10)
+        .attr('markerHeight', 10)
         .attr('stroke', 'red')
-        .attr('stroke-width', '5')
+        .attr('stroke-width', '1')
+        .attr('fill', 'none')
         .attr('orient', 'auto')
         .append('path')
-        .attr('d', 'M0,0 L12,12 M0,12 L12,0');
+        .attr('d', 'M0,0 L5,5 M0,5 L5,0');
 
     defs.append('marker')
         .attr('id', 'unlocks')
+        .attr('refX', '-20')
+        .attr('refY', '4')
+        .attr('markerWidth', 10)
+        .attr('markerHeight', 10)
         .attr('markerUnits', 'strokeWidth')
-        .attr('markerWidth', '6')
-        .attr('markerHeight', '6')
-        .attr('viewBox', '-5 -5 20 20')
-        .attr('refX', '-25')
-        .attr('refY', '3')
         .attr('stroke', 'green')
-        .attr('stroke-width', '2')
+        .attr('stroke-width', '1')
         .attr('orient', 'auto')
         .attr('fill', 'none')
         .append('circle')
-        .attr('cx', '3')
-        .attr('cy', '3')
-        .attr('r', '6');
+        .attr('cx', '4')
+        .attr('cy', '4')
+        .attr('r', '3');
 
     defs.append('marker')
         .attr('id', 'required-by')
-        .attr('markerUnits', 'strokeWidth')
-        .attr('markerWidth', '6')
-        .attr('markerHeight', '6')
-        .attr('viewBox', '-5 -0 15 15')
         .attr('refX', '-20')
-        .attr('refY', '6')
+        .attr('refY', '5')
+        .attr('markerWidth', 10)
+        .attr('markerHeight', 10)
+        .attr('markerUnits', 'strokeWidth')
         .attr('stroke', 'gold')
-        .attr('stroke-width', '2')
+        .attr('stroke-width', '1')
         .attr('orient', 'auto')
         .attr('fill', 'none')
         .append('polyline')
-        .attr('points', '0,0 0,4 4,4 4,8 8,8 8,12') ;
+        .attr('points', '0,3 2,7 4,3 6,7 8,3 10,7') ;
 
     link = link
       .data(this.state.links)
