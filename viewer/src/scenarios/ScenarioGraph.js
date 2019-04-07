@@ -28,16 +28,18 @@ class ScenarioGraph extends Component {
     const svg = d3.select('.d3-graph')
           .append('svg')
           .attr('width', this.state.width)
-          .attr('height', this.state.height);
+          .attr('height', this.state.height)
+          .attr('viewBox', `0 0 ${this.state.width} ${this.state.height}`);
+
 
     let link = svg.selectAll('.link'),
         node = svg.selectAll('.node');
 
     const typeToNumber = {
-      'unlocks':     d3.hsl("green"),
+      'unlocks':     d3.hsl("chartreuse"),
       'links to':    d3.hsl("lightsalmon"),
       'blocks':      d3.hsl("crimson"),
-      'required by': d3.hsl("sandybrown")
+      'required by': d3.hsl("brown")
     };
     const simulation = d3.forceSimulation();
 
@@ -49,26 +51,76 @@ class ScenarioGraph extends Component {
               .force('y', d3.forceY(this.state.height / 2))
               .on('tick', () => {
                 link.attr('x1', d => d.source.x)
-                  .attr('y1', d => d.source.y)
-                  .attr('x2', d => d.target.x)
-                  .attr('y2', d => d.target.y);
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
                 node.attr('transform', d => `translate(${d.x}, ${d.y})`);
               });
 
     simulation.force('link').links(this.state.links);
 
-    svg.append('defs').append('marker')
-      .attr('id','arrow')
-      .attr('markerUnits', 'strokeWidth')
-      .attr('markerWidth', '6')
-      .attr('markerHeight', '6')
-      .attr('viewBox', '0 0 12 12')
-      .attr('refX', '6')
-      .attr('refY', '6')
-      .attr('orient', 'auto')
-      .append('path')
-      .attr('d', 'M 0 0 L 10 5 L 0 10 z')
-      .attr('fill', '#999;');
+    let defs = svg.append('defs');
+
+    defs.append('marker')
+        .attr('id','links-to')
+        .attr('markerUnits', 'strokeWidth')
+        .attr('markerWidth', '6')
+        .attr('markerHeight', '6')
+        .attr('viewBox', '-5 -5 20 20')
+        .attr('refX', '-20')
+        .attr('refY', '3')
+        .attr('stroke', 'lightsalmon')
+        .attr('stroke-width', '5')
+        .attr('orient', 'auto')
+        .append('path')
+        .attr('d', 'M0,0 L0,6 L9,3 z');
+
+    defs.append('marker')
+        .attr('id','blocks')
+        .attr('markerUnits', 'strokeWidth')
+        .attr('markerWidth', '6')
+        .attr('markerHeight', '6')
+        .attr('viewBox', '-5 -5 20 20')
+        .attr('refX', '-20')
+        .attr('refY', '6')
+        .attr('stroke', 'red')
+        .attr('stroke-width', '5')
+        .attr('orient', 'auto')
+        .append('path')
+        .attr('d', 'M0,0 L12,12 M0,12 L12,0');
+
+    defs.append('marker')
+        .attr('id', 'unlocks')
+        .attr('markerUnits', 'strokeWidth')
+        .attr('markerWidth', '6')
+        .attr('markerHeight', '6')
+        .attr('viewBox', '-5 -5 20 20')
+        .attr('refX', '-25')
+        .attr('refY', '3')
+        .attr('stroke', 'green')
+        .attr('stroke-width', '2')
+        .attr('orient', 'auto')
+        .attr('fill', 'none')
+        .append('circle')
+        .attr('cx', '3')
+        .attr('cy', '3')
+        .attr('r', '6');
+
+    defs.append('marker')
+        .attr('id', 'required-by')
+        .attr('markerUnits', 'strokeWidth')
+        .attr('markerWidth', '6')
+        .attr('markerHeight', '6')
+        .attr('viewBox', '-5 -0 15 15')
+        .attr('refX', '-20')
+        .attr('refY', '6')
+        .attr('stroke', 'gold')
+        .attr('stroke-width', '2')
+        .attr('orient', 'auto')
+        .attr('fill', 'none')
+        .append('polyline')
+        .attr('points', '0,0 0,4 4,4 4,8 8,8 8,12') ;
+
 
     link = link
       .data(this.state.links)
@@ -76,7 +128,7 @@ class ScenarioGraph extends Component {
       .attr('class', 'link')
       .style("stroke", d => typeToNumber[d.type])
       .style("stroke-width", 1)
-      .attr("marker-end", `url(#arrow)`);
+      .attr("marker-start", d => `url(#${d.type.replace(' ', '-')})`);
 
     node = node
       .data(this.state.nodes)
@@ -85,13 +137,30 @@ class ScenarioGraph extends Component {
       .attr('class', 'node');
 
     node.append('circle')
-      .attr('r', 6)
-      .style('fill', function(d) { return `#333`; });
+      .attr('r', 4)
+      .style('color', 'black')
+      .style('fill', '#333');
 
     node.append('text')
       .attr('dx', 12)
       .attr('dy', '.35em')
       .text(function(d) { return d.name; });
+  }
+
+  async testData() {
+    this.state.links = [
+      { source: 'node_1', target: 'node_2', type: 'unlocks' },
+      { source: 'node_2', target: 'node_3', type: 'blocks' },
+      { source: 'node_3', target: 'node_4', type: 'links to' },
+      { source: 'node_4', target: 'node_1', type: 'required by' },
+    ];
+    this.state.nodes = [
+      { id: 'node_1', name: 'foo' },
+      { id: 'node_2', name: 'bar' },
+      { id: 'node_3', name: 'baz' },
+      { id: 'node_4', name: 'hof' },
+      { id: 'node_5', name: 'mog' },
+    ];
   }
 
   async setScenarioLinks(scenarioRoutes) {
