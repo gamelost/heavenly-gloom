@@ -31,7 +31,6 @@ class ScenarioGraph extends Component {
           .attr('height', this.state.height)
           .attr('viewBox', `0 0 ${this.state.width} ${this.state.height}`);
 
-
     let g = svg.append('g'),
         link = g.selectAll('.link'),
         node = g.selectAll('.node');
@@ -42,6 +41,7 @@ class ScenarioGraph extends Component {
       'blocks': d3.hsl("crimson"),
       'required by': d3.hsl("brown")
     };
+
     const simulation = d3.forceSimulation();
 
     simulation.nodes(this.state.nodes);
@@ -122,7 +122,6 @@ class ScenarioGraph extends Component {
         .append('polyline')
         .attr('points', '0,0 0,4 4,4 4,8 8,8 8,12') ;
 
-
     link = link
       .data(this.state.links)
       .enter().append('line')
@@ -157,22 +156,6 @@ class ScenarioGraph extends Component {
       .call(d3.zoom()
         .scaleExtent([1,8])
         .on('zoom', () => g.attr('transform', d3.event.transform)));
-  }
-
-  async testData() {
-    this.state.links = [
-      { source: 'node_1', target: 'node_2', type: 'unlocks' },
-      { source: 'node_2', target: 'node_3', type: 'blocks' },
-      { source: 'node_3', target: 'node_4', type: 'links to' },
-      { source: 'node_4', target: 'node_1', type: 'required by' },
-    ];
-    this.state.nodes = [
-      { id: 'node_1', name: 'foo' },
-      { id: 'node_2', name: 'bar' },
-      { id: 'node_3', name: 'baz' },
-      { id: 'node_4', name: 'hof' },
-      { id: 'node_5', name: 'mog' },
-    ];
   }
 
   async setScenarioLinks(scenarioRoutes) {
