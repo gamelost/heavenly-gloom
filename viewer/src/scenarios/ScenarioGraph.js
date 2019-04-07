@@ -57,11 +57,26 @@ class ScenarioGraph extends Component {
 
     simulation.force('link').links(this.state.links);
 
+    svg.append('defs').append('marker')
+      .attr('id','arrow')
+      .attr('markerUnits', 'strokeWidth')
+      .attr('markerWidth', '6')
+      .attr('markerHeight', '6')
+      .attr('viewBox', '0 0 12 12')
+      .attr('refX', '6')
+      .attr('refY', '6')
+      .attr('orient', 'auto')
+      .append('path')
+      .attr('d', 'M 0 0 L 10 5 L 0 10 z')
+      .attr('fill', '#999;');
+
     link = link
       .data(this.state.links)
       .enter().append('line')
       .attr('class', 'link')
-      .style("stroke", d => typeToNumber[d.type]);
+      .style("stroke", d => typeToNumber[d.type])
+      .style("stroke-width", 1)
+      .attr("marker-end", `url(#arrow)`);
 
     node = node
       .data(this.state.nodes)
