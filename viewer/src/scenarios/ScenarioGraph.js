@@ -120,6 +120,12 @@ class ScenarioGraph extends Component {
         .append('polyline')
         .attr('points', '0,3 2,7 4,3 6,7 8,3 10,7') ;
 
+    svg.append('filter')
+      .attr('id', 'blurText')
+      .append('feGaussianBlur')
+      .attr('in', 'SourceGraphic')
+      .attr('stdDeviation', '2')
+
     link = link
       .data(this.state.links)
       .enter().append('line')
@@ -140,10 +146,12 @@ class ScenarioGraph extends Component {
       .style('stroke', '#333')
       .style('fill', '#333');
 
+    // TODO: Allow unblurring by hovering?
     node.append('text')
       .attr('dx', 12)
       .attr('dy', '.35em')
       .attr('font-size', '12')
+      .attr('filter', d => 'url(#blurText)')
       .text(d => d.name);
 
     svg.append('rect')
