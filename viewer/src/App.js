@@ -10,6 +10,7 @@ import MonsterAbility from './monsters/MonsterAbility';
 import MonsterStat from './monsters/MonsterStat';
 import ScenarioList from './scenarios/ScenarioList';
 import ScenarioMap from './scenarios/ScenarioMap';
+import ScenarioGraph from './scenarios/ScenarioGraph';
 
 class App extends Component {
   constructor(props){
@@ -30,6 +31,7 @@ class App extends Component {
             <Route exact path="/monsters/deck" component={MonsterDeck} />
             <Route exact path="/scenarios" component={ScenarioList} />
             <Route exact path="/scenarios/worldmap" component={ScenarioMap} />
+            <Route exact path="/scenarios/graph" component={ScenarioGraph} />
           </Switch>
         </Container>
       </div>

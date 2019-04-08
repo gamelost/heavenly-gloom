@@ -42,6 +42,7 @@ class Header extends Component {
               <Navbar.Dropdown>
                 <Navbar.Item href="/scenarios">List</Navbar.Item>
                 <Navbar.Item href="/scenarios/worldmap">World Map</Navbar.Item>
+                <Navbar.Item href="/scenarios/graph">Scenario Graph</Navbar.Item>
               </Navbar.Dropdown>
             </Navbar.Item>
           </Navbar.Container>
