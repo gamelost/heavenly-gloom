@@ -9,7 +9,7 @@ let src = fetchFromGitHub {
    };
 in
 with import "${src.out}/rust-overlay.nix" pkgs pkgs;
-let rustWithSource = (latest.rustChannels.nightly.rust.override { extensions = [ "rust-src" ]; });
+let rustWithSource = (latest.rustChannels.stable.rust.override { extensions = [ "rust-src" "rls-preview" "clippy-preview" ]; });
 in
 stdenv.mkDerivation {
   name = "env";

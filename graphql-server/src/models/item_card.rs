@@ -12,16 +12,6 @@ pub struct ItemCard {
 }
 
 impl ItemCard {
-    pub fn new(id: i32, name: &str, count: i32, cost: i32) -> ItemCard {
-        let name = name.to_string();
-        ItemCard {
-            id,
-            name,
-            count,
-            cost,
-        }
-    }
-
     fn sql(conn: &Connection) -> Result<Vec<(i32, ItemCard)>> {
         let mut statement = conn.prepare("SELECT number, name, count, cost FROM item_card")?;
         let rows = statement.query_map(params![], |row| {

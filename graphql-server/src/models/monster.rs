@@ -13,16 +13,6 @@ pub struct Monster {
 }
 
 impl Monster {
-    pub fn new(id: i32, name: &str, deck_id: i32, number: i32) -> Monster {
-        let name = name.to_string();
-        Monster {
-            id,
-            name,
-            deck_id,
-            number,
-        }
-    }
-
     fn sql(conn: &Connection) -> Result<Vec<(i32, Monster)>> {
         let mut statement =
             conn.prepare("SELECT id, name, monster_deck_id, number FROM monster")?;

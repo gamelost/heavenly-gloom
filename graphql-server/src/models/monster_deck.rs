@@ -12,11 +12,6 @@ pub struct MonsterDeck {
 }
 
 impl MonsterDeck {
-    pub fn new(id: i32, class: &str) -> MonsterDeck {
-        let class = class.to_string();
-        MonsterDeck { id, class }
-    }
-
     fn sql(conn: &Connection) -> Result<Vec<(i32, MonsterDeck)>> {
         let mut statement = conn.prepare("SELECT id, class FROM monster_deck")?;
         let rows = statement.query_map(params![], |row| {
