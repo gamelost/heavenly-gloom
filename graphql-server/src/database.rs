@@ -2,24 +2,31 @@ use crate::models::game_state::GameState;
 use crate::models::item_card::ItemCard;
 use crate::models::monster::Monster;
 use crate::models::monster_deck::MonsterDeck;
-use juniper::{graphql_object, Context, FieldError, FieldResult, Value};
-use rusqlite::Connection;
+use juniper::{graphql_object, Context as JuniperContext, FieldError, FieldResult, Value};
+use r2d2::Pool;
+use r2d2_sqlite::SqliteConnectionManager;
 use std::collections::HashMap;
+
+#[derive(Clone)]
+pub struct Context {
+    pub db: Pool<SqliteConnectionManager>,
+}
 
 #[derive(Clone, Debug)]
 pub struct Database {
+    // facts
     deck: HashMap<i32, MonsterDeck>,
     monsters: HashMap<i32, Monster>,
     item_cards: HashMap<i32, ItemCard>,
 }
 
-impl Context for Database {}
+impl JuniperContext for Database {}
 
 impl Database {
-    pub fn new(conn: &Connection) -> Database {
-        let deck = MonsterDeck::generate(conn);
-        let monsters = Monster::generate(conn);
-        let item_cards = ItemCard::generate(conn);
+    pub fn new(pool: &Pool<SqliteConnectionManager>) -> Database {
+        let deck = MonsterDeck::generate(pool);
+        let monsters = Monster::generate(pool);
+        let item_cards = ItemCard::generate(pool);
         Database {
             deck,
             monsters,
@@ -79,12 +86,13 @@ graphql_object!(Database: Database as "Query" |&self| {
 });
 
 pub struct Mutations {
+    // state
     game: GameState,
 }
 
 impl Mutations {
-    pub fn new(conn: &Connection) -> Mutations {
-        let game = GameState::refresh(&conn);
+    pub fn new(pool: &Pool<SqliteConnectionManager>) -> Mutations {
+        let game = GameState::refresh(&pool);
         Mutations { game }
     }
 

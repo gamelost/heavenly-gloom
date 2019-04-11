@@ -1,5 +1,3 @@
-extern crate clap;
-
 mod database;
 mod models {
     pub mod game_state;
@@ -8,11 +6,12 @@ mod models {
     pub mod monster_deck;
 }
 
-use crate::database::{Database, Mutations};
+use crate::database::{Context, Database, Mutations};
 use clap::{App, Arg};
 use juniper::RootNode;
 use juniper_warp::make_graphql_filter;
-use rusqlite::Connection;
+use r2d2::Pool;
+use r2d2_sqlite::SqliteConnectionManager;
 use std::path::Path;
 use std::str::FromStr;
 use warp::{http::Response, log, Filter};
@@ -54,13 +53,16 @@ fn main() -> Result<(), rusqlite::Error> {
     let port = u16::from_str(matches.value_of("PORT").unwrap()).unwrap();
 
     let file = matches.value_of("DB").unwrap();
-    let conn = Connection::open(Path::new(file))?;
-    let database = Database::new(&conn);
-    let mutations = Mutations::new(&conn);
+    let manager = SqliteConnectionManager::file(Path::new(file));
+    let pool = Pool::new(manager).unwrap();
+
+    let database = Database::new(&pool.clone());
+    let mutations = Mutations::new(&pool.clone());
 
     let log = log("warp_server");
     println!("Listening on {:?}:{}", ip, port);
 
+    let context = Context { db: pool };
     let schema = Schema::new(database.clone(), mutations);
     let state = warp::any().map(move || database.clone());
     let graphql_filter = make_graphql_filter(schema, state.boxed());

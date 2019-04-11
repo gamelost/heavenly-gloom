@@ -1,5 +1,7 @@
 use crate::database::Database;
 use juniper::graphql_object;
+use r2d2::Pool;
+use r2d2_sqlite::SqliteConnectionManager;
 use rusqlite::{params, Connection, Result};
 
 // hard code for now, eventually we want to write to the db
@@ -27,8 +29,9 @@ impl GameState {
         Ok(rows.unwrap()[0].clone())
     }
 
-    pub fn refresh(conn: &Connection) -> GameState {
-        GameState::sql(conn).unwrap()
+    pub fn refresh(pool: &Pool<SqliteConnectionManager>) -> GameState {
+        let conn = pool.get().unwrap();
+        GameState::sql(&conn).unwrap()
     }
 
     pub fn change_prosperity_level(&self, level: i32) -> GameState {

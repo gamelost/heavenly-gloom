@@ -1,6 +1,8 @@
 use crate::database::Database;
 use crate::models::monster_deck::MonsterDeck;
 use juniper::graphql_object;
+use r2d2::Pool;
+use r2d2_sqlite::SqliteConnectionManager;
 use rusqlite::{params, Connection, Result};
 use std::collections::HashMap;
 
@@ -38,8 +40,9 @@ impl Monster {
         Ok(deck)
     }
 
-    pub fn generate(conn: &Connection) -> HashMap<i32, Monster> {
-        Monster::sql(conn).unwrap().into_iter().collect()
+    pub fn generate(pool: &Pool<SqliteConnectionManager>) -> HashMap<i32, Monster> {
+        let conn = pool.get().unwrap();
+        Monster::sql(&conn).unwrap().into_iter().collect()
     }
 }
 
