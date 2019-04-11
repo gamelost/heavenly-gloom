@@ -24,18 +24,19 @@ impl Monster {
     }
 
     fn sql(conn: &Connection) -> Result<Vec<(i32, Monster)>> {
-        let mut statement = conn.prepare("SELECT id, name, deck_id, number FROM monster")?;
+        let mut statement =
+            conn.prepare("SELECT id, name, monster_deck_id, number FROM monster")?;
         let rows = statement.query_map(params![], |row| {
             let id = row.get(0)?;
             let name = row.get(1)?;
-            let deck_id = row.get(2)?;
+            let monster_deck_id = row.get(2)?;
             let number = row.get(3)?;
             Ok((
                 id,
                 Monster {
                     id,
                     name,
-                    deck_id,
+                    deck_id: monster_deck_id,
                     number,
                 },
             ))
