@@ -1,7 +1,8 @@
+// use crate::models::game_state::GameState;
 use crate::models::item_card::ItemCard;
 use crate::models::monster::Monster;
 use crate::models::monster_deck::MonsterDeck;
-use juniper::{graphql_object, Context};
+use juniper::{graphql_object, Context, FieldResult};
 use rusqlite::Connection;
 use std::collections::HashMap;
 
@@ -74,5 +75,43 @@ graphql_object!(Database: Database as "Query" |&self| {
 
     field monster(id: i32 as "monster id") -> Option<&Monster> {
         self.get_monster(id)
+    }
+});
+
+// hard code for now, eventually we want to write to the db
+#[derive(Clone, Debug)]
+pub struct GameState {
+    team_name: String,
+    prosperity_level: i32,
+}
+
+graphql_object!(GameState: () |&self| {
+    description: "Gloomhaven game state."
+
+    field prosperity_level() -> i32 {
+        self.prosperity_level
+    }
+});
+
+pub struct Mutations;
+
+impl Mutations {
+    pub fn new() -> Mutations {
+        Mutations {}
+    }
+
+    pub fn change_prosperity(&self, level: i32) -> FieldResult<GameState> {
+        Ok(GameState {
+            team_name: "Loveless".to_string(),
+            prosperity_level: level,
+        })
+    }
+}
+
+graphql_object!(Mutations: Database |&self| {
+    description: "Gloomhaven actions"
+
+    field change_prosperity(level: i32) -> FieldResult<GameState> as "Change Gloomhaven Prosperity Level" {
+        self.change_prosperity(level)
     }
 });

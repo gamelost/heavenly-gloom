@@ -6,7 +6,7 @@ CREATE TABLE game_state(
   prosperity_level INTEGER NOT NULL -- restricted to 1 to 9
 );
 
-INSERT INTO game_state(team_name, prosperity_level) VALUES ('super team', 2);
+INSERT INTO game_state(team_name, prosperity_level) VALUES ('The Loveless', 2);
 
 DROP TABLE IF EXISTS player;
 CREATE TABLE player(

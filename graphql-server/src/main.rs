@@ -2,20 +2,22 @@ extern crate clap;
 
 mod database;
 mod models {
+    // pub mod game_state;
     pub mod item_card;
     pub mod monster;
     pub mod monster_deck;
 }
 
-use crate::database::Database;
+use crate::database::{Database, Mutations};
 use clap::{App, Arg};
-use juniper::{EmptyMutation, RootNode};
+use juniper::RootNode;
+use juniper_warp::make_graphql_filter;
 use rusqlite::Connection;
 use std::path::Path;
 use std::str::FromStr;
 use warp::{http::Response, log, Filter};
 
-type Schema = RootNode<'static, Database, EmptyMutation<Database>>;
+type Schema = RootNode<'static, Database, Mutations>;
 
 fn main() -> Result<(), rusqlite::Error> {
     let matches = App::new("gh-server")
@@ -54,13 +56,14 @@ fn main() -> Result<(), rusqlite::Error> {
     let file = matches.value_of("DB").unwrap();
     let conn = Connection::open(Path::new(file))?;
     let database = Database::new(&conn);
+    let mutations = Mutations::new();
 
     let log = log("warp_server");
     println!("Listening on {:?}:{}", ip, port);
 
-    let schema = Schema::new(database.clone(), EmptyMutation::<Database>::new());
+    let schema = Schema::new(database.clone(), mutations);
     let state = warp::any().map(move || database.clone());
-    let graphql_filter = juniper_warp::make_graphql_filter(schema, state.boxed());
+    let graphql_filter = make_graphql_filter(schema, state.boxed());
 
     let homepage = warp::path::end().map(|| {
         Response::builder()
