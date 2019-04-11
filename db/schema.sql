@@ -121,7 +121,7 @@ CREATE TABLE monster_stat_card(
 
 DROP TABLE IF EXISTS item_card;
 CREATE TABLE item_card(
-  number INTEGER PRIMARY KEY,
+  number INTEGER PRIMARY KEY,  -- reference number
   name TEXT NOT NULL UNIQUE,
   image_path TEXT NOT NULL,
   count INTEGER NOT NULL,
@@ -131,5 +131,4 @@ CREATE TABLE item_card(
   -- usage (spent, consumed)
   -- number of use slots (default 0)
   -- modifier cards (default none)
-  -- reference number
 );

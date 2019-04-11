@@ -2,6 +2,7 @@
 
 mod database;
 mod models {
+    pub mod item_card;
     pub mod monster;
     pub mod monster_deck;
 }

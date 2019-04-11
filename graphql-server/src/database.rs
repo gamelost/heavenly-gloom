@@ -1,3 +1,4 @@
+use crate::models::item_card::ItemCard;
 use crate::models::monster::Monster;
 use crate::models::monster_deck::MonsterDeck;
 use juniper::{graphql_object, Context};
@@ -8,6 +9,7 @@ use std::collections::HashMap;
 pub struct Database {
     deck: HashMap<i32, MonsterDeck>,
     monsters: HashMap<i32, Monster>,
+    item_cards: HashMap<i32, ItemCard>,
 }
 
 impl Context for Database {}
@@ -16,7 +18,12 @@ impl Database {
     pub fn new(conn: &Connection) -> Database {
         let deck = MonsterDeck::generate(conn);
         let monsters = Monster::generate(conn);
-        Database { deck, monsters }
+        let item_cards = ItemCard::generate(conn);
+        Database {
+            deck,
+            monsters,
+            item_cards,
+        }
     }
 
     pub fn get_deck(&self, id: i32) -> Option<&MonsterDeck> {
@@ -40,6 +47,10 @@ impl Database {
             _ => all_monsters.collect(),
         }
     }
+
+    pub fn get_item_cards(&self) -> Vec<&ItemCard> {
+        self.item_cards.values().collect()
+    }
 }
 
 graphql_object!(Database: Database as "Query" |&self| {
@@ -55,6 +66,10 @@ graphql_object!(Database: Database as "Query" |&self| {
 
     field monsters() -> Vec<&Monster> {
         self.get_monsters(None)
+    }
+
+    field item_cards() -> Vec<&ItemCard> {
+        self.get_item_cards()
     }
 
     field monster(id: i32 as "monster id") -> Option<&Monster> {
