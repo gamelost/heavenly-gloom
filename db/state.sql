@@ -1,7 +1,6 @@
 
 DROP TABLE IF EXISTS game_state;
 CREATE TABLE game_state(
-  id INTEGER PRIMARY KEY,
   team_name TEXT NOT NULL UNIQUE,
   prosperity_level INTEGER NOT NULL -- restricted to 1 to 9
 );

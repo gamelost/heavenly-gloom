@@ -2,7 +2,7 @@ extern crate clap;
 
 mod database;
 mod models {
-    // pub mod game_state;
+    pub mod game_state;
     pub mod item_card;
     pub mod monster;
     pub mod monster_deck;
@@ -56,7 +56,7 @@ fn main() -> Result<(), rusqlite::Error> {
     let file = matches.value_of("DB").unwrap();
     let conn = Connection::open(Path::new(file))?;
     let database = Database::new(&conn);
-    let mutations = Mutations::new();
+    let mutations = Mutations::new(&conn);
 
     let log = log("warp_server");
     println!("Listening on {:?}:{}", ip, port);
