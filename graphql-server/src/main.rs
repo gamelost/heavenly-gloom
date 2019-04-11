@@ -1,3 +1,5 @@
+extern crate clap;
+
 mod database;
 mod models {
     pub mod item_card;
@@ -5,6 +7,8 @@ mod models {
     pub mod monster_deck;
 }
 
+use std::str::FromStr;
+use clap::{App, Arg};
 use crate::database::Database;
 use juniper::{EmptyMutation, RootNode};
 use rusqlite::Connection;
@@ -14,7 +18,23 @@ use warp::{http::Response, log, Filter};
 type Schema = RootNode<'static, Database, EmptyMutation<Database>>;
 
 fn main() -> Result<(), rusqlite::Error> {
-    let conn = Connection::open(Path::new("../db/db.sqlite"))?;
+    let matches = App::new("gh-server").about("Heavenly Gloomy Server")
+        .arg(Arg::with_name("DB")
+            .help("The database file to use")
+            .default_value("../db/db.sqlite")
+            .index(1))
+        .arg(Arg::with_name("IP")
+             .help("The ip address to bind to")
+             .default_value("127.0.0.1")
+             .index(2))
+        .arg(Arg::with_name("PORT")
+             .help("The port to bind to")
+             .default_value("8000")
+             .index(3))
+        .get_matches();
+
+    let file = matches.value_of("DB").unwrap();
+    let conn = Connection::open(Path::new(file))?;
     let database = Database::new(&conn);
 
     let log = log("warp_server");
@@ -27,7 +47,20 @@ fn main() -> Result<(), rusqlite::Error> {
             ))
     });
 
-    println!("Listening on 127.0.0.1:8000");
+    // TODO: plz make this go away
+    let vec_ip: Vec<u8> = matches.value_of("IP").unwrap().split('.').map(|val| {
+        u8::from_str(val).unwrap()
+    }).collect();
+    let mut mut_ip: [u8; 4] = [0; 4];
+
+    for i in 0..4 {
+        mut_ip[i] = *vec_ip.get(i).unwrap();
+    }
+    let ip = mut_ip;
+
+    let port = u16::from_str(matches.value_of("PORT").unwrap()).unwrap();
+
+    println!("Listening on {:?}:{}", ip, port);
 
     let schema = Schema::new(database.clone(), EmptyMutation::<Database>::new());
     let state = warp::any().map(move || database.clone());
@@ -41,7 +74,7 @@ fn main() -> Result<(), rusqlite::Error> {
             .or(warp::path("graphql").and(graphql_filter))
             .with(log),
     )
-    .run(([127, 0, 0, 1], 8000));
+    .run((ip, port));
 
     Ok(())
 }
