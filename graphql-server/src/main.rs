@@ -5,8 +5,12 @@ mod models {
     pub mod monster;
     pub mod monster_deck;
 }
+mod rules {
+    pub mod game_state_rules;
+    pub mod rules;
+}
 
-use crate::database::{Context, Database, Mutations};
+use crate::database::{Database, Mutations};
 use clap::{App, Arg};
 use juniper::RootNode;
 use juniper_warp::make_graphql_filter;
@@ -62,7 +66,6 @@ fn main() -> Result<(), rusqlite::Error> {
     let log = log("warp_server");
     println!("Listening on {:?}:{}", ip, port);
 
-    let context = Context { db: pool };
     let schema = Schema::new(database.clone(), mutations);
     let state = warp::any().map(move || database.clone());
     let graphql_filter = make_graphql_filter(schema, state.boxed());

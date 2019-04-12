@@ -2,15 +2,11 @@ use crate::models::game_state::GameState;
 use crate::models::item_card::ItemCard;
 use crate::models::monster::Monster;
 use crate::models::monster_deck::MonsterDeck;
-use juniper::{graphql_object, Context as JuniperContext, FieldError, FieldResult, Value};
+use crate::rules::rules::{apply_rule, Rules};
+use juniper::{graphql_object, Context, FieldResult};
 use r2d2::Pool;
 use r2d2_sqlite::SqliteConnectionManager;
 use std::collections::HashMap;
-
-#[derive(Clone)]
-pub struct Context {
-    pub db: Pool<SqliteConnectionManager>,
-}
 
 #[derive(Clone, Debug)]
 pub struct Database {
@@ -20,13 +16,13 @@ pub struct Database {
     item_cards: HashMap<i32, ItemCard>,
 }
 
-impl JuniperContext for Database {}
+impl Context for Database {}
 
 impl Database {
     pub fn new(pool: &Pool<SqliteConnectionManager>) -> Database {
-        let deck = MonsterDeck::generate(pool);
-        let monsters = Monster::generate(pool);
-        let item_cards = ItemCard::generate(pool);
+        let deck = MonsterDeck::get_facts(pool);
+        let monsters = Monster::get_facts(pool);
+        let item_cards = ItemCard::get_facts(pool);
         Database {
             deck,
             monsters,
@@ -86,24 +82,17 @@ graphql_object!(Database: Database as "Query" |&self| {
 });
 
 pub struct Mutations {
+    pub pool: Pool<SqliteConnectionManager>,
     // state
-    game: GameState,
+    pub game: GameState,
 }
 
 impl Mutations {
     pub fn new(pool: &Pool<SqliteConnectionManager>) -> Mutations {
         let game = GameState::refresh(&pool);
-        Mutations { game }
-    }
-
-    pub fn change_prosperity(&self, level: i32) -> FieldResult<GameState> {
-        // TODO rules
-        match level {
-            1...9 => Ok(self.game.change_prosperity_level(level)),
-            _ => {
-                let error = FieldError::new("Invalid prosperity level", Value::null());
-                Err(error)
-            }
+        Mutations {
+            game,
+            pool: pool.clone(),
         }
     }
 }
@@ -111,7 +100,7 @@ impl Mutations {
 graphql_object!(Mutations: Database |&self| {
     description: "Gloomhaven actions"
 
-    field change_prosperity(level: i32) -> FieldResult<GameState> as "Change Gloomhaven Prosperity Level" {
-        self.change_prosperity(level)
+    field change_prosperity(level: i32) -> FieldResult<Mutations> as "Change Gloomhaven Prosperity Level" {
+        apply_rule(&self, &Rules::ChangeProsperityLevel(level))
     }
 });

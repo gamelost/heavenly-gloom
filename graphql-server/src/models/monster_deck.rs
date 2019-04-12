@@ -14,7 +14,7 @@ pub struct MonsterDeck {
 }
 
 impl MonsterDeck {
-    fn sql(conn: &Connection) -> Result<Vec<(i32, MonsterDeck)>> {
+    fn select_all(conn: &Connection) -> Result<Vec<(i32, MonsterDeck)>> {
         let mut statement = conn.prepare("SELECT id, class FROM monster_deck")?;
         let rows = statement.query_map(params![], |row| {
             let id = row.get(0)?;
@@ -28,9 +28,12 @@ impl MonsterDeck {
         Ok(deck)
     }
 
-    pub fn generate(pool: &Pool<SqliteConnectionManager>) -> HashMap<i32, MonsterDeck> {
+    pub fn get_facts(pool: &Pool<SqliteConnectionManager>) -> HashMap<i32, MonsterDeck> {
         let conn = pool.get().unwrap();
-        MonsterDeck::sql(&conn).unwrap().into_iter().collect()
+        MonsterDeck::select_all(&conn)
+            .unwrap()
+            .into_iter()
+            .collect()
     }
 }
 

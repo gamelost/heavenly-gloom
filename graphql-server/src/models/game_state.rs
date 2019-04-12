@@ -4,7 +4,6 @@ use r2d2::Pool;
 use r2d2_sqlite::SqliteConnectionManager;
 use rusqlite::{params, Connection, Result};
 
-// hard code for now, eventually we want to write to the db
 #[derive(Clone, Debug)]
 pub struct GameState {
     pub team_name: String,
@@ -12,7 +11,7 @@ pub struct GameState {
 }
 
 impl GameState {
-    fn sql(conn: &Connection) -> Result<GameState> {
+    fn select_all(conn: &Connection) -> Result<GameState> {
         let mut statement = conn.prepare("SELECT team_name, prosperity_level FROM game_state")?;
         let rows: Result<Vec<GameState>> = statement
             .query_and_then(params![], |row| {
@@ -25,21 +24,18 @@ impl GameState {
             })
             .unwrap()
             .collect();
-        // TODO ugly hack
         Ok(rows.unwrap()[0].clone())
+    }
+
+    pub fn update_prosperity_level(pool: &Pool<SqliteConnectionManager>, level: i32) -> Result<()> {
+        let conn = pool.get().unwrap();
+        conn.execute("UPDATE game_state SET prosperity_level = ?1", &[level])?;
+        Ok(())
     }
 
     pub fn refresh(pool: &Pool<SqliteConnectionManager>) -> GameState {
         let conn = pool.get().unwrap();
-        GameState::sql(&conn).unwrap()
-    }
-
-    pub fn change_prosperity_level(&self, level: i32) -> GameState {
-        // TODO actually mutate the db
-        GameState {
-            team_name: self.team_name.clone(),
-            prosperity_level: level,
-        }
+        GameState::select_all(&conn).unwrap()
     }
 }
 

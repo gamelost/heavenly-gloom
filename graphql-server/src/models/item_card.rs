@@ -14,7 +14,7 @@ pub struct ItemCard {
 }
 
 impl ItemCard {
-    fn sql(conn: &Connection) -> Result<Vec<(i32, ItemCard)>> {
+    fn select_all(conn: &Connection) -> Result<Vec<(i32, ItemCard)>> {
         let mut statement = conn.prepare("SELECT number, name, count, cost FROM item_card")?;
         let rows = statement.query_map(params![], |row| {
             let id = row.get(0)?;
@@ -38,9 +38,9 @@ impl ItemCard {
         Ok(deck)
     }
 
-    pub fn generate(pool: &Pool<SqliteConnectionManager>) -> HashMap<i32, ItemCard> {
+    pub fn get_facts(pool: &Pool<SqliteConnectionManager>) -> HashMap<i32, ItemCard> {
         let conn = pool.get().unwrap();
-        ItemCard::sql(&conn).unwrap().into_iter().collect()
+        ItemCard::select_all(&conn).unwrap().into_iter().collect()
     }
 }
 

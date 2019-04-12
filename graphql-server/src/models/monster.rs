@@ -15,20 +15,20 @@ pub struct Monster {
 }
 
 impl Monster {
-    fn sql(conn: &Connection) -> Result<Vec<(i32, Monster)>> {
+    fn select_all(conn: &Connection) -> Result<Vec<(i32, Monster)>> {
         let mut statement =
             conn.prepare("SELECT id, name, monster_deck_id, number FROM monster")?;
         let rows = statement.query_map(params![], |row| {
             let id = row.get(0)?;
             let name = row.get(1)?;
-            let monster_deck_id = row.get(2)?;
+            let deck_id = row.get(2)?;
             let number = row.get(3)?;
             Ok((
                 id,
                 Monster {
                     id,
                     name,
-                    deck_id: monster_deck_id,
+                    deck_id,
                     number,
                 },
             ))
@@ -40,9 +40,9 @@ impl Monster {
         Ok(deck)
     }
 
-    pub fn generate(pool: &Pool<SqliteConnectionManager>) -> HashMap<i32, Monster> {
+    pub fn get_facts(pool: &Pool<SqliteConnectionManager>) -> HashMap<i32, Monster> {
         let conn = pool.get().unwrap();
-        Monster::sql(&conn).unwrap().into_iter().collect()
+        Monster::select_all(&conn).unwrap().into_iter().collect()
     }
 }
 
