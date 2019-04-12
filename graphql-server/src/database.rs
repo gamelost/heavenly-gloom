@@ -2,7 +2,7 @@ use crate::models::game_state::GameState;
 use crate::models::item_card::ItemCard;
 use crate::models::monster::Monster;
 use crate::models::monster_deck::MonsterDeck;
-use crate::rules::rules::{apply_rule, Rules};
+use crate::rules::rule::{apply_rule, Rule};
 use juniper::{graphql_object, Context, FieldResult};
 use r2d2::Pool;
 use r2d2_sqlite::SqliteConnectionManager;
@@ -100,7 +100,11 @@ impl Mutations {
 graphql_object!(Mutations: Database |&self| {
     description: "Gloomhaven actions"
 
+    field game() -> GameState {
+        self.game.clone()
+    }
+
     field change_prosperity(level: i32) -> FieldResult<Mutations> as "Change Gloomhaven Prosperity Level" {
-        apply_rule(&self, &Rules::ChangeProsperityLevel(level))
+        apply_rule(&self, &Rule::ChangeProsperityLevel(level))
     }
 });

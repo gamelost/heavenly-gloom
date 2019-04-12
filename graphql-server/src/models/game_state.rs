@@ -42,6 +42,10 @@ impl GameState {
 graphql_object!(GameState: Database |&self| {
     description: "Gloomhaven game state."
 
+    field team_name() -> String {
+        self.team_name.clone()
+    }
+
     field prosperity_level() -> i32 {
         self.prosperity_level
     }

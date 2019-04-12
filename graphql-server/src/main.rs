@@ -7,7 +7,7 @@ mod models {
 }
 mod rules {
     pub mod game_state_rules;
-    pub mod rules;
+    pub mod rule;
 }
 
 use crate::database::{Database, Mutations};
