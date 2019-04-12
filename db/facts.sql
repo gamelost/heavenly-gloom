@@ -118,3 +118,17 @@ CREATE TABLE monster_stat_card(
   FOREIGN KEY(monster_id) REFERENCES monster(id),
   FOREIGN KEY(monster_stat_id) REFERENCES monster_stat(id)
 );
+
+DROP TABLE IF EXISTS item_card;
+CREATE TABLE item_card(
+  number INTEGER PRIMARY KEY,  -- reference number
+  name TEXT NOT NULL UNIQUE,
+  image_path TEXT NOT NULL,
+  count INTEGER NOT NULL,
+  cost INTEGER NOT NULL
+  -- body part (head, body, legs, one-hand, two-hands, small-item)
+  -- description
+  -- usage (spent, consumed)
+  -- number of use slots (default 0)
+  -- modifier cards (default none)
+);

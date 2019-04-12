@@ -3620,3 +3620,7 @@ INSERT INTO scenario_reference(scenario_id, reference_page) VALUES (82, 104);
 INSERT INTO scenario_reference(scenario_id, reference_page) VALUES (85, 107);
 INSERT INTO scenario_reference(scenario_id, reference_page) VALUES (85, 108);
 INSERT INTO scenario_reference(scenario_id, reference_page) VALUES (90, 113);
+
+INSERT INTO item_card(name, image_path, count, cost) VALUES ('Boots of Striding', 'items/1-14/boots-of-striding.png', 2, 20);
+INSERT INTO item_card(name, image_path, count, cost) VALUES ('Cloak of Invisibility', 'items/1-14/cloak-of-invisibility.png', 2, 20);
+INSERT INTO item_card(name, image_path, count, cost) VALUES ('Eagle-Eye Goggles', 'items/1-14/eagle-eye-goggles.png', 2, 30);

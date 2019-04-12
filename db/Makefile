@@ -1,6 +1,6 @@
 SQLITE=sqlite3
 
-DEPS = schema.sql gloomhaven-data.sql
+DEPS = facts.sql facts-values.sql state.sql
 
 db: $(DEPS)
 	cat $(DEPS) | $(SQLITE) db.sqlite
