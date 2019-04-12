@@ -10,10 +10,13 @@ use std::collections::HashMap;
 
 #[derive(Clone, Debug)]
 pub struct Database {
+    pool: Pool<SqliteConnectionManager>,
     // facts
     deck: HashMap<i32, MonsterDeck>,
     monsters: HashMap<i32, Monster>,
     item_cards: HashMap<i32, ItemCard>,
+    // state
+    game: GameState,
 }
 
 impl Context for Database {}
@@ -23,10 +26,13 @@ impl Database {
         let deck = MonsterDeck::get_facts(pool);
         let monsters = Monster::get_facts(pool);
         let item_cards = ItemCard::get_facts(pool);
+        let game = GameState::refresh(pool);
         Database {
+            pool: pool.clone(),
             deck,
             monsters,
             item_cards,
+            game,
         }
     }
 
@@ -79,32 +85,31 @@ graphql_object!(Database: Database as "Query" |&self| {
     field monster(id: i32 as "monster id") -> Option<&Monster> {
         self.get_monster(id)
     }
+
+    field game() -> GameState {
+        GameState::refresh(&self.pool)
+    }
 });
 
 pub struct Mutations {
     pub pool: Pool<SqliteConnectionManager>,
-    // state
-    pub game: GameState,
 }
 
 impl Mutations {
     pub fn new(pool: &Pool<SqliteConnectionManager>) -> Mutations {
-        let game = GameState::refresh(&pool);
-        Mutations {
-            game,
-            pool: pool.clone(),
-        }
+        Mutations { pool: pool.clone() }
     }
 }
 
 graphql_object!(Mutations: Database |&self| {
     description: "Gloomhaven actions"
 
+    // mirror database access so that mutations can get results back
     field game() -> GameState {
-        self.game.clone()
+        GameState::refresh(&self.pool)
     }
 
-    field change_prosperity(level: i32) -> FieldResult<Mutations> as "Change Gloomhaven Prosperity Level" {
+    field change_prosperity(level: i32) -> FieldResult<&Mutations> as "Change Gloomhaven Prosperity Level" {
         apply_rule(&self, &Rule::ChangeProsperityLevel(level))
     }
 });
