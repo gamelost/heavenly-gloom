@@ -121,14 +121,14 @@ CREATE TABLE monster_stat_card(
 
 DROP TABLE IF EXISTS item_card;
 CREATE TABLE item_card(
-  number INTEGER PRIMARY KEY,  -- reference number
+  id INTEGER PRIMARY KEY,
   name TEXT NOT NULL UNIQUE,
   image_path TEXT NOT NULL,
   count INTEGER NOT NULL,
-  cost INTEGER NOT NULL
-  -- body part (head, body, legs, one-hand, two-hands, small-item)
-  -- description
-  -- usage (spent, consumed)
-  -- number of use slots (default 0)
-  -- modifier cards (default none)
+  cost INTEGER NOT NULL,
+  body_part TEXT CHECK(body_part IN ('head','body','legs','one-hand','two-hands','small-item','?')) NOT NULL,
+  description TEXT NOT NULL,
+  usage TEXT CHECK(usage IN ('spent','consumed','none','?')),
+  use_slots INTEGER DEFAULT 0,
+  modifiers TEXT
 );
