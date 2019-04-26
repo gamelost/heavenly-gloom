@@ -114,6 +114,13 @@ class GloomhavenDatabase {
     }, {});
   }
 
+
+  async getItems() {
+    const [results] = await db.exec('SELECT ic.id, ic.name, ic.image_path, ic.count, ic.cost, ic.body_part, ic.description, ic.usage, ic.use_slots, ic.modifiers ' +
+                                    'FROM item_card ic ');
+    return results.values;
+  }
+
   async run(str) {
     return db.exec(str);
   }

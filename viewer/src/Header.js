@@ -45,6 +45,12 @@ class Header extends Component {
                 <Navbar.Item href="/scenarios/graph">Scenario Graph</Navbar.Item>
               </Navbar.Dropdown>
             </Navbar.Item>
+            <Navbar.Item renderAs="div" className="has-dropdown is-hoverable">
+              <Navbar.Item>Items</Navbar.Item>
+              <Navbar.Dropdown>
+                <Navbar.Item href="/items">List</Navbar.Item>
+              </Navbar.Dropdown>
+            </Navbar.Item>
           </Navbar.Container>
         </Navbar.Menu>
       </Navbar>
