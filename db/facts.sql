@@ -1,3 +1,6 @@
+-- Cos Anja NFS home sucks
+BEGIN TRANSACTION;
+
 DROP TABLE IF EXISTS monster_deck;
 CREATE TABLE monster_deck(
   id INTEGER PRIMARY KEY,
@@ -140,3 +143,6 @@ CREATE TABLE character(
   image_path TEXT NOT NULL,
   acronym TEXT NOT NULL UNIQUE
 );
+
+-- Cos Anja NFS home sucks
+COMMIT;

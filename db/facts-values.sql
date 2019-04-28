@@ -1,4 +1,5 @@
-
+-- Cos Anja NFS home sucks
+BEGIN TRANSACTION;
 
 -- macros
 INSERT INTO macro(macro, description, image_path, is_element, is_area_of_effect, is_boss) VALUES('%air%', null, 'macro-images/air.svg', 1, 0, 0);
@@ -3796,3 +3797,6 @@ INSERT INTO character(name, image_path, acronym) VALUES ('summoner', 'gloomhaven
 INSERT INTO character(name, image_path, acronym) VALUES ('sunkeeper', 'gloomhaven-images/images/character-mats/sunkeeper.png', 'SK');
 INSERT INTO character(name, image_path, acronym) VALUES ('tinkerer', 'gloomhaven-images/images/character-mats/tinkerer.png', 'TI');
 INSERT INTO character(name, image_path, acronym) VALUES ('diviner', 'gloomhaven-images/images/character-mats/diviner.png', 'DR');
+
+-- Cos Anja NFS home sucks
+COMMIT;

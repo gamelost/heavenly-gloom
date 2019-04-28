@@ -1,3 +1,5 @@
+-- Cos Anja NFS home sucks
+BEGIN TRANSACTION;
 
 DROP TABLE IF EXISTS game_state;
 CREATE TABLE game_state(
@@ -18,3 +20,6 @@ CREATE TABLE player(
 
 INSERT INTO player(name, hit_points, experience, gold) VALUES ('mr. pink', 10, 50, 500);
 INSERT INTO player(name, hit_points, experience, gold) VALUES ('mrs. purple', 8, 45, 100);
+
+-- Cos Anja NFS home sucks
+COMMIT;
