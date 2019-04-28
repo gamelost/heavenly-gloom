@@ -3774,3 +3774,25 @@ INSERT INTO item_card(name, image_path, count, cost, body_part, description, usa
 INSERT INTO item_card(name, image_path, count, cost, body_part, description, usage, use_slots, modifiers) VALUES ('elemental boots', 'gloomhaven-images/images/items/64-151/elemental-boots.png', 0, 0, '?', '?', '?', 'null', 'null');
 INSERT INTO item_card(name, image_path, count, cost, body_part, description, usage, use_slots, modifiers) VALUES ('staff of command', 'gloomhaven-images/images/items/64-151/staff-of-command.png', 0, 0, '?', '?', '?', 'null', 'null');
 INSERT INTO item_card(name, image_path, count, cost, body_part, description, usage, use_slots, modifiers) VALUES ('sword of the sands', 'gloomhaven-images/images/items/64-151/sword-of-the-sands.png', 0, 0, '?', '?', '?', 'null', 'null');
+
+
+-- characters
+INSERT INTO character(name, image_path, acronym) VALUES ('beast tyrant', 'gloomhaven-images/images/character-mats/beast-tyrant.png', 'undefined');
+INSERT INTO character(name, image_path, acronym) VALUES ('berserker', 'gloomhaven-images/images/character-mats/berserker.png', 'BE');
+INSERT INTO character(name, image_path, acronym) VALUES ('bladeswarm', 'gloomhaven-images/images/character-mats/bladeswarm.png', 'BS');
+INSERT INTO character(name, image_path, acronym) VALUES ('brute', 'gloomhaven-images/images/character-mats/brute.png', 'BR');
+INSERT INTO character(name, image_path, acronym) VALUES ('cragheart', 'gloomhaven-images/images/character-mats/cragheart.png', 'CH');
+INSERT INTO character(name, image_path, acronym) VALUES ('doomstalker', 'gloomhaven-images/images/character-mats/doomstalker.png', 'DS');
+INSERT INTO character(name, image_path, acronym) VALUES ('elementalist', 'gloomhaven-images/images/character-mats/elementalist.png', 'EL');
+INSERT INTO character(name, image_path, acronym) VALUES ('mindthief', 'gloomhaven-images/images/character-mats/mindthief.png', 'MT');
+INSERT INTO character(name, image_path, acronym) VALUES ('nightshroud', 'gloomhaven-images/images/character-mats/nightshroud.png', 'NS');
+INSERT INTO character(name, image_path, acronym) VALUES ('plagueherald', 'gloomhaven-images/images/character-mats/plagueherald.png', 'PH');
+INSERT INTO character(name, image_path, acronym) VALUES ('quartermaster', 'gloomhaven-images/images/character-mats/quartermaster.png', 'QM');
+INSERT INTO character(name, image_path, acronym) VALUES ('sawbones', 'gloomhaven-images/images/character-mats/sawbones.png', 'SB');
+INSERT INTO character(name, image_path, acronym) VALUES ('scoundrel', 'gloomhaven-images/images/character-mats/scoundrel.png', 'SC');
+INSERT INTO character(name, image_path, acronym) VALUES ('soothsinger', 'gloomhaven-images/images/character-mats/soothsinger.png', 'SS');
+INSERT INTO character(name, image_path, acronym) VALUES ('spellweaver', 'gloomhaven-images/images/character-mats/spellweaver.png', 'SW');
+INSERT INTO character(name, image_path, acronym) VALUES ('summoner', 'gloomhaven-images/images/character-mats/summoner.png', 'SU');
+INSERT INTO character(name, image_path, acronym) VALUES ('sunkeeper', 'gloomhaven-images/images/character-mats/sunkeeper.png', 'SK');
+INSERT INTO character(name, image_path, acronym) VALUES ('tinkerer', 'gloomhaven-images/images/character-mats/tinkerer.png', 'TI');
+INSERT INTO character(name, image_path, acronym) VALUES ('diviner', 'gloomhaven-images/images/character-mats/diviner.png', 'DR');

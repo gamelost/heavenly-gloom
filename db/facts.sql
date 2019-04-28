@@ -132,3 +132,11 @@ CREATE TABLE item_card(
   use_slots INTEGER DEFAULT 0,
   modifiers TEXT
 );
+
+DROP TABLE IF EXISTS character;
+CREATE TABLE character(
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL UNIQUE,
+  image_path TEXT NOT NULL,
+  acronym TEXT NOT NULL UNIQUE
+);
