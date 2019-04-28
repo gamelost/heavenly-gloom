@@ -4,6 +4,7 @@ mod models {
     pub mod item_card;
     pub mod monster;
     pub mod monster_deck;
+    pub mod player_state;
 }
 mod rules {
     pub mod game_state_rules;
