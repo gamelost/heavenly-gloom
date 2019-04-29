@@ -1,4 +1,5 @@
 use crate::models::game_state::GameState;
+use crate::models::player_state::PlayerState;
 use crate::models::item_card::ItemCard;
 use crate::models::monster::Monster;
 use crate::models::monster_deck::MonsterDeck;
@@ -17,6 +18,7 @@ pub struct Database {
     item_cards: HashMap<i32, ItemCard>,
     // state
     game: GameState,
+    players: HashMap<i32, PlayerState>,
 }
 
 impl Context for Database {}
@@ -27,12 +29,14 @@ impl Database {
         let monsters = Monster::get_facts(pool);
         let item_cards = ItemCard::get_facts(pool);
         let game = GameState::refresh(pool);
+        let players = PlayerState::refresh(pool);
         Database {
             pool: pool.clone(),
             deck,
             monsters,
             item_cards,
             game,
+            players,
         }
     }
 
@@ -42,6 +46,10 @@ impl Database {
 
     pub fn get_decks(&self) -> Vec<&MonsterDeck> {
         self.deck.values().collect()
+    }
+
+    pub fn get_player(&self, id: i32) -> Option<&PlayerState> {
+        self.players.get(&id).map(|d| d as &PlayerState)
     }
 
     pub fn get_monster(&self, id: i32) -> Option<&Monster> {
@@ -84,6 +92,10 @@ graphql_object!(Database: Database as "Query" |&self| {
 
     field monster(id: i32 as "monster id") -> Option<&Monster> {
         self.get_monster(id)
+    }
+
+    field player(id: i32 as "player id") -> Option<&PlayerState> {
+        self.get_player(id)
     }
 
     field game() -> GameState {
